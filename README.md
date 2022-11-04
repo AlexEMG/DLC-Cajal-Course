@@ -24,6 +24,7 @@ Thanks to the whole teaching team for putting this together!
 | Co-director | Danbee Kim | Online | [GitHub](https://github.com/Taunsquared) |
 | Cajal administrator | Elena Drosti | Online | |
 | Teaching assistant | Sofía Miñano | London (UK)| [GitHub](https://github.com/sfmig), [@SofiMinano](https://twitter.com/SofiMinano)
+| Teaching assistant | Jonas Håkansson | Colorado Springs (USA)| [GitHub](https://github.com/biol-jsh), [@ScientistJonas](https://twitter.com/ScientistJonas)
 
 
 ## Acknowledgments
