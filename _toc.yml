@@ -1,0 +1,14 @@
+format: jb-book
+root: README
+parts:
+- caption: Getting Started
+  chapters:
+  - file: content/CourseOverviewGuide
+- caption: Software Installation
+  chapters:
+  - file: content/installation
+- caption: "Day 1 - Looking at Behavior"
+  chapters:
+  - file: content/Day1_Overview
+  - file: content/Day1_Lectures
+  - file: content/Day1_Practicals
