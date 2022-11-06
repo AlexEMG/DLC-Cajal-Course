@@ -20,13 +20,14 @@ Thanks to the whole teaching team for putting this together!
 
 | Role                                                | Name                  | Satellite? | GitHub and other social media                        |
 |------------------------------------------------------------|-----------------------------------------------------------------------------|---------------------------|----------------------------------------|
-| Co-director | [Alexander Mathis](https://people.epfl.ch/alexander.mathis), École Polytechnique Fédérale de Lausanne (CH) | Online | [GitHub](https://github.com/AlexEMG), @TrackingPlumes |
+| Co-director | [Alexander Mathis](https://people.epfl.ch/alexander.mathis), École Polytechnique Fédérale de Lausanne (CH) | Online | [GitHub](https://github.com/AlexEMG), [@TrackingPlumes](https://twitter.com/TrackingPlumes) |
 | Co-director | Danbee Kim | Online | [GitHub](https://github.com/Taunsquared), [@taunbot](https://twitter.com/taunbot) |
 | Cajal administrator | Elena Drosti | Online | |
 | Teaching assistant | [Sofía Miñano](https://sfmig.github.io/) | London (UK)| [GitHub](https://github.com/sfmig), [@SofiMinano](https://twitter.com/SofiMinano)
 | Teaching assistant | Jonas Håkansson | Colorado Springs (USA)| [GitHub](https://github.com/biol-jsh), [@ScientistJonas](https://twitter.com/ScientistJonas)
 | Teaching assistant | [Neslihan Wittek](https://wittek.dev/home-nesli/) | Online | [GitHub](https://github.com/neslihanedes), [@taubenmaedel](https://twitter.com/taubenmaedel)
-
+| Teaching assistant | Andrada Marica | Online | [GitHub](https://github.com/andrada08), [@andrada_marica](https://twitter.com/andrada_marica)
+| Teaching assistant | Sabrina Benas | Buenos Aires (ARG) | [GitHub](https://github.com/sabrinabenas), [@Sabrineiitor](https://twitter.com/Sabrineiitor)
 
 ## Acknowledgments
 
