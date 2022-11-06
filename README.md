@@ -28,6 +28,7 @@ Thanks to the whole teaching team for putting this together!
 | Teaching assistant | [Neslihan Wittek](https://wittek.dev/home-nesli/) | Online | [GitHub](https://github.com/neslihanedes), [@taubenmaedel](https://twitter.com/taubenmaedel)
 | Teaching assistant | Andrada Marica | Online | [GitHub](https://github.com/andrada08), [@andrada_marica](https://twitter.com/andrada_marica)
 | Teaching assistant | Sabrina Benas | Buenos Aires (ARG) | [GitHub](https://github.com/sabrinabenas), [@Sabrineiitor](https://twitter.com/Sabrineiitor)
+| Teaching assistant | [Cecilia Herbert](https://ceci.herbert.com.ar) | Buenos Aires (ARG) | [GitHub](https://github.com/ChucklesOnGitHub), [@ChuckleScience](https://twitter.com/ChuckleScience)
 
 ## Acknowledgments
 
