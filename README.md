@@ -24,6 +24,7 @@ Thanks to the whole teaching team for putting this together!
 | Co-director | Danbee Kim | Online | [GitHub](https://github.com/Taunsquared), [@taunbot](https://twitter.com/taunbot) |
 | Cajal administrator | Elena Drosti | Online | |
 | Teaching assistant | [Sofía Miñano](https://sfmig.github.io/) | London (UK)| [GitHub](https://github.com/sfmig), [@SofiMinano](https://twitter.com/SofiMinano)
+| Teaching assistant | Nicole Vissers | London (UK) | [GitHub](https://github.com/nicole-vissers), [@NicoleVissers1](https://twitter.com/NicoleVissers1)
 | Teaching assistant | Jonas Håkansson | Colorado Springs (USA)| [GitHub](https://github.com/biol-jsh), [@ScientistJonas](https://twitter.com/ScientistJonas)
 | Teaching assistant | [Neslihan Wittek](https://wittek.dev/home-nesli/) | Online | [GitHub](https://github.com/neslihanedes), [@taubenmaedel](https://twitter.com/taubenmaedel)
 | Teaching assistant | Andrada Marica | Online | [GitHub](https://github.com/andrada08), [@andrada_marica](https://twitter.com/andrada_marica)
@@ -32,7 +33,9 @@ Thanks to the whole teaching team for putting this together!
 | Teaching assistant | Nirel Kadzo | Nairobi (KEN) | [GitHub](https://github.com/kadzon), [@Nirelkadzo](https://twitter.com/Nirelkadzo)
 | Teaching assistant | Zane Mitrevica | Online | [GitHub](https://github.com/zanemit), [@Zanemit](https://twitter.com/Zanemit)
 | Teaching assistant | Konrad Danielewski | Warsaw (PL) | [GitHub](https://github.com/KonradDanielewski), [@Nyktofob](https://twitter.com/Nyktofob)
-| Teaching assistant | Nicole Vissers | London (UK) | [GitHub](https://github.com/nicole-vissers), [@NicoleVissers1](https://twitter.com/NicoleVissers1)
+| Teaching assistant | Virginia Palieri | Munich (DE) | [GitHub](https://github.com/vpalieri)
+| Teaching assistant | [Aleksandar Gavric](http://www.aleksandargavric.com) | Online | [GitHub](https://github.com/alex-gavric), [@AcaGavric](https://twitter.com/AcaGavric)
+
 
 ## Acknowledgments
 
