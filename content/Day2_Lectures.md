@@ -57,10 +57,10 @@ As a stand-in for now, please check out:
 Further reading (recommended in the scope of this course):
 - Mathis, Schneider, Lauer, Mathis [A Primer on Motion Capture with Deep Learning: Principles, Pitfalls, and Perspectives](https://www.sciencedirect.com/science/article/pii/S0896627320307170), Neuron 2020
 
-Further reading (goes beyond this course, but recommended):
+Further content for reading and watching (goes beyond this course, but recommended):
 - ImageNet paper
 - ResNet paper
 - [Part II of Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
-
+- [Lecture collection to deep dive into details of the deep learning architectures from Stanford University](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 
 Return to [readme](../README.md).
