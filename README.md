@@ -33,6 +33,8 @@ Thanks to the whole teaching team for putting this together!
 | Teaching assistant | Zane Mitrevica | Online | [GitHub](https://github.com/zanemit), [@Zanemit](https://twitter.com/Zanemit)
 | Teaching assistant | Konrad Danielewski | Warsaw (PL) | [GitHub](https://github.com/KonradDanielewski), [@Nyktofob](https://twitter.com/Nyktofob)
 | Teaching assistant | Virginia Palieri | Munich (DE) | [GitHub](https://github.com/vpalieri)
+| Teaching assistant | [Aleksandar Gavric](http://www.aleksandargavric.com) | Online | [GitHub](https://github.com/alex-gavric), [@AcaGavric](https://twitter.com/AcaGavric)
+
 
 ## Acknowledgments
 
