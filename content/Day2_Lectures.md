@@ -49,7 +49,6 @@ Content:
 - ending with brief workflow of DLC (and software 2.0)
 
 TODO_TA: Any other recommendations for content of this or prior class?
-- [Brief history of vision and computer vision](https://www.youtube.com/watch?v=vT1JzLTH4G4&t=855s) by Fei-Fei Li
 
 TODO_AM: record lecture.
 
@@ -63,7 +62,7 @@ Further reading (recommended in the scope of this course):
 - Mathis, Schneider, Lauer, Mathis [A Primer on Motion Capture with Deep Learning: Principles, Pitfalls, and Perspectives](https://www.sciencedirect.com/science/article/pii/S0896627320307170), Neuron 2020
 
 Further content for reading and watching (goes beyond this course, but recommended):
-- ImageNet paper
+- [Brief history of vision and computer vision](https://www.youtube.com/watch?v=vT1JzLTH4G4&t=855s) by Fei-Fei Li
 - ResNet paper
 - [Part II of Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 - [Lecture collection to deep dive into details of the deep learning architectures from Stanford University](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
