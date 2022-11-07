@@ -29,10 +29,13 @@ Traditional Programming vs. Machine Learning from Grimson's lecture.
 ```
 
 Further reading (goes beyond this course, but recommended):
-- [Part I of Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
-
+- [Chapter 1 of Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
+- [The basics of neural networks, and the math behind how they learn](https://www.3blue1brown.com/topics/neural-networks) by 3Blue1Brown
+- [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html) by Michael Nielsen
+- [Understanding Mini-Batch Gradient Descent](https://www.youtube.com/watch?v=-_4Zi8fCZO4) by Andrew Ng (DeepLearningAI)
 
 TODO_TA: this doesn't cover neural networks + backprop. Shall we also recommend a lecture like: https://youtu.be/zUazLXZZA2U
+- I think a brief clarification of differences between ML, DL, AI (and maybe computer vision?) could be useful in this section. Maybe just simply adding/referring to the Figure 1.4 in [Deep Learning book](https://www.deeplearningbook.org/) 
 
 ## Part 2: Introduction to Computer Vision and DeepLabCut
 
@@ -46,6 +49,8 @@ Content:
 - ending with brief workflow of DLC (and software 2.0)
 
 TODO_TA: Any other recommendations for content of this or prior class?
+- [Brief history of vision and computer vision](https://www.youtube.com/watch?v=vT1JzLTH4G4&t=855s) by Fei-Fei Li
+
 TODO_AM: record lecture.
 
 As a stand-in for now, please check out:
