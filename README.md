@@ -30,6 +30,8 @@ Thanks to the whole teaching team for putting this together!
 | Teaching assistant | Sabrina Benas | Buenos Aires (ARG) | [GitHub](https://github.com/sabrinabenas), [@Sabrineiitor](https://twitter.com/Sabrineiitor)
 | Teaching assistant | [Cecilia Herbert](https://ceci.herbert.com.ar) | Buenos Aires (ARG) | [GitHub](https://github.com/ChucklesOnGitHub), [@ChuckleScience](https://twitter.com/ChuckleScience)
 | Teaching assistant | Zane Mitrevica | Online | [GitHub](https://github.com/zanemit), [@Zanemit](https://twitter.com/Zanemit)
+| Teaching assistant | Konrad Danielewski | Warsaw (PL) | [GitHub](https://github.com/KonradDanielewski), [@Nyktofob](https://twitter.com/Nyktofob)
+
 
 ## Acknowledgments
 
