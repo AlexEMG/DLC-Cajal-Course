@@ -32,7 +32,7 @@ Thanks to the whole teaching team for putting this together!
 | Teaching assistant | Nirel Kadzo | Nairobi (KEN) | [GitHub](https://github.com/kadzon), [@Nirelkadzo](https://twitter.com/Nirelkadzo)
 | Teaching assistant | Zane Mitrevica | Online | [GitHub](https://github.com/zanemit), [@Zanemit](https://twitter.com/Zanemit)
 | Teaching assistant | Konrad Danielewski | Warsaw (PL) | [GitHub](https://github.com/KonradDanielewski), [@Nyktofob](https://twitter.com/Nyktofob)
-
+| Teaching assistant | Nicole Vissers | London (UK) | [GitHub](https://github.com/nicole-vissers), [@NicoleVissers1](https://twitter.com/NicoleVissers1)
 
 ## Acknowledgments
 
