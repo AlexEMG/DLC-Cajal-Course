@@ -7,8 +7,16 @@ parts:
 - caption: Software Installation
   chapters:
   - file: content/installation
+- caption: Resources
+  chapters:
+  - file: content/DemoDatasets
 - caption: "Day 1 - Looking at Behavior"
   chapters:
   - file: content/Day1_Overview
   - file: content/Day1_Lectures
   - file: content/Day1_Practicals
+- caption: "Day 2 - DeepLabCut part 1"
+  chapters:
+  - file: content/Day2_Overview
+  - file: content/Day2_Lectures
+  - file: content/Day2_Practicals
