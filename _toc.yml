@@ -7,11 +7,6 @@ parts:
 - caption: Software Installation
   chapters:
   - file: content/installation
-- caption: Resources
-  chapters:
-  - file: content/DemoDatasets
-  - file: content/FAQ
-  - file: content/Glossary
 - caption: "Day 1 - Looking at Behavior"
   chapters:
   - file: content/Day1_Overview
@@ -27,3 +22,8 @@ parts:
   - file: content/Day3_Overview
   - file: content/Day3_Lectures
   - file: content/Day3_Practicals
+- caption: Resources
+  chapters:
+  - file: content/DemoDatasets
+  - file: content/FAQ
+  - file: content/Glossary
