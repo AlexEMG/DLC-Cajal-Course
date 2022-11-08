@@ -33,16 +33,19 @@ So let's create our first project... and start labeling!
 
 ## Let's actually start...
 
-The following summarises DeepLabCut's single animal workflow. If your dataset involves multiple animals that look the same, please consult the <a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a>.
+The following summarises DeepLabCut's single animal workflow. If your dataset involves multiple animals that look the same, please consult the <a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a> (however, be warned the workflow is more complicated and will be discussed in detail tomorrow).
 
 If you wish to use the Project Manager GUI (recommended for beginners), you can check out <a href="https://deeplabcut.github.io/DeepLabCut/docs/PROJECT_GUI.html" target="_blank">this guidance and video demos</a>.
 
 TODO_TA: What materials would you find helpful here? Shall we detail steps from the documentation also here? (or is it fine to refer to there, which I think makes more sense?)
 
 ## Creating a project and extracting frames (30 min)
+
 The function `create_new_project` creates a new project directory, required subdirectories, and a basic project configuration file. Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#a-create-a-new-project" target="_blank">DeepLabCut's documentation</a> for details.
 
-``deeplabcut.create_new_project('Name of the project', 'Name of the experimenter', ['Full path of video 1', 'Full path of video2', 'Full path of video3'], working_directory='Full path of the working directory', copy_videos=True/False, multianimal=True/False)``
+```
+deeplabcut.create_new_project('Name of the project', 'Name of the experimenter', ['Full path of video 1', 'Full path of video2', 'Full path of video3'], working_directory='Full path of the working directory', copy_videos=True/False, multianimal=True/False)
+```
 
 Next, open the **config.yaml** file from your project directory. Familiarise yourself with the <a href="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5c40f4124d7a9c0b2ce651c1/1547760716298/Box1-01.png?format=1000w" target="_blank">meaning of the parameters</a>. You **must add the list of bodyparts (or points of interest)** that you want to track. Do not have spaces in the names of bodyparts!
 
