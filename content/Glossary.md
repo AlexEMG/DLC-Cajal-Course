@@ -14,7 +14,7 @@
 - iteration - one pass of the batch through the network
 - jitter - natural tendency of infered data to slightly move between frames of analyzed video. Stems from inference happening on image by image basis
 - MoSeq - developed in [Datta's Lab](http://datta.hms.harvard.edu/), an unsupervised machine learning method used to parse mouse behavior
-- OOD - Out-of-Distribution, a term used to define data that does not belong is not applicable for analysis with a specific model (model trained on mice being used to track cars)
+- OOD - Out-of-Domain, a term used to define data that was not used in training the model (a different dataset)
 - outlier - a frame in which model made bad detections
 - project - the folder structure and all its contents made during project creation and later work
 - refinement - step of the workflow used for correction of bad detections on a subset of outlier frames
