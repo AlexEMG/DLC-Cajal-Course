@@ -10,4 +10,17 @@ Click on this link to learn more and watch the [lectures](Day1_Lectures.md)! Ple
 
 In the [practical part](Day1_Practicals.md), we will discuss what is behavior and how can we understand it!
 
+## Day 1: Take home message
+
+```{Tip}
+TODO_DK: put a few bullet points
+```
+
+## Day 1: What do you need for tomorrow?
+
+```{important}
+1) Please make sure your DeepLabCut installation is ready. In particular, if you have a GPU, please make sure that it is utilized. Please ask the teaching assistants, if you are not sure.
+2) *Skim* the following publication: Mathis, Schneider, Lauer, Mathis [A Primer on Motion Capture with Deep Learning: Principles, Pitfalls, and Perspectives](https://www.sciencedirect.com/science/article/pii/S0896627320307170), Neuron 2020
+```
+
 Return to [readme](../README.md).

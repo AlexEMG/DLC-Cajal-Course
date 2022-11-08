@@ -11,12 +11,21 @@ We provide several different datasets from small to large. Pick whatever you fin
 - [mouse reaching dataset](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples/Reaching-Mackenzie-2018-08-30) from Mathis et al. 2018, Nature Neuroscience.
 - [mouse open-field dataset](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples/openfield-Pranav-2018-10-30) comprising around 110 labeled images, subset of from Mathis et al. 2018, Nature Neuroscience. The full dataset can be found on [zenodo](https://zenodo.org/record/4008504#.Y2fE7uzMIeY).
 
-You can simply load those datasets (and create a project) by running the following command:
+
+You can load those datasets (and create a project) by
+
+1) Clone the DeepLabCut repository:
+```git clone https://github.com/DeepLabCut/DeepLabCut```
+
+Check out the GitHub docs, if you need [help](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) for this step.
+
+2) Run the following command:
 
 ```
 deeplabcut.load_demo_data(config, createtrainingset=False)
 ```
 Where you pass the path to the config file of interest as `config`.
+
 
 ### Big datasets
 
@@ -26,6 +35,7 @@ Where you pass the path to the config file of interest as `config`.
 ## Datasets without labels
 
 TODO_DK: put link to suggested videos
+TODO_TA: any other ideas for datasets?
 
 # Multi Animal Datasets (Day 3)
 
