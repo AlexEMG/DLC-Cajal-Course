@@ -20,3 +20,8 @@ parts:
   - file: content/Day2_Overview
   - file: content/Day2_Lectures
   - file: content/Day2_Practicals
+- caption: "Day 3 - DeepLabCut part 2"
+  chapters:
+  - file: content/Day3_Overview
+  - file: content/Day3_Lectures
+  - file: content/Day3_Practicals
