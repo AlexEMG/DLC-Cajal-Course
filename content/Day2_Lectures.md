@@ -35,7 +35,7 @@ Further reading (goes beyond this course, but recommended):
 - [Understanding Mini-Batch Gradient Descent](https://www.youtube.com/watch?v=-_4Zi8fCZO4) by Andrew Ng (DeepLearningAI)
 
 TODO_TA: this doesn't cover neural networks + backprop. Shall we also recommend a lecture like: https://youtu.be/zUazLXZZA2U
-- I think a brief clarification of differences between ML, DL, AI (and maybe computer vision?) could be useful in this section. Maybe just simply adding/referring to the Figure 1.4 in [Deep Learning book](https://www.deeplearningbook.org/) 
+- I think a brief clarification of differences between ML, DL, AI (and maybe computer vision?) could be useful in this section. Maybe just simply adding/referring to the Figure 1.4 in [Deep Learning book](https://www.deeplearningbook.org/)
 
 ## Part 2: Introduction to Computer Vision and DeepLabCut
 
