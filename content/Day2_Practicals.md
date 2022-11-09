@@ -45,9 +45,7 @@ TODO_TA: What materials would you find helpful here? Shall we detail steps from 
 
 The function `create_new_project` creates a new project directory, required subdirectories, and a basic project configuration file. Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#a-create-a-new-project" target="_blank">DeepLabCut's documentation</a> for details.
 
-```
-deeplabcut.create_new_project('Name of the project', 'Name of the experimenter', ['Full path of video 1', 'Full path of video2', 'Full path of video3'], working_directory='Full path of the working directory', copy_videos=True/False, multianimal=True/False)
-```
+<pre lang="python">deeplabcut.create_new_project('Name of the project', 'Name of the experimenter', ['Full path of video 1', 'Full path of video2', 'Full path of video3'], working_directory='Full path of the working directory', copy_videos=True/False, multianimal=True/False)</pre>
 
 Next, open the **config.yaml** file from your project directory. Familiarise yourself with the <a href="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5c40f4124d7a9c0b2ce651c1/1547760716298/Box1-01.png?format=1000w" target="_blank">meaning of the parameters</a>. You **must add the list of bodyparts (or points of interest)** that you want to track. Do not have spaces in the names of bodyparts!
 
@@ -57,23 +55,17 @@ The function `extract_frames` extracts frames from all the videos in the project
 - how to control which videos to extract frames from,
 - whether to crop videos.
 
-```
-deeplabcut.extract_frames(config_path, mode='automatic/manual', algo='uniform/kmeans', userfeedback=False, crop=True/False)
-```
+<pre lang="python">deeplabcut.extract_frames(config_path, mode='automatic/manual', algo='uniform/kmeans', userfeedback=False, crop=True/False)</pre>
 
 ## Labeling Frames (5 min - multiple hours)
 The function `label_frames` helps the user easily label all the extracted frames using an interactive graphical user interface (GUI). Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#d-label-frames" target="_blank">the documentation</a> for pointers on how to use GUI.
 
-```
-deeplabcut.label_frames(config_path)
-```
+<pre lang="python">deeplabcut.label_frames(config_path)</pre>
 
 ## Check the quality! (5 min)
 The function `check_labels` allows the user to check if the labels were created and stored correctly. For more information, including on what to do if you discover labeling errors, check the <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#e-check-annotated-frames" target="_blank">DLC docs</a>!
 
-```
-deeplabcut.check_labels(config_path, visualizeindividuals=True/False)
-```
+<pre lang="python">deeplabcut.check_labels(config_path, visualizeindividuals=True/False)</pre>
 
 ## Create a training dataset and pick model parameters
 You should continue on the machine/platform **where** you are going to train the network. You might have to edit your configuration file, so read <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#f-create-training-dataset-s" target="_blank">the DeepLabCut documentation</a> carefully to make sure you are ready to proceed.
