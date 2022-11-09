@@ -22,6 +22,8 @@ parts:
   - file: content/Day3_Overview
   - file: content/Day3_Lectures
   - file: content/Day3_Practicals
+  - file: content/Day3_maPracticals
+  - file: content/Day3_ModelZoo
 - caption: Resources
   chapters:
   - file: content/DemoDatasets
