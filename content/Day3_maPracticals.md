@@ -154,6 +154,10 @@ deeplabcut.create_labeled_video(
 )
 ```
 
+## Active learning
+
+Just like 
+
 TODO_TA: What else?
 
 TODO_AM: expand critical points and link to maDLC user guide!

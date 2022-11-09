@@ -26,5 +26,3 @@
      is filtering it and interpolating what you consider bad detections. For general purposes, DLC offer `deeplabcut.filterpredictions(config_path, filtertype="arima"/"median"/"spline"`
 
 ## If your issue isn't listed here you should checkout the [community forum](https://forum.image.sc/tag/deeplabcut) and feel free to post your question there
-
-
