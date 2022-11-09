@@ -14,15 +14,21 @@ If your model generalizes well to the type of data that you used yesterday that 
 
 First, pick videos that are as different as possible (but still from your setup). Then create model predictions:
 
-```deeplabcut.analyze_videos(config_path,[‘Full path of video or videofolder’], shuffle=1, save_as_csv=True, videotype=‘.avi’)```
+```
+deeplabcut.analyze_videos(config_path,[‘Full path of video or videofolder’], shuffle=1, save_as_csv=True, videotype=‘.avi’)
+```
 
 And if the predictions are not as accurate as you want them, it is an ideal video for active learning. Check the different options for outlier extraction in the documentation and run:
 
-```deeplabcut.extract_outlier_frames(conﬁg_path,[‘videoﬁle_path’])```
+```
+deeplabcut.extract_outlier_frames(conﬁg_path,[‘videoﬁle_path’])
+```
 
 Once, you extracted outliers you can fix them manually:
 
-```deeplabcut.extract_outlier_frames(conﬁg_path,[‘videoﬁle_path’])```
+```
+deeplabcut.refine_labels(conﬁg_path,[‘videoﬁle_path’])
+```
 
 This will grow your dataset to better comprise the variablity. Then you can re-train your model. You can either train de-novo, or use the prior weights (which is faster and usually preferred).
 
