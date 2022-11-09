@@ -6,7 +6,7 @@ We first want to tackle the general problem, of improving your DLC model. Mostly
 Alon Halevy, Peter Norvig, and Fernando Pereira from Google wrote the great piece: <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf" target="_blank">"The unreasonable effectiveness of data"</a>. It's a great read on how to learn good models for complex data...
 ```
 
-## Evaluation yesterday's model
+## Evaluation of yesterday's model
 
 It is important to evaluate the performance of the trained network. This performance is measured by computing
 the mean average Euclidean error (MAE; which is proportional to the average root mean square error) between the
