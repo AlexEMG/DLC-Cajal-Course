@@ -1,5 +1,7 @@
 # Glossary
 
+All terms are alphabetically organized. 
+
 - annotation - placement of the specific label(bodypart) on an image
 - bodypart - also called label, in DeepLabCut is a arbitrarily chosen part of the animal that the user wants to track
 - batch size - number of images processed in one iteration of training (max value constrained by GPU memory). More precise term is mini-batch
@@ -21,8 +23,8 @@
 - RMSE - root-mean-square error, measure of difference between values predicted by the model and ground truth
 - SimBA - developed in [Golden's Lab](https://goldenneurolab.com/simba), a framework for training a supervised behavior annotation model
 - snaphsot - current state of the model with specific weights learned during training
-- supervised - a model trained using human annotation
+- supervised - a model trained using labeled data with the goal of predicting the labels on unseen data. 
 - training - process in which the model is learning to find weights that will allow it to solve assigned task (tracking bodyparts)
 - unsupervised - a model trained without using human annotation, only patterns from the data
 - VAME - developed by Kevin Luxem and Pavol Bauer, a framework for unsupervised behavior clustering
-- weights - parameters of a neural network used to transform the input (images)
+- weights - parameters of a neural network used to process the input (images for DLC)
