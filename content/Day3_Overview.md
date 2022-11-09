@@ -1,4 +1,4 @@
-# Overview Day 3
+# Advanced DeepLabCut topics
 
 Welcome to day 3!
 
@@ -15,14 +15,14 @@ Then you can also work with the [Model Zoo and DLC-live](Day3_ModelZoo.md) (try 
 - How do you get a good pose tracking model?
 ```
 
-## Day 3: What do you need for tomorrow?
+## Day 3: Major goal for today
 
 ```{important}
-- Let's try to have some videos well analyzed (i.e. good pose estimation prediction). Then we will be able to dig into kinematics or supervised and unsupervised behavioral analysis!
+- Let's try to have some videos well analyzed (i.e. good pose estimation prediction). Then we will be able to dig into kinemtics or supervised and unsupervised behavioral analysis!
 ```
 
 How can you check if they are well analyzed?
-- create labeled videos and watch them to see if the predictions on new videos are accurate. You can use: `deeplabcut.create_labeled_video`.
+- created labeled videos and watch them to see if the predictions on new videos are accurate. You can use: `deeplabcut.create_labeled_video`.
 - visualize the trajectories over time, and check if the trajectories are smooth, which is normally the case for biological motion, unless, e.g., your frame rate is very small. You can use: `deeplabcut.plot_trajectories`, check out the figure below to get an idea of what you'll get.
 
 For both of those features, refer to [the user guide](https://github.com/DeepLabCut/DeepLabCut/blob/master/docs/standardDeepLabCut_UserGuide.md#k-plot-trajectories) for details.

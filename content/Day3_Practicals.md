@@ -6,6 +6,17 @@ We first want to tackle the general problem, of improving your DLC model. Mostly
 Alon Halevy, Peter Norvig, and Fernando Pereira from Google wrote the great piece: <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf" target="_blank">"The unreasonable effectiveness of data"</a>. It's a great read on how to learn good models for complex data...
 ```
 
+## Evaluation ...
+
+and thinking about peformance
+
+- model comparison?
+- overfitting (generalization gap etc.)
+- how good could your model be? (limit is your accuracy) (link to recent DeepMind paper)
+- how to improve your model
+
+
+
 ## Active learning (How to improve yesterday's model)
 
 For this part, we highly recommend to read  Stages X of <a href="https://rdcu.be/bHpHN" target="_blank">DeepLabCut Nature Protocol</a>.
@@ -28,6 +39,7 @@ This will grow your dataset to better comprise the variablity. Then you can re-t
 
 
 ## Discussion topics
+
 
 
 TODO_TA: What else?
