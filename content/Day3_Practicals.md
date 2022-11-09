@@ -54,7 +54,7 @@ And if the predictions are not as accurate as you want them, it is an ideal vide
 
 Once, you extracted outliers you can fix them manually:
 
-```deeplabcut.extract_refine_outliers(conﬁg_path,[‘videoﬁle_path’])```
+```deeplabcut.refine_labels(conﬁg_path)```
 
 This will grow your dataset to better comprise the variablity. Then you can re-train your model. You can either train de-novo, or use the prior weights (which is faster and usually preferred).
 
