@@ -47,6 +47,8 @@ The function `create_new_project` creates a new project directory, required subd
 
 <pre lang="python">deeplabcut.create_new_project('Name of the project', 'Name of the experimenter', ['Full path of video 1', 'Full path of video2', 'Full path of video3'], working_directory='Full path of the working directory', copy_videos=True/False, multianimal=True/False)</pre>
 
+[GUI project creation](https://youtu.be/KcXogR-p5Ak?t=32)
+
 Next, open the **config.yaml** file from your project directory. Familiarise yourself with the <a href="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5c40f4124d7a9c0b2ce651c1/1547760716298/Box1-01.png?format=1000w" target="_blank">meaning of the parameters</a>. You **must add the list of bodyparts (or points of interest)** that you want to track. Do not have spaces in the names of bodyparts!
 
 The function `extract_frames` extracts frames from all the videos in the project configuration file in order to create a training dataset. Have a look at <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#c-data-selection-extract-frames" target="_blank">the DeepLabCut documentation</a> to decide:
@@ -57,10 +59,14 @@ The function `extract_frames` extracts frames from all the videos in the project
 
 <pre lang="python">deeplabcut.extract_frames(config_path, mode='automatic/manual', algo='uniform/kmeans', userfeedback=False, crop=True/False)</pre>
 
+[GUI frame extraction](https://youtu.be/KcXogR-p5Ak?t=87)
+
 ## Labeling Frames (5 min - multiple hours)
 The function `label_frames` helps the user easily label all the extracted frames using an interactive graphical user interface (GUI). Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#d-label-frames" target="_blank">the documentation</a> for pointers on how to use GUI.
 
 <pre lang="python">deeplabcut.label_frames(config_path)</pre>
+
+[GUI frame labelling](https://youtu.be/KcXogR-p5Ak?t=111)
 
 ## Check the quality! (5 min)
 The function `check_labels` allows the user to check if the labels were created and stored correctly. For more information, including on what to do if you discover labeling errors, check the <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#e-check-annotated-frames" target="_blank">DLC docs</a>!
@@ -69,6 +75,8 @@ The function `check_labels` allows the user to check if the labels were created 
 
 ## Create a training dataset and pick model parameters
 You should continue on the machine/platform **where** you are going to train the network. You might have to edit your configuration file, so read <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#f-create-training-dataset-s" target="_blank">the DeepLabCut documentation</a> carefully to make sure you are ready to proceed.
+
+[GUI creating training dataset](https://youtu.be/KcXogR-p5Ak?t=160)
 
 The function `create_training_dataset` combines the labeled datasets from all the videos and splits them to create train and test datasets. Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#f-create-training-dataset-s" target="_blank">the documentation</a> to learn how to choose the most suitable pre-trained network and data augmentation method for your project.
 
@@ -79,6 +87,8 @@ The function `train_network` helps the user in training the network, using the p
 - how many iterations to train your model for,
 - how often to store weights and display loss,
 - how to restart training at a specific checkpoint.
+
+[GUI train network](https://youtu.be/WXCVr6xAcCA?t=58)
 
 TODO_TA: For your interactins with the students do you want tou use slides? E.g. this is a recent one I gave at JAX: <a href="https://github.com/DeepLabCut/DeepLabCut-Workshop-Materials/blob/master/JAX-TutorialOct2022.pdf?highlight=tutorial" target="_blank">link</a>
 
