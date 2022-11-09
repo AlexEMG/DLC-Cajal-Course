@@ -6,7 +6,7 @@ Today we will start with [two lectures](Day2_Lectures.md). The first lecture pro
 
 In the [practical part](Day2_Practicals.md), we will build our first DeepLabCut models!
 
-## Day 2: Take home message
+## Day 2: Take home messages
 
 ```{Tip}
 - What is a machine learning system?

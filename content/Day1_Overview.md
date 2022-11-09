@@ -10,7 +10,7 @@ Click on this link to learn more and watch the [lectures](Day1_Lectures.md)! Ple
 
 In the [practical part](Day1_Practicals.md), we will discuss what is behavior and how can we understand it!
 
-## Day 1: Take home message
+## Day 1: Take home messages
 
 ```{Tip}
 TODO_DK: put a few bullet points

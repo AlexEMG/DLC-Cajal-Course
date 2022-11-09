@@ -4,14 +4,16 @@ Let's build a DeepLabCut model!
 
 ## How to start? (15 min)
 
-We highly recommend to read the [DeepLabCut Nature Protocol](https://rdcu.be/bHpHN) first, in particular Stages I-IX. See [below](#From-project-creation-to-training-your-model) for more details!
+We highly recommend to read the [DeepLabCut Nature Protocol](https://rdcu.be/bHpHN) first, in particular Stages I-IX. See [below](#From-project-creation-to-training-your-model) for more details. The figure below visualize the workflow of DeepLabCut:
+
+ <p align="center">
+<img src="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5cca272524a69435c3251c40/1556752170424/flowfig.jpg?format=1000w" height="400">
 
 ```{note}
 You can either work on your own data, if you want to perform pose estimation or you can use [data that we provide!](DemoDatasets.md)
 ```
 
 TODO_TA: Do you recommend some data? -- [check out the options](DemoDatasets.md) we suggest so far!
-
 
 ## What platform should you use? (5 min)
 
@@ -33,7 +35,7 @@ So let's create our first project... and start labeling!
 
 ## Let's actually start...
 
-The following summarises DeepLabCut's single animal workflow. If your dataset involves multiple animals that look the same, please consult the <a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a> (however, be warned the workflow is more complicated and will be discussed in detail tomorrow).
+The following summarises DeepLabCut's single animal workflow. If your dataset involves multiple animals that look the same, please consult the <a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a> (however, be warned the workflow is more involved, as it adds additional steps; for educational purposes you could focus on a single animal project first, if you have never used DeepLabCut).
 
 If you wish to use the Project Manager GUI (recommended for beginners), you can check out <a href="https://deeplabcut.github.io/DeepLabCut/docs/PROJECT_GUI.html" target="_blank">this guidance and video demos</a>.
 
