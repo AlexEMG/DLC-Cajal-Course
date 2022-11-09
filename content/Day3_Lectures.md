@@ -2,7 +2,7 @@
 
 First, let's assume you have a model from yesterday that is great for analyzing your data. In that case, you can extend it to a multianimal project if applicable (**maDeepLabCut**), share it with the community (**Model Zoo**), use it in closed-loop behavior experiments (**DeepLabCut-live**), or integrate it with other camera views for 3D pose estimation (**3D DeepLabCut**).
 
-## Part 3: maDeepLabCut (30 min)
+## Part 1: maDeepLabCut (30 min)
 
 - (Additional) challenges for multi-individual pose estimation (vs. single animal)
 - Bottom-up vs. Top-down methods
