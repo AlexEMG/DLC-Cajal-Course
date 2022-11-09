@@ -15,6 +15,10 @@ All terms are alphabetically organized.
 - inference - applying a trained model on data i.e. analysis
 - iteration - one pass of the batch through the network
 - jitter - natural tendency of inferred data to slightly move between frames of analyzed video. Stems from inference happening on image by image basis
+- IID - Independent and Indentically Distributed, term used for variables that have same probability diistribution but are independent from eachother (a coin toss alwyas has a 50% chance to be heads or tails, no matter what the previous result of a coin toss was)
+- inference - applying a trained model on data i.e. analysis
+- iteration - one pass of the batch through the network
+- jitter - natural tendency of infered data to slightly move between frames of analyzed video. Stems from inference happening on image by image basis
 - MoSeq - developed in [Datta's Lab](http://datta.hms.harvard.edu/), an unsupervised machine learning method used to parse mouse behavior
 - OOD - Out-of-Domain, a term used to define data that was not used in training the model (a different dataset)
 - outlier - a frame in which model made bad detections

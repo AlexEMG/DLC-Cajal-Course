@@ -28,4 +28,3 @@
 ## If your issue isn't listed here you should checkout the [community forum](https://forum.image.sc/tag/deeplabcut) and feel free to post your question there
 
 
-<a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a>
