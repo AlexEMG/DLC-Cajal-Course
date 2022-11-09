@@ -18,7 +18,7 @@ Then you can also work with the [Model Zoo and DLC-live](Day3_ModelZoo.md) (try 
 ## Day 3: Major goal for today
 
 ```{important}
-- Let's try to have some videos well analyzed (i.e. good pose estimation prediction). Then we will be able to dig into kinemtics or supervised and unsupervised behavioral analysis!
+- Let's try to have some videos well analyzed (i.e. good pose estimation prediction). Then we will be able to dig into kinematics or supervised and unsupervised behavioral analysis!
 ```
 
 How can you check if they are well analyzed?
