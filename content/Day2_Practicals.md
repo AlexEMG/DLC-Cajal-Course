@@ -51,7 +51,7 @@ deeplabcut.create_new_project('Name of the project', 'Name of the experimenter',
 
 Next, open the **config.yaml** file from your project directory. Familiarise yourself with the <a href="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5c40f4124d7a9c0b2ce651c1/1547760716298/Box1-01.png?format=1000w" target="_blank">meaning of the parameters</a>. You **must add the list of bodyparts (or points of interest)** that you want to track. Do not have spaces in the names of bodyparts!
 
-The function `extract_frames` extracts frames from all the videos in the project configuration file in order to create a training dataset. Have a look at <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#c-data-selection-extract-frames" target="_blank">the DeepLabCut documentation</a> to decide:
+The function `extract_frames` extracts frames from all the videos in the project configuration file in order to create a training dataset. Have a look at the <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#c-data-selection-extract-frames" target="_blank">DeepLabCut documentation</a> to decide:
 - how many frames to extract,
 - how to choose the frame extraction method that best suits your data,
 - how to control which videos to extract frames from,

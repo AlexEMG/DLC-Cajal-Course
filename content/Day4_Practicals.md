@@ -4,14 +4,16 @@
 
 Motion Sequencing (MoSeq): a method to discover the syllables and grammar that comprise mouse behavior. Recently Caleb Weinreb and colleagues have been expanding this approach, which originally relied on depth sensing technology, to work with pose estimation data. Thus, it is broadly applicable, independent of what cameras were used in experiments.
 
-A detailed overview over Moseq 2 can be found on <a href="https://dattalab.github.io/moseq2-website/index.html" target="_blank">"the project's website."</a>
+<img src="https://dattalab.github.io/moseq2-website/images/crowd_movie_example.gif?format=2500w" width="550" title="maDLC" alt="maDLC" align="center" vspace = "0">
 
-<img src="https://dattalab.github.io/moseq2-website/images/crowd_movie_example.gif?format=2500w" width="550" title="maDLC" alt="maDLC" align="center" vspace = "50">
+Figure showing example behavioral syllables, [Source: Datta Lab, Harvard Medical School](https://dattalab.github.io/moseq2-website/index.html).
 
-Example behavioral syllables, [Source](https://dattalab.github.io/moseq2-website/index.html).
+A detailed overview over Moseq 2 can be found on <a href="https://dattalab.github.io/moseq2-website/index.html" target="_blank">the project's website.</a>
 
 Colab: https://colab.research.google.com/drive/14UGWm6RolWkhJxB3wx0ozYlzgDwJlDBW?usp=sharing
+
 Data: https://drive.google.com/drive/folders/1UNHQ_XCQEKLPPSjGspRopWBj6-YNDV6G?usp=share_link
+
 Repo: https://github.com/calebweinreb/keypointMoSeq/tree/user_friendly_pipeline
 
 TODO_AM: will be refactored
@@ -22,7 +24,7 @@ Motion capture is widely used in biomechanics and motor neuroscience.
 
 ### DLC2Kinematics
 
-One way to perform kinematics analysis based on DeepLabCut outputs, is using <a href="https://github.com/AdaptiveMotorControlLab/DLC2Kinematics" target="_blank">"DLC2Kinematics"</a>.
+One way to perform kinematics analysis based on DeepLabCut outputs, is using <a href="https://github.com/AdaptiveMotorControlLab/DLC2Kinematics" target="_blank">DLC2Kinematics</a>.
 
 It has a simple interface and you can visualize as well as manipulate pose estimation data. Here is a simple code example:
 
@@ -37,7 +39,7 @@ df_vel = dlc2kinematics.compute_velocity(df,bodyparts=['all'])
 df_vel = dlc2kinematics.compute_acceleration(df,bodyparts=['nose','joystick'])
 ```
 
-For more details and options, please refer to <a href="https://github.com/AdaptiveMotorControlLab/DLC2Kinematics" target="_blank">"DLC2Kinematics"</a>.
+For more details and options, please refer to <a href="https://github.com/AdaptiveMotorControlLab/DLC2Kinematics" target="_blank">DLC2Kinematics</a>.
 
 ### DOKA
 
