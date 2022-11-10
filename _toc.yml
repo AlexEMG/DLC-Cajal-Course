@@ -24,6 +24,14 @@ parts:
   - file: content/Day3_Practicals
   - file: content/Day3_maPracticals
   - file: content/Day3_ModelZoo
+- caption: "Day 4 - Kinematics, actions and clustering"
+  chapters:
+  - file: content/Day4_Overview
+  - file: content/Day4_Lectures
+  - file: content/Day4_Practicals
+- caption: "Day 5 - Let's keep hacking..."
+  chapters:
+  - file: content/Day5_Overview
 - caption: Resources
   chapters:
   - file: content/DemoDatasets

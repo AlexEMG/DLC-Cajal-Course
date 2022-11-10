@@ -26,7 +26,7 @@ many factors (including the size of the tracked body parts, the labeling variabi
 also be larger than the training error due to human variability (in labeling, see Figure 2 in Mathis et al, Nature Neuroscience 2018).
 
 
-and thinking about peformance
+and thinking about performance
 
 - model comparison?
 - overfitting (generalization gap etc.)
