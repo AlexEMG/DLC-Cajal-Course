@@ -29,3 +29,4 @@ parts:
   - file: content/DemoDatasets
   - file: content/FAQ
   - file: content/Glossary
+  - file: content/Recommended_reading
