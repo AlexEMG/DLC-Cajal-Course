@@ -30,3 +30,4 @@ parts:
   - file: content/FAQ
   - file: content/Glossary
   - file: content/Prerequisites
+  - file: content/Recommended_reading
