@@ -2,11 +2,14 @@
 
 ### Multi-animal pose tracking workflow
 
-The workflow for multi-animal DeepLabCut is a bit more complicated. You should think of maDLC requiring four parts:
+The workflow for multi-animal DeepLabCut is a bit more involved. You should think of maDLC requiring four parts:
 
 (1) Curate annotation data that allows you to learn a model to track the objects/animals of interest.
+
 (2) Create a high-quality pose estimation model (this is like the single-animal case)
-(3) Track in space and time, i.e., assemble bodyparts to detect objects/animals and link across time. This step performs assembly and tracking (comprising first local tracking and then tracklet stitching by global reasoning).
+
+(3) Track in space and time, i.e., assemble bodyparts to detected objects/animals and link across time. This step performs assembly and tracking (comprising first local tracking and then tracklet stitching by global reasoning).
+
 (4) Any and all post-processing you wish to do with the output data, either within DLC or outside of it.
 Thus, you should always label, train, and evaluate the pose estimation performance first. If and when that performance is high, then you should go advance to the tracking step (and video analysis). There is a natural break point for this, as you will see below.
 
@@ -152,6 +155,10 @@ deeplabcut.create_labeled_video(
     track_method="ellipse",
 )
 ```
+
+## Active learning
+
+Just like 
 
 TODO_TA: What else?
 

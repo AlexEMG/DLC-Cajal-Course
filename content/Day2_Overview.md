@@ -13,9 +13,10 @@ In the [practical part](Day2_Practicals.md), we will build our first DeepLabCut 
 - What data is needed to train a good pose estimation model for your data?
 ```
 
-## Day 2: What do you need for tomorrow?
+## Day 2: Major goal for today
 
 ```{important}
+- Train your first DeepLabCut model
 - Consider labeling more frames (from different videos).
 - Consider training your model for longer (over night).
 ```

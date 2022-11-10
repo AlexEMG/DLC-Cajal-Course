@@ -4,7 +4,7 @@ All terms are alphabetically organized.
 ```{glossary}
 annotation 
     placement of the specific label(bodypart) on an image
-
+   
 batch size 
     number of images processed in one iteration of training (max value constrained by GPU memory). More precise term is mini-batch
 

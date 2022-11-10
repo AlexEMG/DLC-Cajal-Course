@@ -1,4 +1,4 @@
-# Overview Day 3
+# Advanced DeepLabCut topics
 
 Welcome to day 3!
 
@@ -15,7 +15,7 @@ Then you can also work with the [Model Zoo and DLC-live](Day3_ModelZoo.md) (try 
 - How do you get a good pose tracking model?
 ```
 
-## Day 3: What do you need for tomorrow?
+## Day 3: Major goal for today
 
 ```{important}
 - Let's try to have some videos well analyzed (i.e. good pose estimation prediction). Then we will be able to dig into kinematics or supervised and unsupervised behavioral analysis!

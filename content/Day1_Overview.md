@@ -16,7 +16,7 @@ In the [practical part](Day1_Practicals.md), we will discuss what is behavior an
 TODO_DK: put a few bullet points
 ```
 
-## Day 1: What do you need for tomorrow?
+## Day 1: Major goal for today
 
 ```{important}
 1) Please make sure your DeepLabCut installation is ready. In particular, if you have a GPU, please make sure that it is utilized. Please ask the teaching assistants, if you are not sure.
