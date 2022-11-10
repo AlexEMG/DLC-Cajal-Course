@@ -15,13 +15,23 @@ You can either work on your own data, if you want to perform pose estimation or 
 
 TODO_TA: Do you recommend some data? -- [check out the options](DemoDatasets.md) we suggest so far!
 
-## What platform should you use? (5 min)
+## Think about your options and preferences (5 min)
 
-- use the graphical user interface (GUI)
-- work in [COLAB notebooks](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples#demo-jupyter--colaboratory-notebooks)
-- or work in ipython
+The TAs can introduce you to a few different options as well as their merits.
 
-The TAs can introduce you to those different options as well as their merits.
+- Do you plan to run DLC on the CPU or do you have access to GPUs?
+    - Training and evaluating DLC models on the CPU will be much slower, but it can be useful to test things locally
+    - There are a few options to use GPUs for training and inference:
+        - You may have a decent GPU in your laptop, or 
+        - You may have access to a workstation in the lab with GPUs, or
+        - You may consider using GPUs in the cloud, for example with a [Colab notebook](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples#demo-jupyter--colaboratory-notebooks)
+
+- Are you comfortable with Python scripting or would you prefer to use the GUI?
+    - The [DLC GUI](https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#deeplabcut-project-manager-gui-recommended-for-beginners) provides a user-friendly interface that guides you through the model building process
+    - Alternatively you can the Python API, which provides high-level well-documented Python functions for each of the model building steps
+        - You can use Python scripting interactively in the Terminal (via `ipython`), or you can use them to write your own script
+        - If you plan to use GPU power via the [Colab notebook](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples#demo-jupyter--colaboratory-notebooks), you will need to use the Python API
+        - See [DeepLabCut in the Terminal](https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#deeplabcut-in-the-terminal) for a step-by-step guide
 
 ## DeepLabCut's data model (10 min)
 
