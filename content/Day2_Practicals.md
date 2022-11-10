@@ -1,4 +1,4 @@
-# Building your first DeepLabCut model
+# Training your first DeepLabCut model
 
 Let's build a DeepLabCut model!
 
@@ -15,13 +15,23 @@ You can either work on your own data, if you want to perform pose estimation or 
 
 TODO_TA: Do you recommend some data? -- [check out the options](DemoDatasets.md) we suggest so far!
 
-## What platform should you use? (5 min)
+## Think about your options and preferences (5 min)
 
-- use the graphical user interface (GUI)
-- work in [COLAB notebooks](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples#demo-jupyter--colaboratory-notebooks)
-- or work in ipython
+The TAs can introduce you to a few different options as well as their merits.
 
-The TAs can introduce you to those different options as well as their merits.
+- Do you plan to run DLC on the CPU or do you have access to GPUs?
+    - Training and evaluating DLC models on the CPU will be much slower, but it can be useful to test things locally
+    - There are a few options to use GPUs for training and inference:
+        - You may have a decent GPU in your laptop, or 
+        - You may have access to a workstation in the lab with GPUs, or
+        - You may consider using GPUs in the cloud, for example with a [Colab notebook](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples#demo-jupyter--colaboratory-notebooks)
+
+- Are you comfortable with Python scripting or would you prefer to use the GUI?
+    - The [DLC GUI](https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#deeplabcut-project-manager-gui-recommended-for-beginners) provides a user-friendly interface that guides you through the model building process
+    - Alternatively you can the Python API, which provides high-level well-documented Python functions for each of the model building steps
+        - You can use Python scripting interactively in the Terminal (via `ipython`), or you can use them to write your own script
+        - If you plan to use GPU power via the [Colab notebook](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples#demo-jupyter--colaboratory-notebooks), you will need to use the Python API
+        - See [DeepLabCut in the Terminal](https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#deeplabcut-in-the-terminal) for a step-by-step guide
 
 ## DeepLabCut's data model (10 min)
 
@@ -45,9 +55,9 @@ TODO_TA: What materials would you find helpful here? Shall we detail steps from 
 
 The function `create_new_project` creates a new project directory, required subdirectories, and a basic project configuration file. Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#a-create-a-new-project" target="_blank">DeepLabCut's documentation</a> for details.
 
-```
-deeplabcut.create_new_project('Name of the project', 'Name of the experimenter', ['Full path of video 1', 'Full path of video2', 'Full path of video3'], working_directory='Full path of the working directory', copy_videos=True/False, multianimal=True/False)
-```
+<pre lang="python">deeplabcut.create_new_project('Name of the project', 'Name of the experimenter', ['Full path of video 1', 'Full path of video2', 'Full path of video3'], working_directory='Full path of the working directory', copy_videos=True/False, multianimal=True/False)</pre>
+
+[GUI project creation](https://youtu.be/KcXogR-p5Ak?t=32)
 
 Next, open the **config.yaml** file from your project directory. Familiarise yourself with the <a href="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5c40f4124d7a9c0b2ce651c1/1547760716298/Box1-01.png?format=1000w" target="_blank">meaning of the parameters</a>. You **must add the list of bodyparts (or points of interest)** that you want to track. Do not have spaces in the names of bodyparts!
 
@@ -57,20 +67,26 @@ The function `extract_frames` extracts frames from all the videos in the project
 - how to control which videos to extract frames from,
 - whether to crop videos.
 
-``deeplabcut.extract_frames(config_path, mode='automatic/manual', algo='uniform/kmeans', userfeedback=False, crop=True/False)``
+<pre lang="python">deeplabcut.extract_frames(config_path, mode='automatic/manual', algo='uniform/kmeans', userfeedback=False, crop=True/False)</pre>
+
+[GUI frame extraction](https://youtu.be/KcXogR-p5Ak?t=87)
 
 ## Labeling Frames (5 min - multiple hours)
 The function `label_frames` helps the user easily label all the extracted frames using an interactive graphical user interface (GUI). Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#d-label-frames" target="_blank">the documentation</a> for pointers on how to use GUI.
 
-``deeplabcut.label_frames(config_path)``
+<pre lang="python">deeplabcut.label_frames(config_path)</pre>
+
+[GUI frame labelling](https://youtu.be/KcXogR-p5Ak?t=111)
 
 ## Check the quality! (5 min)
 The function `check_labels` allows the user to check if the labels were created and stored correctly. For more information, including on what to do if you discover labeling errors, check the <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#e-check-annotated-frames" target="_blank">DLC docs</a>!
 
-``deeplabcut.check_labels(config_path, visualizeindividuals=True/False)``
+<pre lang="python">deeplabcut.check_labels(config_path, visualizeindividuals=True/False)</pre>
 
 ## Create a training dataset and pick model parameters
 You should continue on the machine/platform **where** you are going to train the network. You might have to edit your configuration file, so read <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#f-create-training-dataset-s" target="_blank">the DeepLabCut documentation</a> carefully to make sure you are ready to proceed.
+
+[GUI creating training dataset](https://youtu.be/KcXogR-p5Ak?t=160)
 
 The function `create_training_dataset` combines the labeled datasets from all the videos and splits them to create train and test datasets. Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#f-create-training-dataset-s" target="_blank">the documentation</a> to learn how to choose the most suitable pre-trained network and data augmentation method for your project.
 
@@ -81,6 +97,8 @@ The function `train_network` helps the user in training the network, using the p
 - how many iterations to train your model for,
 - how often to store weights and display loss,
 - how to restart training at a specific checkpoint.
+
+[GUI train network](https://youtu.be/WXCVr6xAcCA?t=58)
 
 TODO_TA: For your interactins with the students do you want tou use slides? E.g. this is a recent one I gave at JAX: <a href="https://github.com/DeepLabCut/DeepLabCut-Workshop-Materials/blob/master/JAX-TutorialOct2022.pdf?highlight=tutorial" target="_blank">link</a>
 

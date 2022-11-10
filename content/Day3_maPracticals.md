@@ -23,6 +23,8 @@ For detailed information on the different steps in the workflow, please refer to
 
 Full graphical user interface: just follow the tabs in the GUI, use `python -m deeplabcut` to launch the GUI.
 
+[Youtube tutorial for maDLC in GUI](https://www.youtube.com/watch?v=Kp-stcTm77g&list=PLjpMSEOb9vRFefBwT4l6kCfAXDJ8uHJjq&index=3)
+
 ### COLAB
 
 <a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_transformer_reID.ipynb" target="_blank">DeepLabCut 2.2 Toolbox Demo on how to use our Pose Transformer for unsupervised identity tracking of animals</a>

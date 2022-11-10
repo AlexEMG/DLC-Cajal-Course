@@ -1,4 +1,4 @@
-# Building on your first DeepLabCut model
+# Improving your first DeepLabCut model
 
 We first want to tackle the general problem, of improving your DLC model. Mostly likely, especially because you're in the little data regime, you will get most bang for your buck by labeling the *right* frames, but augmentation, network architecture and hyperparameters will also help. So how can you find good frames to annotate?
 
@@ -6,7 +6,7 @@ We first want to tackle the general problem, of improving your DLC model. Mostly
 Alon Halevy, Peter Norvig, and Fernando Pereira from Google wrote the great piece: <a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf" target="_blank">"The unreasonable effectiveness of data"</a>. It's a great read on how to learn good models for complex data...
 ```
 
-## Evaluation yesterday's model
+## Evaluation of yesterday's model
 
 It is important to evaluate the performance of the trained network. This performance is measured by computing
 the mean average Euclidean error (MAE; which is proportional to the average root mean square error) between the
@@ -46,15 +46,17 @@ If your model generalizes well to the type of data that you used yesterday that 
 
 First, pick videos that are as different as possible (but still from your setup). Then create model predictions:
 
-```deeplabcut.analyze_videos(config_path,[‘Full path of video or videofolder’], shuffle=1, save_as_csv=True, videotype=‘.avi’)```
+<pre lang="python">deeplabcut.analyze_videos(config_path,[‘Full path of video or videofolder’], shuffle=1, save_as_csv=True, videotype=‘.avi’)</pre>
+
 
 And if the predictions are not as accurate as you want them, it is an ideal video for active learning. Check the different options for outlier extraction in the documentation and run:
 
-```deeplabcut.extract_outlier_frames(conﬁg_path,[‘videoﬁle_path’])```
+<pre lang="python">deeplabcut.extract_outlier_frames(conﬁg_path,[‘videoﬁle_path’])</pre>
 
 Once, you extracted outliers you can fix them manually:
 
-```deeplabcut.extract_refine_outliers(conﬁg_path,[‘videoﬁle_path’])```
+<pre lang="python">pythondeeplabcut.refine_labels(conﬁg_path)</pre>
+
 
 This will grow your dataset to better comprise the variablity. Then you can re-train your model. You can either train de-novo, or use the prior weights (which is faster and usually preferred).
 

@@ -9,10 +9,12 @@
      in pose_cfg.yaml
 4) How do I restart the training from snapshot?
    - To restart training from a snapshot you have to change the `init_weights` in your pose_cfg.yaml file to a path of your snapshot (without the extension!) e.g.:
-   `init_weights: "C:\lizards\nesocijalna-gojak-2022-10-03\dlc-models\iteration-0\nesocijalnaOct3-trainset95shuffle1\train\snapshot-100000"
-5) Can I add new bodyparts to existing project?
+   `init_weights: "C:\lizards\nesocijalna-gojak-2022-10-03\dlc-models\iteration-0\nesocijalnaOct3-trainset95shuffle1\train\snapshot-100000"`
+5) Can I add new bodyparts to an existing project?
    - Yes! You'll then have to label those new bodyparts onto all your images stored in labeled-data and create a new training dataset - remember to change iteration
      number in your config.yaml file
+     
+     Additonal info on restarting training after adding new bodyparts: https://forum.image.sc/t/adding-new-labels/73675
 6) 'Error: Tracklets are empty'
    - This error usually means that your model hasn't been trained well enough. You can run `deeplabcut.create_video_with_all_detections(config_path, video_path)` to
      see how it performs

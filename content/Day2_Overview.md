@@ -16,6 +16,7 @@ In the [practical part](Day2_Practicals.md), we will build our first DeepLabCut 
 ## Day 2: Major goal for today
 
 ```{important}
+- Train your first DeepLabCut model
 - Consider labeling more frames (from different videos).
 - Consider training your model for longer (over night).
 ```
