@@ -1,5 +1,5 @@
 # What is behavior and how do we study it?
 
-TBD
+TODO_DK: expand
 
 Return to [readme](../README.md).

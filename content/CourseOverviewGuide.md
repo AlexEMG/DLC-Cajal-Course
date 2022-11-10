@@ -31,36 +31,35 @@ Over the course of the week you can either work on your own data to create a Dee
 
 Please do not hesitate to reach out to us if you have any questions!
 
-## Content (TBD: link it to sections)
+## Content
 
-### Day 1 – What is animal behaviour?
+### [Day 1 – What is animal behaviour?](Day1_Overview.md)
 
-Historical and current theoretical frameworks for the study of behaviour in living biological systems
+- Historical and current theoretical frameworks for the study of behaviour in living biological systems.
+- Practical exercises for training skills in observing and defining behaviours.
 
-Practical exercises for training skills in observing and defining behaviours
-
-### Day 2 – Tools for modern-day ethology
+### [Day 2 – Pose Tracking I](Day2_Overview.md)
 
 - Fundamentals of machine learning, computer vision, and deep learning
 - Introduction to DeepLabCut
 - Creating a tailored DeepLabCut model for your data or data shared by us.
 
-### Day 3 – Training computers to see as we see
+### [Day 3 – Pose Tracking II](Day3_Overview.md)
 
+- Evaluating, utilizing and optimizing your DeepLabCut model from day 2
 - Multi-animal tracking
 - Live tracking
-- Evaluating, utilizing and optimizing your DeepLabCut model from day 2
 
-### Day 4 – Analysis by eye and by computer
+### [Day 4 – Analysis by eye and by computer](Day3_Overview.md)
 
 - Movement kinematics in living biological systems
-- Action segmentation – when does a behaviour start and end?
-- Analyse original video dataset of behaviour
+- Action segmentation and clustering – when does a behaviour start and end?
+- Analyse your original video dataset of behaviour
 
-### Day 5 – Working on your data and discussion
+### [Day 5 – Working on your data and discussion](Day5_Overview.md)
 
 - Discussion of advanced behavioral analysis topics and potential pitfalls
-- Keep analyzing data and student presentations
+- Keep analyzing your data and student presentations
 
 
 Return to [readme](../README.md).
