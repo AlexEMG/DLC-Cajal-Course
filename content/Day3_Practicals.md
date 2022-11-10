@@ -1,4 +1,4 @@
-# Building on your first DeepLabCut model
+# Improving your first DeepLabCut model
 
 We first want to tackle the general problem, of improving your DLC model. Mostly likely, especially because you're in the little data regime, you will get most bang for your buck by labeling the *right* frames, but augmentation, network architecture and hyperparameters will also help. So how can you find good frames to annotate?
 
