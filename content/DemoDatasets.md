@@ -34,7 +34,8 @@ Where you pass the path to the config file of interest as `config`.
 
 ## Datasets without labels
 
-TODO_DK: put link to suggested videos
+ - [The Cuttle Shuttle](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/J6XLGK) is a video database of cuttlefish hunting behavior. This dataset contains videos for 6 animals over the course of 16 experimental sessions, each 30 minutes long. *Note: Animal L1-H2013-03 was the most active, and will probably generate the most interesting tracking results. To easily access this animals videos, first change the file view from "Table" to "Tree".*
+
 TODO_TA: any other ideas for datasets?
 
 # Multi Animal Datasets (Day 3)
