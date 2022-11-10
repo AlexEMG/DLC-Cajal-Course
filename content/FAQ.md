@@ -9,7 +9,9 @@
      in pose_cfg.yaml
 4) How do I restart the training from snapshot?
    - To restart training from a snapshot you have to change the `init_weights` in your pose_cfg.yaml file to a path of your snapshot (without the extension!) e.g.:
-   `init_weights: "C:\lizards\nesocijalna-gojak-2022-10-03\dlc-models\iteration-0\nesocijalnaOct3-trainset95shuffle1\train\snapshot-100000"
+   `init_weights: "C:\lizards\nesocijalna-gojak-2022-10-03\dlc-models\iteration-0\nesocijalnaOct3-trainset95shuffle1\train\snapshot-100000"`
+   
+   Additonal info on restarting training after adding new bodyparts: https://forum.image.sc/t/adding-new-labels/73675
 5) Can I add new bodyparts to existing project?
    - Yes! You'll then have to label those new bodyparts onto all your images stored in labeled-data and create a new training dataset - remember to change iteration
      number in your config.yaml file
