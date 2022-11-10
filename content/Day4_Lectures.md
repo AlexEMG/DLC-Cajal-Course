@@ -4,8 +4,9 @@ Today we will cover three diverse topics: kinematic analysis, behavioral cluster
 
 ## Part 1: DeepLabCut in Applied Biomechanics (1 h)
 
-[DLC in applied Biomechanics by Johanna Schultz](https://www.youtube.com/watch?v=h0e2HAPTGF4)
-[![Intro to ML](http://img.youtube.com/vi/h0e2HAPTGF4/0.jpg)](https://www.youtube.com/watch?v=h0e2HAPTGF4 "DLC in applied Biomechanics by Johanna Schultz")
+[DLC in applied Biomechanics by Johanna Schultz](https://www.youtube.com/watch?v=f9Y4UEozpno)
+[![Intro to ML](http://img.youtube.com/vi/f9Y4UEozpno/0.jpg)](https://
+https://youtu.be/f9Y4UEozpno "DLC in applied Biomechanics by Johanna Schultz")
 
 TODO_AM: Update link!
 
