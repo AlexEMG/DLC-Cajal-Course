@@ -1,6 +1,5 @@
 # Day 4 Practicals
 
-
 ## Using Moseq with pose tracking data
 
 Motion Sequencing (MoSeq): a method to discover the syllables and grammar that comprise mouse behavior. Recently Caleb Weinreb and colleagues have been expanding this approach, which originally relied on depth sensing technology, to work with pose estimation data. Thus, it is broadly applicable, independent of what cameras were used in experiments.
