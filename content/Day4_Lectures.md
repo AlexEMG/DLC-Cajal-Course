@@ -1,6 +1,6 @@
 # Lectures: Biomechanics, Action segmentation and Behavioral Clustering
 
-Today we will cover three diverse topics: kinematics analysis, behavioral clustering and supervised beahvioral analsyis.
+Today we will cover three diverse topics: kinematic analysis, behavioral clustering and supervised behavioral analsyis.
 
 ## Part 1: DeepLabCut in Applied Biomechanics (1 h)
 
