@@ -1,4 +1,4 @@
-# Building your first DeepLabCut model
+# Training your first DeepLabCut model
 
 Let's build a DeepLabCut model!
 
