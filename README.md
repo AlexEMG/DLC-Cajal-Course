@@ -20,6 +20,7 @@ Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 | Teaching Assistant 🐭  | Andrada Marica      | 🛰️ online               | [GitHub](https://github.com/andrada08)      | [@andrada_marica](https://twitter.com/andrada_marica) |
 | Teaching Assistant 🐭  | Sabrina Benas       | Buenos Aires (ARG)     | [GitHub](https://github.com/sabrinabenas)      | [@Sabrineiitor](https://twitter.com/Sabrineiitor)  |
 | Teaching Assistant 🐤  | Cecilia Herbert     | Buenos Aires (ARG)     | [GitHub](https://github.com/ChucklesOnGitHub)       | [@ChuckleScience](https://twitter.com/ChuckleScience) |
+| Teaching Assistant 🖥️  | Facundo Emina       | Buenos Aires (ARG)     | [GitHub](https://github.com/Facuemina)       | [@facuemina](https://twitter.com/facuemina) |
 | Teaching Assistant 🖥️  | Nirel Kadzo         | Nairobi (KEN)          | [GitHub](https://github.com/kadzon)       | [@Nirelkadzo](https://twitter.com/Nirelkadzo)    |
 | Teaching Assistant 🐭  | Zane Mitrevica      | 🛰️ online               |[GitHub](https://github.com/zanemit)       | [@Zanemit](https://twitter.com/Zanemit)       |
 | Teaching Assistant 🐀  | Konrad Danielewski  | Warsaw (PL)            | [GitHub](https://github.com/KonradDanielewski)      | [@Nyktofob](https://twitter.com/Nyktofob)      |
