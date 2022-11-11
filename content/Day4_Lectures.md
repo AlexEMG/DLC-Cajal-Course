@@ -15,6 +15,7 @@ Key papers mentioned in this talk:
 
 Further reading (goes beyond this course, but recommended):
 - [Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation](https://biomech.stanford.edu/) by Thomas K. Uchida and Scott L. Delp
+- Check out this cool paper on [squirrel parkour](http://polypedal.berkeley.edu/wp-content/uploads/697.full_.pdf), potentially inspired by [this video](https://www.youtube.com/watch?v=hFZFjoX2cGg) from Youtuber Mark Rober 
 
 TODO_TA: What other material shall we recommend?
 
