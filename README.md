@@ -12,7 +12,6 @@ One of the main tools used is DeepLabCut**🐭**, a toolbox for markerless pose 
 
 This course received much support from the CAJAL Advance Neuroscience Training Programme. Have a look [HERE](https://cajal-training.org/) and follow them [@Cajal_Training](https://twitter.com/Cajal_Training?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3ACajal_Training%7Ctwcon%5Es1_c13) for updates!
 
-![Alt text](https://luxcapital-website-media.s3.amazonaws.com/wp-content/uploads/2020/10/27104606/Cajal_Neuroscience-logo-600x174.png) ![Alt text](https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1605646569254-13M1YJQ8NFB5E5H0MT0E/dlc_logo.png) 
 
 ```{warning}
 NOTE FOR TEACHING ASSISTANTS!
