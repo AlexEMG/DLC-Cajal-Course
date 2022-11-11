@@ -49,6 +49,7 @@ For more information on this work, please check out:
 - put more stuff on benchmarking
 - update to Goal for the end of the day
 
+DLC-live also provides a convenient API for combining animal pose estimation with other tasks. For example, DLC-live was used here in combination with MegaDetector to estimate the pose of animals detected in camera trap data. You can see a demo [here](https://huggingface.co/spaces/DeepLabCut/MegaDetector_DeepLabCut) and inspect the code further [here](https://huggingface.co/spaces/DeepLabCut/MegaDetector_DeepLabCut/tree/main).
 
 TODO_TA: Any other recommendations for content for this module?
 
