@@ -41,19 +41,14 @@ df_vel = dlc2kinematics.compute_acceleration(df,bodyparts=['nose','joystick'])
 
 For more details and options, please refer to <a href="https://github.com/AdaptiveMotorControlLab/DLC2Kinematics" target="_blank">DLC2Kinematics</a>.
 
-### DOKA
+Another option is using [<a href="https://github.com/JojoReikun/ClimbingLizardDLCAnalysis" target="_blank">DOKA</a>, which Johanna Schultz mentioned and created.
 
-https://github.com/JojoReikun/ClimbingLizardDLCAnalysis
+## Using DLC2Action for action segmentation
 
-### What else?
-
-
+(see Discord)
 
 ## Discussion topics
 
-
-
-TODO_TA: What else?
 
 
 Return to [readme](../README.md).
