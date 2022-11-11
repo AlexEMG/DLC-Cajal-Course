@@ -4,16 +4,6 @@
 
 Welcome! This website contains the course material for 2022 edition of the [Modern Methods for Quantifying Behavior Course](https://cajal-training.org/neurokit/behavioural-analysis/).
 
-```{warning}
-NOTE FOR TEACHING ASSISTANTS!
-
-This page will be updated day-by-day next week! Feel free to contribute by making PRs.
-
-- PLEASE put your name and information in the table below! (this table will then also be used in the CourseOverview!)
-- Please check the section "#SECTION-FOR-TAs-(will-be-removed)" for ways to create at this Jupyter book and other information!
-
-```
-
 ## Teaching Team 🏆
 
 Thanks to the whole teaching team for putting this together 🎉🎉🎉!
