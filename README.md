@@ -18,7 +18,7 @@ This page will be updated day-by-day next week! Feel free to contribute by makin
 
 Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 
-| **Role 🔥**            | **Name 📛**          | **🗺️📍**                 | **GitHub 🛠️** | **Twitter 🐥**   |
+| **Role 🔥**            | **Name 📛**          | **Hub 🗺️📍**                 | **GitHub 🛠️** | **Twitter 🐥**   |
 |-----------------------|---------------------|------------------------|--------------|-----------------|
 | Co - Director 🎖️       | Alexander Mathis    | 🛰️ online               | [GitHub](https://github.com/AlexEMG)| [@TrackingPlumes](https://twitter.com/TrackingPlumes)|
 | Co - Director 🎖️       | Danbee Kim          | 🛰️ online               | [GitHub](https://github.com/Taunsquared)| [@taunbot](https://twitter.com/taunbot) |
