@@ -14,29 +14,28 @@ This page will be updated day-by-day next week! Feel free to contribute by makin
 
 ```
 
-## Teaching team
+## Teaching Dream Team 🏆
 
-Thanks to the whole teaching team for putting this together!
+Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 
-| Role                                                | Name                  | Satellite? | GitHub and other social media                        |
-|------------------------------------------------------------|-----------------------------------------------------------------------------|---------------------------|----------------------------------------|
-| Co-director | [Alexander Mathis](https://people.epfl.ch/alexander.mathis), École Polytechnique Fédérale de Lausanne (CH) | Online | [GitHub](https://github.com/AlexEMG), [@TrackingPlumes](https://twitter.com/TrackingPlumes) |
-| Co-director | Danbee Kim | Online | [GitHub](https://github.com/Taunsquared), [@taunbot](https://twitter.com/taunbot) |
-| Cajal administrator | Elena Drosti | Online | |
-| Teaching assistant | [Sofía Miñano](https://sfmig.github.io/) | London (UK)| [GitHub](https://github.com/sfmig), [@SofiMinano](https://twitter.com/SofiMinano)
-| Teaching assistant | Nicole Vissers | London (UK) | [GitHub](https://github.com/nicole-vissers), [@NicoleVissers1](https://twitter.com/NicoleVissers1)
-| Teaching assistant | Jonas Håkansson | Colorado Springs (USA)| [GitHub](https://github.com/biol-jsh), [@ScientistJonas](https://twitter.com/ScientistJonas)
-| Teaching assistant | [Neslihan Wittek](https://wittek.dev/home-nesli/) | Online | [GitHub](https://github.com/neslihanedes), [@taubenmaedel](https://twitter.com/taubenmaedel)
-| Teaching assistant | Andrada Marica | Online | [GitHub](https://github.com/andrada08), [@andrada_marica](https://twitter.com/andrada_marica)
-| Teaching assistant | Sabrina Benas | Buenos Aires (ARG) | [GitHub](https://github.com/sabrinabenas), [@Sabrineiitor](https://twitter.com/Sabrineiitor)
-| Teaching assistant | [Cecilia Herbert](https://ceci.herbert.com.ar) | Buenos Aires (ARG) | [GitHub](https://github.com/ChucklesOnGitHub), [@ChuckleScience](https://twitter.com/ChuckleScience)
-| Teaching assistant | Nirel Kadzo | Nairobi (KEN) | [GitHub](https://github.com/kadzon), [@Nirelkadzo](https://twitter.com/Nirelkadzo)
-| Teaching assistant | Zane Mitrevica | Online | [GitHub](https://github.com/zanemit), [@Zanemit](https://twitter.com/Zanemit)
-| Teaching assistant | Konrad Danielewski | Warsaw (PL) | [GitHub](https://github.com/KonradDanielewski), [@Nyktofob](https://twitter.com/Nyktofob)
-| Teaching assistant | Virginia Palieri | Munich (DE) | [GitHub](https://github.com/vpalieri)
-| Teaching assistant | [Aleksandar Gavric](http://www.aleksandargavric.com) | Online | [GitHub](https://github.com/alex-gavric), [@AcaGavric](https://twitter.com/AcaGavric)
-| Teaching Assistant | Aleksandra Gavriova | Okinawa (Japan) | [GitHub](https://github.com/a-gavrilova), [@shura_gav](https://twitter.com/shura_gav)
-
+| **Role 🔥**            | **Name 📛**          | **🗺️📍**                 | **GitHub 🛠️** | **Twitter 🐥**   |
+|-----------------------|---------------------|------------------------|--------------|-----------------|
+| Co - Director 🎖️       | Alexander Mathis    | 🛰️ online               | [GitHub](https://github.com/AlexEMG)| [@TrackingPlumes](https://twitter.com/TrackingPlumes)|
+| Co - Director 🎖️       | Danbee Kim          | 🛰️ online               | [GitHub](https://github.com/Taunsquared)| [@taunbot](https://twitter.com/taunbot) |
+| Cajal Administrator 📝 | Elena Drosti        | 🛰️ online               |              |                 |
+| Teaching Assistant 🦅  | Sofia Minano        | London (UK)            | [GitHub](https://github.com/sfmig)       | [@SofiMinano](https://twitter.com/SofiMinano)   |
+| Teaching Assistant 🐭  | Nicole Vissers      | London (UK)            | [GitHub](https://github.com/nicole-vissers)| [@NicoleVissers1](https://twitter.com/NicoleVissers1)|
+| Teaching Assistant 🦇  | Jonas Håkansson     | Colorado Springs (USA) | [GitHub](https://github.com/biol-jsh)      | [@ScientistJonas](https://twitter.com/ScientistJonas) |
+| Teaching Assistant 🐦  | Neslihan Wittek     | 🛰️ online               | [GitHub](https://github.com/neslihanedes)       | [@taubenmaedel](https://twitter.com/taubenmaedel)   |
+| Teaching Assistant 🐭  | Andrada Marica      | 🛰️ online               | [GitHub](https://github.com/andrada08)      | [@andrada_marica](https://twitter.com/andrada_marica) |
+| Teaching Assistant 🐭  | Sabrina Benas       | Buenos Aires (ARG)     | [GitHub](https://github.com/sabrinabenas)      | [@Sabrineiitor](https://twitter.com/Sabrineiitor)  |
+| Teaching Assistant 🐤  | Cecilia Herbert     | Buenos Aires (ARG)     | [GitHub](https://github.com/ChucklesOnGitHub)       | [@ChuckleScience](https://twitter.com/ChuckleScience) |
+| Teaching Assistant 🖥️  | Nirel Kadzo         | Nairobi (KEN)          | [GitHub](https://github.com/kadzon)       | [@Nirelkadzo](https://twitter.com/Nirelkadzo)    |
+| Teaching Assistant 🐭  | Zane Mitrevica      | 🛰️ online               |[GitHub](https://github.com/zanemit)       | [@Zanemit](https://twitter.com/Zanemit)       |
+| Teaching Assistant 🐀  | Konrad Danielewski  | Warsaw (PL)            | [GitHub](https://github.com/KonradDanielewski)      | [@Nyktofob](https://twitter.com/Nyktofob)      |
+| Teaching Assistant 🖥️  | Virginia Palieri    | Munich (DE)            | [GitHub](https://github.com/vpalieri)       |                 |
+| Teaching Assistant 🖥️  | Aleksandar Gavric   | 🛰️ online               |[GitHub](https://github.com/alex-gavric)      | [@AcaGavric](https://twitter.com/AcaGavric)     |
+| Teaching Assistant 🔬  | Aleksandra Gavriova | Okinawa (JP)           | [GitHub](https://github.com/a-gavrilova)       | [@shura_gav](https://twitter.com/shura_gav)     |
 
 ## Acknowledgments
 
