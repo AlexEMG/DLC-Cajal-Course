@@ -1,6 +1,7 @@
 # Creating your multi-animal pose tracker
 
-### Multi-animal 🙉 pose tracking workflow
+
+## Multi-animal 🙉 pose  tracking workflow
 
 The workflow for multi-animal DeepLabCut is a bit more involved. You should think of maDLC requiring four parts ⚙️:
 
@@ -28,13 +29,12 @@ Follow ➡️ the tabs in the GUI.
 
 Check out our tutorial [Youtube tutorial for maDLC in GUI](https://www.youtube.com/watch?v=Kp-stcTm77g&list=PLjpMSEOb9vRFefBwT4l6kCfAXDJ8uHJjq&index=3)
 
-### COLAB:
-
-Follow the link below to launch an example in Colab:
+#### COLAB:
 
 <a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_transformer_reID.ipynb" target="_blank">DeepLabCut 2.2 Toolbox Demo on how to use our Pose Transformer for unsupervised identity tracking of animals</a>
 
-## Python commands 🐍:
+### Python commands 🐍:
+>>>>>>> 1fefc9404866074b95e6007402b5f26f21f92f5a
 
 **Import deeplabcut**
 ```python
@@ -161,12 +161,13 @@ deeplabcut.create_labeled_video(
 )
 ```
 
-## Active learning
+### Active learning
 
-Just like 
+Just like for [single animals](Day3_Practicals).
+
 
 TODO_TA: What else?
-
 TODO_AM: expand critical points and link to maDLC user guide!
+
 
 Return to [readme](../README.md).

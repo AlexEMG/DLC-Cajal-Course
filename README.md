@@ -12,21 +12,11 @@ Here you will find all the course material 📚 you will need to complete your p
 This course received much support from the CAJAL Advance Neuroscience Training Programme. Have a look [HERE](https://cajal-training.org/) and follow them [@Cajal_Training](https://twitter.com/Cajal_Training?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3ACajal_Training%7Ctwcon%5Es1_c13) for updates!
 
 
-```{warning}
-NOTE FOR TEACHING ASSISTANTS!
-
-This page will be updated day-by-day next week! Feel free to contribute by making PRs.
-
-- PLEASE put your name and information in the table below! (this table will then also be used in the CourseOverview!)
-- Please check the section "#SECTION-FOR-TAs-(will-be-removed)" for ways to create at this Jupyter book and other information!
-
-```
-
-## Teaching Dream Team 🏆
+## Teaching Team 🏆
 
 Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 
-| **Role 🔥**            | **Name 📛**          | **🗺️📍**                 | **GitHub 🛠️** | **Twitter 🐥**   |
+| **Role 🔥**            | **Name 📛**          | **Hub 🗺️📍**                 | **GitHub 🛠️** | **Twitter 🐥**   |
 |-----------------------|---------------------|------------------------|--------------|-----------------|
 | Co - Director 🎖️       | Alexander Mathis    | 🛰️ online               | [GitHub](https://github.com/AlexEMG)| [@TrackingPlumes](https://twitter.com/TrackingPlumes)|
 | Co - Director 🎖️       | Danbee Kim          | 🛰️ online               | [GitHub](https://github.com/Taunsquared)| [@taunbot](https://twitter.com/taunbot) |
@@ -38,6 +28,7 @@ Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 | Teaching Assistant 🐭  | Andrada Marica      | 🛰️ online               | [GitHub](https://github.com/andrada08)      | [@andrada_marica](https://twitter.com/andrada_marica) |
 | Teaching Assistant 🐭  | Sabrina Benas       | Buenos Aires (ARG)     | [GitHub](https://github.com/sabrinabenas)      | [@Sabrineiitor](https://twitter.com/Sabrineiitor)  |
 | Teaching Assistant 🐤  | Cecilia Herbert     | Buenos Aires (ARG)     | [GitHub](https://github.com/ChucklesOnGitHub)       | [@ChuckleScience](https://twitter.com/ChuckleScience) |
+| Teaching Assistant 🖥️  | Facundo Emina       | Buenos Aires (ARG)     | [GitHub](https://github.com/Facuemina)       | [@facuemina](https://twitter.com/facuemina) |
 | Teaching Assistant 🖥️  | Nirel Kadzo         | Nairobi (KEN)          | [GitHub](https://github.com/kadzon)       | [@Nirelkadzo](https://twitter.com/Nirelkadzo)    |
 | Teaching Assistant 🐭  | Zane Mitrevica      | 🛰️ online               |[GitHub](https://github.com/zanemit)       | [@Zanemit](https://twitter.com/Zanemit)       |
 | Teaching Assistant 🐀  | Konrad Danielewski  | Warsaw (PL)            | [GitHub](https://github.com/KonradDanielewski)      | [@Nyktofob](https://twitter.com/Nyktofob)      |
@@ -46,5 +37,6 @@ Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 | Teaching Assistant 🔬  | Aleksandra Gavriova | Okinawa (JP)           | [GitHub](https://github.com/a-gavrilova)       | [@shura_gav](https://twitter.com/shura_gav)     |
 
 ## Acknowledgments
+Naturally this material is partially based on [DeepLabCut's Jupyter book](https://deeplabcut.github.io/DeepLabCut/README.html) as well as [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) in general. The same license applies.
 
-Naturally this material is heavily based on [DeepLabCut's Jupyter book](https://deeplabcut.github.io/DeepLabCut/README.html) as well as [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) in general. The same license applies.
+See [contributors](https://github.com/AlexEMG/DLC-Cajal-Course/graphs/contributors) for a list of indivdual contributors! In particular, thanks to the whole teaching team for putting this togethee.

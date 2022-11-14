@@ -5,10 +5,8 @@ Today we will cover three diverse topics: kinematic analysis, behavioral cluster
 ## Part 1: DeepLabCut in Applied Biomechanics (1 h)
 
 [DLC in applied Biomechanics by Johanna Schultz](https://www.youtube.com/watch?v=f9Y4UEozpno)
-[![Intro to ML](http://img.youtube.com/vi/f9Y4UEozpno/0.jpg)](https://
-https://youtu.be/f9Y4UEozpno "DLC in applied Biomechanics by Johanna Schultz")
+[![BioMech](http://img.youtube.com/vi/f9Y4UEozpno/0.jpg)](https://https://youtu.be/f9Y4UEozpno "DLC in applied Biomechanics by Johanna Schultz")
 
-TODO_AM: Update link!
 
 Key papers mentioned in this talk:
 - [Using a biologically mimicking climbing robot to explore the performance landscape of climbing in lizards](https://royalsocietypublishing.org/doi/10.1098/rspb.2020.2576) by Schultz JT, Beck HK, Haagensen T, Proost T, Clemente CJ. in Proc Biol Sci. 2021
@@ -17,6 +15,7 @@ Key papers mentioned in this talk:
 
 Further reading (goes beyond this course, but recommended):
 - [Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation](https://biomech.stanford.edu/) by Thomas K. Uchida and Scott L. Delp
+- Check out this cool paper on [squirrel parkour](http://polypedal.berkeley.edu/wp-content/uploads/697.full_.pdf), potentially inspired by [this video](https://www.youtube.com/watch?v=hFZFjoX2cGg) from Youtuber Mark Rober 
 
 TODO_TA: What other material shall we recommend?
 
@@ -26,7 +25,7 @@ Content:
 - Unsupervised analysis of behavior
 - Moseq pipeline (depth cameras, AR-HMM, ...)
 - Keypoint-Moseq
-- Results and biological
+- Results (qualitative and biological)
 
 TODO_TA: Any other recommendations for content of this or prior class?
 TODO_AM: record lecture.
@@ -37,6 +36,24 @@ Further reading 📚 (recommended in the scope of this course):
 
 ## Part 3: Action segmentation (30 min)
 
-(will be discussed tomorrow)
+Content:
+- Action recogntion vs action segmentation
+- Ethograms
+- Common approaches (skeleton and visual based action segmentation)
+- DLC2Action key results and features
+- Metrics for action segmentation (f1, precision, recall, edit distance)
+
+TODO_AM: record lecture with Liza
+
+TODO_TA: What other content and links?
+
+- Anderson and Perona [Toward a science of computational ethology](https://www.sciencedirect.com/science/article/pii/S0896627314007934), Neuron, 2014
+- Datta, Anderson, Branson, Perona and Leifer [Computational Neuroethology: A Call to Action](https://pubmed.ncbi.nlm.nih.gov/31600508/), Neuron 2019
+
+## Part 4: Neural-Behavioral Analysis??
+
+- put some links to papers?
+
+TODO_TA: Any recommended repos?
 
 [Let’s go back 🔙](../README.md).

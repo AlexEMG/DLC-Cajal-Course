@@ -23,13 +23,13 @@
      
      ✅ Check also this: https://forum.image.sc/t/adding-new-labels/73675
      
-6) `Error: Tracklets are empty`
-   - It usually means that your model hasn't been trained well enough. You can run `deeplabcut.create_video_with_all_detections(config_path, video_path)` to
+6) 'Error: Tracklets are empty'
+   - This error usually means that your model hasn't been trained well enough. You can run `deeplabcut.create_video_with_all_detections(config_path, video_path)` to
      see how it performs
      
 7) No suitable videos found in "yourpath" error
-   - Check if your path isn't pointing to a "_labeled" video. You should always point to the regular video that was used for analysis
-  
+   - Check if your path isn't pointing to a "\_labeled" video. You should always point to the regular video that was used for analysis
+
 8) Video analysis stuck at a specific point/cannot start analysis
    - Most likely this frame of the video was corrupted/the whole video has been corrupted. Re-encode the video following the amazing guide :grin: written by @KonradDanielewski
      [Video reencoding](https://deeplabcut.github.io/DeepLabCut/docs/recipes/io.html#tips-on-video-re-encoding-and-preprocessing)

@@ -55,6 +55,8 @@ This will grow your dataset to better comprise the variablity. Then you can re-t
 
 ## Let’s talk 📲
 
+- If you are interested in learning further about active learning approaches, check out [this blog post!](https://deeplabcut.medium.com/exploring-active-learning-with-deeplabcut-an-ai-residents-journey-e441bbd5a71c) 
+>>>>>>> 1fefc9404866074b95e6007402b5f26f21f92f5a
 
 
 TODO_TA: What else?

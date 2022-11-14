@@ -1,4 +1,4 @@
-# What next?
+# What's next?
 
 We reached the milestone of this course! Congrats 🎉🎉!!
 
