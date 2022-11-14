@@ -1,5 +1,5 @@
-# What is behavior and how do we study it?
+# What is behavior and how do we study it 🔍?
 
 TODO_DK: expand
 
-Return to [readme](../README.md).
+[Let’s go back 🔙](../README.md).
