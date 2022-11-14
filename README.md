@@ -8,7 +8,6 @@ Let’s kickstart the week 🚀!
 
 Here you will find all the course material 📚 you will need to complete your project. 
 
-One of the main tools used is DeepLabCut**🐭**, a toolbox for markerless pose estimation of animals. Check it out [HERE](https://github.com/DeepLabCut/DeepLabCut). Don’t forget to stay tuned [@DeepLabCut](https://twitter.com/DeepLabCut)!
 
 This course received much support from the CAJAL Advance Neuroscience Training Programme. Have a look [HERE](https://cajal-training.org/) and follow them [@Cajal_Training](https://twitter.com/Cajal_Training?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3ACajal_Training%7Ctwcon%5Es1_c13) for updates!
 
