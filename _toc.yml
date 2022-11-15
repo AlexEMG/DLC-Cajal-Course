@@ -24,6 +24,7 @@ parts:
   - file: content/Day3_Practicals
   - file: content/Day3_maPracticals
   - file: content/Day3_ModelZoo
+  - file: content/Day3_DLClive
 - caption: "Day 4 - Kinematics, actions and clustering"
   chapters:
   - file: content/Day4_Overview
