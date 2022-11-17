@@ -1,12 +1,12 @@
 [![Generic badge](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)](README.md)
 
-# Modern Methods for Quantifying Behaviour (DeepLabCut🐭)
+# Modern Methods for Quantifying Behaviour (DeepLabCut)
 
-Dear participants, welcome 🙌 to the 2022 edition of the hands-on Neuroscience course [Modern Methods for Quantifying Behavior](https://cajal-training.org/neurokit/behavioural-analysis/)! 
+Dear participants, welcome 🙌 to the 2022 edition of the hands-on Neuroscience course [Modern Methods for Quantifying Behavior](https://cajal-training.org/neurokit/behavioural-analysis/)!
 <br/><br/>
 Let’s kickstart the week 🚀!
 
-Here you will find all the course material 📚 you will need to complete your project. 
+Here you will find all the course material 📚 you will need to complete your project.
 
 
 This course received much support from the CAJAL Advance Neuroscience Training Programme. Have a look [HERE](https://cajal-training.org/) and follow them [@Cajal_Training](https://twitter.com/Cajal_Training?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3ACajal_Training%7Ctwcon%5Es1_c13) for updates!
@@ -37,6 +37,9 @@ Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 | Teaching Assistant 🔬  | Aleksandra Gavriova | Okinawa (JP)           | [GitHub](https://github.com/a-gavrilova)       | [@shura_gav](https://twitter.com/shura_gav)     |
 
 ## Acknowledgments
+
 Naturally this material is partially based on [DeepLabCut's Jupyter book](https://deeplabcut.github.io/DeepLabCut/README.html) as well as [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) in general. The same license applies.
 
-See [contributors](https://github.com/AlexEMG/DLC-Cajal-Course/graphs/contributors) for a list of indivdual contributors! In particular, thanks to the whole teaching team for putting this together.
+See [contributors](https://github.com/AlexEMG/DLC-Cajal-Course/graphs/contributors) for a list of individual contributors! In particular, thanks to the whole teaching team for putting this together.
+
+We are grateful for funding by the [ChanZuckerberg Initiative: Essential Open Source Software for Science](https://chanzuckerberg.com/eoss/). Thanks!

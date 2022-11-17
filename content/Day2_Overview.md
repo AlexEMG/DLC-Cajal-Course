@@ -4,7 +4,7 @@ Welcome to Day 2✨!
 
 We will start our second day with [two exciting lectures](Day2_Lectures.md).: 
 - An introduction to machine learning (the basis 🏗 for building our projects) 
-- Computer Vision and DeepLabCut🐭 (the major topic of today and tomorrow🔥🔥)
+- Computer Vision and DeepLabCut (the major topic of today and tomorrow🔥🔥)
 
 In the [hands on 🛠 part](Day2_Practicals.md), we will build our first DeepLabCut models! Exciting✨!
 

@@ -4,7 +4,7 @@ Let's build our first DeepLabCut model ✨!
 
 ## How to start? (⏳15 min)
 
-We highly recommend you to read this Protocol first {cite}`Nath2019`. Especially, Stages I-IX.  In the figure below you can see the workflow of DeepLabCut🐭 :
+We highly recommend you to read this Protocol first {cite}`Nath2019`. Especially, Stages I-IX.  In the figure below you can see the workflow of DeepLabCut :
 
  <p align="center">
 <img src="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5cca272524a69435c3251c40/1556752170424/flowfig.jpg?format=1000w" height="400">
