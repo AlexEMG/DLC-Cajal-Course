@@ -1,7 +1,9 @@
-(how-to-install)=
-# How To Install DeepLabCut?
+# How-To Install DeepLabCut:
 
-Follow <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html" target="_ablank">**the DeepLabCut installation guide**</a>. Ask the teaching assistants for help if you get stuck!
+DeepLabCut can be run 🏃‍♂️ on Windows, Linux, or macOS.
+
+Follow <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html" target="_ablank">**the DeepLabCut installation guide**</a>. 
+You can always ask the teaching assistants 📢 for help if you get stuck✨!
 
 In brief, **if you do not have a GPU on your machine**, all you need to do is:
 - install Python - <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#step-1-you-need-to-have-python-installed" target="_blank">Step 1 in the DLC installation guide</a> describes the easiest way to do this;
@@ -39,4 +41,7 @@ If you use Windows OS and **do** have other versions of CUDA installed:
 
 Something gone awry? Check out these <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#troubleshooting" target="_blank">troubleshooting tips</a> and reach out to teaching assistants!
 
-Return to [readme](../README.md).
+You could also use DeepLabCut on [Google Colab](https://colab.research.google.com/). In that case, you don't need to install it on your computer 😉!
+
+[Let's go  back 🔙](../README.md).
+

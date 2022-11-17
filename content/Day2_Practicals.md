@@ -1,49 +1,49 @@
-# Training your first DeepLabCut model
+# Training 🏋️‍♀️ your first DeepLabCut model
 
-Let's build a DeepLabCut model!
+Let's build our first DeepLabCut model ✨!
 
-## How to start? (15 min)
+## How to start? (⏳15 min)
 
-We highly recommend to read the [DeepLabCut Nature Protocol](https://rdcu.be/bHpHN) first, in particular Stages I-IX. See [below](#From-project-creation-to-training-your-model) for more details. The figure below visualize the workflow of DeepLabCut:
+We highly recommend you to read this Protocol first {cite}`Nath2019`. Especially, Stages I-IX.  In the figure below you can see the workflow of DeepLabCut🐭 :
 
  <p align="center">
 <img src="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5cca272524a69435c3251c40/1556752170424/flowfig.jpg?format=1000w" height="400">
 
 ```{note}
-You can either work on your own data, if you want to perform pose estimation or you can use [data that we provide!](DemoDatasets.md)
+You can either work on your own data, if you want to perform pose estimation or you can use [one of the demo datasets](DemoDatasets.md).
 ```
 
 TODO_TA: Do you recommend some data? -- [check out the options](DemoDatasets.md) we suggest so far!
 
-## Think about your options and preferences (5 min)
+## Think about your options and preferences (⏳5 min)
 
 The TAs can introduce you to a few different options as well as their merits.
 
 - Do you plan to run DLC on the CPU or do you have access to GPUs?
     - Training and evaluating DLC models on the CPU will be much slower, but it can be useful to test things locally
     - There are a few options to use GPUs for training and inference:
-        - You may have a decent GPU in your laptop, or 
-        - You may have access to a workstation in the lab with GPUs, or
+        - You may have a decent GPU in your laptop 💻, or 
+        - You may have access to a workstation 🚧 in the lab with GPUs, or
         - You may consider using GPUs in the cloud, for example with a [Colab notebook](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples#demo-jupyter--colaboratory-notebooks)
 
-- Are you comfortable with Python scripting or would you prefer to use the GUI?
+- Are you comfortable with Python 🐍 scripting or would you prefer to use the GUI?
     - The [DLC GUI](https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#deeplabcut-project-manager-gui-recommended-for-beginners) provides a user-friendly interface that guides you through the model building process
     - Alternatively you can the Python API, which provides high-level well-documented Python functions for each of the model building steps
         - You can use Python scripting interactively in the Terminal (via `ipython`), or you can use them to write your own script
         - If you plan to use GPU power via the [Colab notebook](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples#demo-jupyter--colaboratory-notebooks), you will need to use the Python API
-        - See [DeepLabCut in the Terminal](https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#deeplabcut-in-the-terminal) for a step-by-step guide
+        - See [DeepLabCut in the Terminal](https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#deeplabcut-in-the-terminal) for a step-by-step guide 🗺
 
-## DeepLabCut's data model (10 min)
+## DeepLabCut's data model (⏳10 min)
 
-As we heard in the lecture, Machine Learning projects rely on training data and create neural network weights that you want to use for analyzing your data.
+Machine Learning projects rely on training data and create neural network weights that you want to use for analyzing your data.
 
-Thus, for a given project you want to have a `data structure` on your computer that keeps track of configuration files, training data and neural network weights. This is what DeepLabCut's data model addresses. A `project` is one folder (per project) that stores all those components in an organized fashion. A project directory has subdirectories: dlc-models, labeled-data, training-datasets, and videos.
+Thus, for a given project you want to have a `data structure` on your computer that keeps track of configuration files, training data and neural network weights. This is what DeepLabCut's data model addresses. A `project` is one folder 📂 (per project) that stores all those components in an organized fashion. A project directory has subdirectories: dlc-models, labeled-data, training-datasets, and videos.
 
-You can even share these projects with others, and use them on different platforms. This comes in handy, as you may want to annotate with the GUI on your laptop, but then train your model on a computer with a GPU (or on COLAB). Once you have a useful model, you can also share the project with others, or just export the neural network weights!
+You can even share these projects with others, and use them on different platforms. This comes in handy, as you may want to annotate with the GUI on your laptop, but then train 🏋️‍♀️ your model on a computer with a GPU (or on COLAB). Once you have a useful model, you can also share the project with others, or just export the neural network weights!
 
-So let's create our first project... and start labeling!
+So let's create our first project... and start labeling 🎉🎉!
 
-## Let's actually start...
+## 🔥 Let's start...
 
 The following summarises DeepLabCut's single animal workflow. If your dataset involves multiple animals that look the same, please consult the <a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a> (however, be warned the workflow is more involved, as it adds additional steps; for educational purposes you could focus on a single animal project first, if you have never used DeepLabCut).
 
@@ -51,7 +51,7 @@ If you wish to use the Project Manager GUI (recommended for beginners), you can 
 
 TODO_TA: What materials would you find helpful here? Shall we detail steps from the documentation also here? (or is it fine to refer to there, which I think makes more sense?)
 
-## Creating a project and extracting frames (30 min)
+## Creating a project and extracting frames (⏳30 min)
 
 The function `create_new_project` creates a new project directory, required subdirectories, and a basic project configuration file. Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#a-create-a-new-project" target="_blank">DeepLabCut's documentation</a> for details.
 
@@ -71,14 +71,14 @@ The function `extract_frames` extracts frames from all the videos in the project
 
 [GUI frame extraction](https://youtu.be/KcXogR-p5Ak?t=87)
 
-## Labeling Frames (5 min - multiple hours)
+## Labeling Frames (⏳5 min - multiple hours)
 The function `label_frames` helps the user easily label all the extracted frames using an interactive graphical user interface (GUI). Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#d-label-frames" target="_blank">the documentation</a> for pointers on how to use GUI.
 
 <pre lang="python">deeplabcut.label_frames(config_path)</pre>
 
 [GUI frame labelling](https://youtu.be/KcXogR-p5Ak?t=111)
 
-## Check the quality! (5 min)
+## Check the quality! (⏳5 min)
 The function `check_labels` allows the user to check if the labels were created and stored correctly. For more information, including on what to do if you discover labeling errors, check the <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#e-check-annotated-frames" target="_blank">DLC docs</a>!
 
 <pre lang="python">deeplabcut.check_labels(config_path, visualizeindividuals=True/False)</pre>
@@ -92,7 +92,7 @@ The function `create_training_dataset` combines the labeled datasets from all th
 
 TODO_TA: [Here is an old demo video by me about networks](https://www.youtube.com/watch?v=ILsuC4icBU0&t=760s). Please check it out!
 
-## Training your model (1h - longer)
+## Training your model (⏳1h - longer)
 The function `train_network` helps the user in training the network, using the parameters set in the **pose_cfg.yaml** file. Familiarise yourself with <a href="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1570325287859-NHCTKWOFWPVWLH8B79PS/ke17ZwdGBToddI8pDm48kApwhYXjNb7J-ZG10ZuuPUJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0uRNgJXBmK_J7vOfsoUyYccR03UZyExumRKzyR7hPRvjPGikK2uEIM-3GOD5thTJoQ/Box2-01.png?format=1000w" target="_blank">the meaning of those parameters</a> and check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#g-train-the-network" target="_blank">the DLC documentation</a> to learn:
 - how many iterations to train your model for,
 - how often to store weights and display loss,
@@ -102,7 +102,7 @@ The function `train_network` helps the user in training the network, using the p
 
 TODO_TA: For your interactins with the students do you want tou use slides? E.g. this is a recent one I gave at JAX: <a href="https://github.com/DeepLabCut/DeepLabCut-Workshop-Materials/blob/master/JAX-TutorialOct2022.pdf?highlight=tutorial" target="_blank">link</a>
 
-## Discussion topics
+## Let’s Talk 📲
 
 - What parameters should be picked?
     - for the most part the defaults are generalist parameters and will give you good performance
@@ -114,5 +114,10 @@ TODO_TA: For your interactins with the students do you want tou use slides? E.g.
 
 TODO_TA: What else?
 
+#References
 
-Return to [readme](../README.md).
+```{bibliography}
+:filter: docname in docnames
+```
+
+[Let’s go back 🔙](../README.md).

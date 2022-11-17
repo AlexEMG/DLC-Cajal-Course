@@ -1,4 +1,4 @@
-# What is behavior and how do we study it?
+# What is behavior and how do we study it 🔍?
 
 The practical workshop for Day 1 will be an interactive exploration of the philosophies and theories that underlie the study of behavior. 
 
@@ -50,4 +50,4 @@ Like the story of stone soup, we are going to throw in observations we made duri
 
 
 
-Return to [readme](../README.md).
+[Let’s go back 🔙](../README.md).
