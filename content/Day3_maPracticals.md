@@ -1,7 +1,7 @@
 # Creating your multi-animal pose tracker
 
 
-## Multi-animal 🙉 pose  tracking workflow
+## Multi-animal pose tracking workflow
 
 The workflow for multi-animal DeepLabCut is a bit more involved. You should think of maDLC requiring four parts ⚙️:
 
