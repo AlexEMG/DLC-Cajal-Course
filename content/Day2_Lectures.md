@@ -28,7 +28,7 @@ name: directive-fig
 Traditional Programming vs. Machine Learning from Grimson's lecture.
 ```
 
-If you want to expand your knowledge, check out these material:
+If you want to expand your knowledge, check out these materials:
 - [Chapter 1 of Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 - [The basics of neural networks, and the math behind how they learn](https://www.3blue1brown.com/topics/neural-networks) by 3Blue1Brown
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html) by Michael Nielsen
@@ -60,7 +60,7 @@ As a stand-in for now, please check out:
 
 Have a look at this paper {cite}`Mathis2020`
 
-If you want to expand your knowledge, check out these material:
+If you want to expand your knowledge, check out these materials:
 - [Brief history of vision and computer vision](https://www.youtube.com/watch?v=vT1JzLTH4G4&t=855s) by Fei-Fei Li
 - ResNet paper
 - [Part II of Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
