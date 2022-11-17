@@ -10,7 +10,7 @@ We highly recommend you to read this Protocol first {cite}`Nath2019`. Especially
 <img src="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5cca272524a69435c3251c40/1556752170424/flowfig.jpg?format=1000w" height="400">
 
 ```{note}
-You can either work on your own data, if you want to perform pose estimation or you can use [one of the demos](DemoDatasets.md)
+You can either work on your own data, if you want to perform pose estimation or you can use [one of the demo datasets](DemoDatasets.md).
 ```
 
 TODO_TA: Do you recommend some data? -- [check out the options](DemoDatasets.md) we suggest so far!
