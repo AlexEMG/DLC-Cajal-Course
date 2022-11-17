@@ -46,14 +46,14 @@ Content:
 - metrics: RMSE, test images
 - ending with the DLC workflow (and software 2.0)
 
-TODO_AM: record lecture.
+TODO_AM: link lecture.
 
 As a stand-in for now, please check out:
 [talk by AM at the CV4ecology Summer School at CalTech](https://www.youtube.com/watch?v=jfIb2qfAkQU)
 [![DLC intro](http://img.youtube.com/vi/jfIb2qfAkQU/0.jpg)](https://www.youtube.com/watch?v=jfIb2qfAkQU "Introduction to DeepLabCut by Alexander Mathis")
 
 
-Have a look at this paper {cite}`Mathis2020`.
+For further information, check out the key papers from this lecture: {cite}`russakovsky2015imagenet`, {cite}`he2016deep`, {cite}`Mathis2018`, {cite}`Mathis2020`, {cite}`mathis2021pretraining`.
 
 If you want to expand your knowledge, check out these materials:
 - [Brief history of vision and computer vision](https://www.youtube.com/watch?v=vT1JzLTH4G4&t=855s) by Fei-Fei Li
