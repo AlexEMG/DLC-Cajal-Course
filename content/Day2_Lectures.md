@@ -33,9 +33,7 @@ If you want to expand your knowledge, check out these materials:
 - [The basics of neural networks, and the math behind how they learn](https://www.3blue1brown.com/topics/neural-networks) by 3Blue1Brown
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/index.html) by Michael Nielsen
 - [Understanding Mini-Batch Gradient Descent](https://www.youtube.com/watch?v=-_4Zi8fCZO4) by Andrew Ng (DeepLearningAI)
-
-TODO_TA: this doesn't cover neural networks + backprop. Shall we also recommend a lecture like: https://youtu.be/zUazLXZZA2U
-- I think a brief clarification of differences between ML, DL, AI (and maybe computer vision?) could be useful in this section. Maybe just simply adding/referring to the Figure 1.4 in [Deep Learning book](https://www.deeplearningbook.org/)
+- For a clarification of the differences of machine learning (ML), deep learning (DL), and artificial intelligence (AI) refer to Figure 1.4 in the [Deep Learning book](https://www.deeplearningbook.org/).
 
 ## Part 2: Introduction to Computer Vision and DeepLabCut
 
@@ -44,21 +42,18 @@ Content:
 - Example supervised: ImageNet
 - Pose estimation
 - Main results from {cite}`Mathis2018`
-- [IID, OOD, Mathis et al. 2021](https://www.youtube.com/watch?v=pM6Z-ASiI2Y&t=104s). Another exciting paper {cite}`Lauer2022`
+- [IID, OOD, Mathis et al. 2021](https://www.youtube.com/watch?v=pM6Z-ASiI2Y&t=104s).
 - metrics: RMSE, test images
 - ending with the DLC workflow (and software 2.0)
 
-TODO_TA: Any other recommendations for content of this or prior class?
-
-TODO_AM: record lecture.
+TODO_AM: link lecture.
 
 As a stand-in for now, please check out:
 [talk by AM at the CV4ecology Summer School at CalTech](https://www.youtube.com/watch?v=jfIb2qfAkQU)
 [![DLC intro](http://img.youtube.com/vi/jfIb2qfAkQU/0.jpg)](https://www.youtube.com/watch?v=jfIb2qfAkQU "Introduction to DeepLabCut by Alexander Mathis")
 
-(this contains also material that will be split in a different talk for day 3 and generally will be expanded for this audience)
 
-Have a look at this paper {cite}`Mathis2020`
+For further information, check out the key papers from this lecture: {cite}`russakovsky2015imagenet`, {cite}`he2016deep`, {cite}`Mathis2018`, {cite}`Mathis2020`, {cite}`mathis2021pretraining`.
 
 If you want to expand your knowledge, check out these materials:
 - [Brief history of vision and computer vision](https://www.youtube.com/watch?v=vT1JzLTH4G4&t=855s) by Fei-Fei Li

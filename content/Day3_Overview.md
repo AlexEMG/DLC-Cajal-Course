@@ -2,7 +2,7 @@
 
 Welcome to day 3✨!
 
-We will start our day with [DLC-live](Day3_Lectures.md) via multi-animal pose estimation to the model zoo 😎. 
+We will start our day with a number of [lectures](Day3_Lectures.md) covering topics from multi-animal pose estimation, via real-time experiments to the model zoo 😎. 
 
 In the [practical part](Day3_Practicals.md), we will keep improving our DeepLabCut models from yesterday. If you're in tracking multiple animals, go to [practical part for multiple animals](Day3_maPracticals.md).
 

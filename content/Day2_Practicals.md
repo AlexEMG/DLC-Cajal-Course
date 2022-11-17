@@ -4,7 +4,7 @@ Let's build our first DeepLabCut model ✨!
 
 ## How to start? (⏳15 min)
 
-We highly recommend you to read this Protocol first {cite}`Nath2019`. Especially, Stages I-IX.  In the figure below you can see the workflow of DeepLabCut🐭 :
+We highly recommend you to read this Protocol first {cite}`Nath2019`. Especially, Stages I-IX.  In the figure below you can see the workflow of DeepLabCut :
 
  <p align="center">
 <img src="https://static1.squarespace.com/static/57f6d51c9f74566f55ecf271/t/5cca272524a69435c3251c40/1556752170424/flowfig.jpg?format=1000w" height="400">
@@ -13,8 +13,6 @@ We highly recommend you to read this Protocol first {cite}`Nath2019`. Especially
 You can either work on your own data, if you want to perform pose estimation or you can use [one of the demo datasets](DemoDatasets.md).
 ```
 
-TODO_TA: Do you recommend some data? -- [check out the options](DemoDatasets.md) we suggest so far!
-
 ## Think about your options and preferences (⏳5 min)
 
 The TAs can introduce you to a few different options as well as their merits.
@@ -22,7 +20,7 @@ The TAs can introduce you to a few different options as well as their merits.
 - Do you plan to run DLC on the CPU or do you have access to GPUs?
     - Training and evaluating DLC models on the CPU will be much slower, but it can be useful to test things locally
     - There are a few options to use GPUs for training and inference:
-        - You may have a decent GPU in your laptop 💻, or 
+        - You may have a decent GPU in your laptop 💻, or
         - You may have access to a workstation 🚧 in the lab with GPUs, or
         - You may consider using GPUs in the cloud, for example with a [Colab notebook](https://github.com/DeepLabCut/DeepLabCut/tree/master/examples#demo-jupyter--colaboratory-notebooks)
 
@@ -48,8 +46,6 @@ So let's create our first project... and start labeling 🎉🎉!
 The following summarises DeepLabCut's single animal workflow. If your dataset involves multiple animals that look the same, please consult the <a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a> (however, be warned the workflow is more involved, as it adds additional steps; for educational purposes you could focus on a single animal project first, if you have never used DeepLabCut).
 
 If you wish to use the Project Manager GUI (recommended for beginners), you can check out <a href="https://deeplabcut.github.io/DeepLabCut/docs/PROJECT_GUI.html" target="_blank">this guidance and video demos</a>.
-
-TODO_TA: What materials would you find helpful here? Shall we detail steps from the documentation also here? (or is it fine to refer to there, which I think makes more sense?)
 
 ## Creating a project and extracting frames (⏳30 min)
 
@@ -90,8 +86,6 @@ You should continue on the machine/platform **where** you are going to train the
 
 The function `create_training_dataset` combines the labeled datasets from all the videos and splits them to create train and test datasets. Check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#f-create-training-dataset-s" target="_blank">the documentation</a> to learn how to choose the most suitable pre-trained network and data augmentation method for your project.
 
-TODO_TA: [Here is an old demo video by me about networks](https://www.youtube.com/watch?v=ILsuC4icBU0&t=760s). Please check it out!
-
 ## Training your model (⏳1h - longer)
 The function `train_network` helps the user in training the network, using the parameters set in the **pose_cfg.yaml** file. Familiarise yourself with <a href="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1570325287859-NHCTKWOFWPVWLH8B79PS/ke17ZwdGBToddI8pDm48kApwhYXjNb7J-ZG10ZuuPUJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0uRNgJXBmK_J7vOfsoUyYccR03UZyExumRKzyR7hPRvjPGikK2uEIM-3GOD5thTJoQ/Box2-01.png?format=1000w" target="_blank">the meaning of those parameters</a> and check <a href="https://deeplabcut.github.io/DeepLabCut/docs/standardDeepLabCut_UserGuide.html#g-train-the-network" target="_blank">the DLC documentation</a> to learn:
 - how many iterations to train your model for,
@@ -99,8 +93,6 @@ The function `train_network` helps the user in training the network, using the p
 - how to restart training at a specific checkpoint.
 
 [GUI train network](https://youtu.be/WXCVr6xAcCA?t=58)
-
-TODO_TA: For your interactins with the students do you want tou use slides? E.g. this is a recent one I gave at JAX: <a href="https://github.com/DeepLabCut/DeepLabCut-Workshop-Materials/blob/master/JAX-TutorialOct2022.pdf?highlight=tutorial" target="_blank">link</a>
 
 ## Let’s Talk 📲
 
@@ -112,7 +104,6 @@ TODO_TA: For your interactins with the students do you want tou use slides? E.g.
 - What should you consider when picking your neural network backbone?
 -- Check out this [recipe](https://deeplabcut.github.io/DeepLabCut/docs/recipes/nn.html).
 
-TODO_TA: What else?
 
 #References
 

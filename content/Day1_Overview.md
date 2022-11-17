@@ -18,12 +18,12 @@ Later, in the [practical part](Day1_Practicals.md), we will discuss what is beha
 TODO_DK: put a few bullet points
 ```
 
-## Day 1: Major Goals ⚽️ 
+## Day 1: Major Goals ⚽️
 
 ```{important}
-1) Please ensure your DeepLabCut🐭 installation is ready! If you have a GPU, please make sure that it is utilized. You can ask the teaching assistants 📢, if you are not sure.
+1) Please ensure your DeepLabCut installation is ready! If you have a GPU, please make sure that it is utilized. You can ask the teaching assistants 📢, if you are not sure.
 2) Please remember to bring your videos if you wish to work on your own data. Ideally select different videos that reflect the variability of the data in your setup and that you would like to analyze.
-3) *Skim* a paper {cite}`MATHIS202044`
+3) *Skim* the following Primer {cite}`MATHIS2020`
 ```
 
 ## References

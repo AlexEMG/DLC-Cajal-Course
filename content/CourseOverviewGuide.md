@@ -12,7 +12,7 @@ In pursuing this goal ⚽️, neuroscience research is supported by an ever-larg
 
 This course will emphasize✨ the philosophical and observational skills required to understand behaviour, while also providing training in motion capture technologies and computer vision methods that can assist in the collection and analysis of video recorded 📹 behaviour datasets.
 
-Focusing 🔍  on the tool DeepLabCut🐭, students will analyse either their own original video dataset or datasets of general interest and have the opportunity to practice tracking, pose estimation, action segmentation, kinematic analysis and modeling of behaviour.
+Focusing 🔍  on the tool DeepLabCut, students will analyse either their own original video dataset or datasets of general interest and have the opportunity to practice tracking, pose estimation, action segmentation, kinematic analysis and modeling of behaviour.
 
 By the end 🔚 of the course, you will:
 
@@ -44,7 +44,7 @@ Please do not hesitate to reach out to us if you have any questions (⁇)
 ### [Day 2 – Pose Tracking I](Day2_Overview.md)
 
 - Fundamentals of machine learning, computer vision, and deep learning
-- Introduction to DeepLabCut🐭
+- Introduction to DeepLabCut
 - Creating a tailored DeepLabCut model for the data you are working with.
 
 ### [Day 3 – Pose Tracking II](Day3_Overview.md)
