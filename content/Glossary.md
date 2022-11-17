@@ -43,6 +43,9 @@ iteration
 
 jitter 
     natural tendency of inferred data to slightly move between frames of analyzed video. Stems from inference happening on image by image basis
+    
+Markdown
+    a lightweight markup language for creating formatted text using a plain-text editor
 
 [MoSeq](https://dattalab.github.io/moseq2-website/index.html) 
     developed in [Datta's Lab](http://datta.hms.harvard.edu/), an unsupervised machine learning method used to parse mouse behavior
