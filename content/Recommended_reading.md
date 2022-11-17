@@ -1,25 +1,26 @@
-# Recommended reading list
+# Recommended Reading 📚
 
-## Day 1
+### 📕 DAY 1 
 
-- Anderson and Perona [Toward a science of computational ethology](https://www.sciencedirect.com/science/article/pii/S0896627314007934), Neuron, 2014
+We suggest you to start the learning week with two great publications {cite}`Anderson2014` and {cite}`Mathis2020`
 
-- Mathis and Mathis [Deep learning tools for the measurement of animal behavior in neuroscience](https://www.sciencedirect.com/science/article/abs/pii/S0959438819301151) Current Opinion in Neurobiology 2020
+### 📙 DAY 2 
 
-## Day 2
+For Day 2 make sure to check out {cite}`Mathis2018`, {cite}`Mathis2020` and {cite}`Nath2019`
 
-- Mathis, Schneider, Lauer, Mathis [A Primer on Motion Capture with Deep Learning: Principles, Pitfalls, and Perspectives](https://www.sciencedirect.com/science/article/pii/S0896627320307170) Neuron 2020
+### 📘 DAY 3 
 
-- Mathis et al, Nature Neuroscience 2018 or free link: rdcu.be/4Rep
+Today you should read {cite}`Kane2020` and {cite}`Lauer2022`
 
-- Nath*, Mathis* et al, Nature Protocols 2019 or free link: https://rdcu.be/bHpHN
+### 📗 DAY 4 
 
-## Day 3
+Let’s finish our reading list with {cite}`Wiltschko2015`
 
-- Kane et al, eLife 2020
 
-- Lauer et al. Nature Methods 2022
+# References
 
-## Day 4
+```{bibliography}
+:filter: docname in docnames
+```
 
-- Wiltschko et al. [Mapping Sub-Second Structure in Mouse Behavior](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708087/), Neuron 2015
+[Let’s go back 🔙](../README.md).

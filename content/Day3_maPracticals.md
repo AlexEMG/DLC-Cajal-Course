@@ -1,8 +1,9 @@
 # Creating your multi-animal pose tracker
 
+
 ## Multi-animal pose tracking workflow
 
-The workflow for multi-animal DeepLabCut is a bit more involved. You should think of maDLC requiring four parts:
+The workflow for multi-animal DeepLabCut is a bit more involved. You should think of maDLC requiring four parts ⚙️:
 
 (1) Curate annotation data that allows you to learn a model to track the objects/animals of interest.
 
@@ -11,7 +12,8 @@ The workflow for multi-animal DeepLabCut is a bit more involved. You should thin
 (3) Track in space and time, i.e., assemble bodyparts to detected objects/animals and link across time. This step performs assembly and tracking (comprising first local tracking and then tracklet stitching by global reasoning).
 
 (4) Any and all post-processing you wish to do with the output data, either within DLC or outside of it.
-Thus, you should always label, train, and evaluate the pose estimation performance first. If and when that performance is high, then you should go advance to the tracking step (and video analysis). There is a natural break point for this, as you will see below.
+
+🔥Thus, you should always label, train, and evaluate the pose estimation performance first. If and when that performance is high ⚡, then you should go advance to the tracking step (and video analysis). There is a natural break point for this, as you will see below.
 
 <img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1596370260800-SP2GWKDPJCOIR7LJ31VM/ke17ZwdGBToddI8pDm48kB4fL2ovSQh5dRlH2jCMtpoUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcSV94BuD0XUinmig_1P1RJNYVU597j3jgswapL4c_w92BJE9r6UgUperYhWQ2ubQ_/workflow.png?format=2500w" width="550" title="maDLC" alt="maDLC" align="center" vspace = "50">
 
@@ -19,24 +21,27 @@ TODO_TA: What else should we put here?
 
 For detailed information on the different steps in the workflow, please refer to the multi-animal user guide: <a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a>.
 
-### GUI:
+## GUI (Graphical User Interface):
 
-Full graphical user interface: just follow the tabs in the GUI, use `python -m deeplabcut` to launch the GUI.
+Use `python -m deeplabcut` to launch the GUI.
 
-[Youtube tutorial for maDLC in GUI](https://www.youtube.com/watch?v=Kp-stcTm77g&list=PLjpMSEOb9vRFefBwT4l6kCfAXDJ8uHJjq&index=3)
+Follow ➡️ the tabs in the GUI.
 
-#### COLAB
+Check out our tutorial [Youtube tutorial for maDLC in GUI](https://www.youtube.com/watch?v=Kp-stcTm77g&list=PLjpMSEOb9vRFefBwT4l6kCfAXDJ8uHJjq&index=3)
+
+#### COLAB:
 
 <a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_transformer_reID.ipynb" target="_blank">DeepLabCut 2.2 Toolbox Demo on how to use our Pose Transformer for unsupervised identity tracking of animals</a>
 
-### Python commands:
+### Python commands 🐍:
+>>>>>>> 1fefc9404866074b95e6007402b5f26f21f92f5a
 
 **Import deeplabcut**
 ```python
 import deeplabcut
 ```
 
-**(1) Create a project**
+**(1) Create a project 📂**
 ```python
 project_name = "cutemice"
 experimenter = "teamdlc"
@@ -59,7 +64,7 @@ config_path = deeplabcut.create_new_project(
 **(2) Edit the config.ymal file to set up your project**
 > **_NOTE:_** Here is were you will define your key point names and animal IDs. Also you can change the default # of frames to extract for the next step.
 
-**(3) Extract video frames to annotate**
+**(3) Extract video frames 📹 to annotate**
 ```python
 deeplabcut.extract_frames(
     config_path,
@@ -76,7 +81,7 @@ deeplabcut.label_frames(config_path)
 ```
 
 
-**(5) Visually check annotated frames**
+**(5) Visually 👀 check annotated frames**
 ```python
 deeplabcut.check_labels(
     config_path,
@@ -84,7 +89,7 @@ deeplabcut.check_labels(
 )
 ```
 
-**(6) Create the training dataset**
+**(6) Create the training dataset 🏋️‍♀️**
 ```python
 deeplabcut.create_multianimaltraining_dataset(
     config_path,
@@ -93,7 +98,7 @@ deeplabcut.create_multianimaltraining_dataset(
 )
 ```
 
-**(7) Train the network**
+**(7) Train 🚂 the network**
 ```python
 deeplabcut.train_network(
     config_path,
@@ -132,7 +137,7 @@ deeplabcut.convert_detections2tracklets(
 ```
 
 
-**(11) Reconstruct full animal trajectories (tracks from tracklets)**
+**(11) Reconstruct full animal trajectories 📉 (tracks from tracklets)**
 ```python
 deeplabcut.stitch_tracklets(
     config_path,
@@ -143,7 +148,7 @@ deeplabcut.stitch_tracklets(
 ```
 
 
-**(12) Create a pretty video output**
+**(12) Create a pretty video output 😎**
 ```python
 deeplabcut.create_labeled_video(
     config_path,

@@ -1,26 +1,28 @@
 # Overview Day 2
 
-Welcome to day 2!
+Welcome to Day 2✨!
 
-Today we will start with [two lectures](Day2_Lectures.md). The first lecture provides a general introduction to machine learning that serves as a basis for all coming days. The second part introduces Computer Vision and DeepLabCut, which is the major topic of today and tomorrow!
+We will start our second day with [two exciting lectures](Day2_Lectures.md).: 
+- An introduction to machine learning (the basis 🏗 for building our projects) 
+- Computer Vision and DeepLabCut🐭 (the major topic of today and tomorrow🔥🔥)
 
-In the [practical part](Day2_Practicals.md), we will build our first DeepLabCut models!
+In the [hands on 🛠 part](Day2_Practicals.md), we will build our first DeepLabCut models! Exciting✨!
 
 ## Day 2: Take home messages
 
 ```{Tip}
 - What is a machine learning system?
-- What data is needed to train a good pose estimation model for your data?
+- What data is needed to train a good pose estimation model?
 ```
 
-## Day 2: Major goal for today
+## Day 2: Major goals ⚽️
 
 ```{important}
-- Train your first DeepLabCut model
+- Train 🚂 your first DeepLabCut model
 - Consider labeling more frames (from different videos).
-- Consider training your model for longer (over night).
+- Consider training your model over night 🌙.
 ```
 
 
 
-Return to [readme](../README.md).
+[Let’s go back 🔙](../README.md).
