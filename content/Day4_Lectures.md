@@ -30,7 +30,7 @@ Content:
 TODO_TA: Any other recommendations for content of this or prior class?
 TODO_AM: record lecture.
 
-Further reading (recommended in the scope of this course):
+Further reading 📚 (recommended in the scope of this course):
 - Wiltschko et al. [Mapping Sub-Second Structure in Mouse Behavior](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708087/), Neuron 2015
 - Datta, Anderson, Branson, Perona and Leifer [Computational Neuroethology: A Call to Action](https://pubmed.ncbi.nlm.nih.gov/31600508/), Neuron 2019
 
@@ -56,4 +56,4 @@ TODO_TA: What other content and links?
 
 TODO_TA: Any recommended repos?
 
-Return to [readme](../README.md).
+[Let’s go back 🔙](../README.md).

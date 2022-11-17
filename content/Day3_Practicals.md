@@ -8,31 +8,23 @@ Alon Halevy, Peter Norvig, and Fernando Pereira from Google wrote the great piec
 
 ## Evaluation of yesterday's model
 
-It is important to evaluate the performance of the trained network. This performance is measured by computing
-the mean average Euclidean error (MAE; which is proportional to the average root mean square error) between the
-manual labels and the ones predicted by DeepLabCut. The MAE is saved as a comma separated file and displayed
-for all pairs and only likely pairs (>p-cutoff). This helps to exclude, for example, occluded body parts. One of the
-strengths of DeepLabCut is that due to the probabilistic output of the scoremap, it can, if sufficiently trained, also
-reliably report if a body part is visible in a given frame. (see discussions of finger tips in reaching and the Drosophila
-legs during 3D behavior in [Mathis et al, 2018]). The evaluation results are computed by typing:
+It is important to evaluate the performance of the trained 🏋️‍♀️ network. This performance is measured by computing the mean average Euclidean error (MAE; which is proportional to the average root mean square error) between the manual labels and the ones predicted by DeepLabCut. The MAE is saved as a comma separated file and displayed for all pairs and only likely pairs (>p-cutoff). This helps to exclude, for example, occluded body parts. One of the strengths of DeepLabCut is that due to the probabilistic output of the scoremap, it can, if sufficiently trained, also reliably report if a body part is visible in a given frame. (see discussions of finger tips in reaching and the Drosophila
+legs during 3D behavior in {cite}`Mathis2020`). 
+The evaluation results are computed by typing:
 ```python
 deeplabcut.evaluate_network(config_path,Shuffles=[1], plotting=True)
 ```
-Setting ``plotting`` to true plots all the testing and training frames with the manual and predicted labels. The user
-should visually check the labeled test (and training) images that are created in the ‘evaluation-results’ directory.
-Ideally, DeepLabCut labeled unseen (test images) according to the user’s required accuracy, and the average train
-and test errors are comparable (good generalization). What (numerically) comprises an acceptable MAE depends on
-many factors (including the size of the tracked body parts, the labeling variability, etc.). Note that the test error can
-also be larger than the training error due to human variability (in labeling, see Figure 2 in Mathis et al, Nature Neuroscience 2018).
+Setting ``plotting`` to true plots 📈 all the testing and training frames with the manual and predicted labels. You should visually 👀 check the labeled test (and training) images that are created in the ‘evaluation-results’ directory.
+Ideally, DeepLabCut labeled unseen (test images) according to the user’s required accuracy, and the average train and test errors are comparable (good generalization). What (numerically) comprises an acceptable MAE depends on many factors (including the size of the tracked body parts, the labeling variability, etc.). Note that the test error can
+also be larger than the training error due to human variability (in labeling, see Figure 2 in {cite}`Mathis2018`).
 
 
-and thinking about performance
+Thinking about performance
 
 - model comparison?
 - overfitting (generalization gap etc.)
 - how good could your model be? (limit is your accuracy) (link to recent DeepMind paper)
 - how to improve your model
-
 
 
 For video analysis you can also filter (maybe that is enough)
@@ -42,9 +34,9 @@ For video analysis you can also filter (maybe that is enough)
 
 For this part, we highly recommend to read  Stages X of <a href="https://rdcu.be/bHpHN" target="_blank">DeepLabCut Nature Protocol</a>.
 
-If your model generalizes well to the type of data that you used yesterday that is great. But how can you make it more general and robust?
+If your model generalizes well to the type of data that you used yesterday that is great 🎉. But how can you make it more general and robust?
 
-First, pick videos that are as different as possible (but still from your setup). Then create model predictions:
+First, pick videos 📹 that are as different as possible (but still from your setup). Then create model predictions:
 
 <pre lang="python">deeplabcut.analyze_videos(config_path,[‘Full path of video or videofolder’], shuffle=1, save_as_csv=True, videotype=‘.avi’)</pre>
 
@@ -58,14 +50,21 @@ Once, you extracted outliers you can fix them manually:
 <pre lang="python">pythondeeplabcut.refine_labels(conﬁg_path)</pre>
 
 
-This will grow your dataset to better comprise the variablity. Then you can re-train your model. You can either train de-novo, or use the prior weights (which is faster and usually preferred).
+This will grow your dataset to better comprise the variablity. Then you can re-train 🚂 your model. You can either train de-novo, or use the prior weights (which is faster and usually preferred).
 
 
-## Discussion topics
+## Let’s talk 📲
+
 - If you are interested in learning further about active learning approaches, check out [this blog post!](https://deeplabcut.medium.com/exploring-active-learning-with-deeplabcut-an-ai-residents-journey-e441bbd5a71c) 
+>>>>>>> 1fefc9404866074b95e6007402b5f26f21f92f5a
 
 
 TODO_TA: What else?
 
+## References
 
-Return to [readme](../README.md).
+```{bibliography}
+:filter: docname in docnames
+```
+
+[Let’s go back 🔙](../README.md).

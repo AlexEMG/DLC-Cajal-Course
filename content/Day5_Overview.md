@@ -1,10 +1,10 @@
-# What next?
+# What's next?
 
-We reached the final day of this course! Today there are no additional lectures, and no additional materials.
+We reached the milestone of this course! Congrats 🎉🎉!!
 
-The major goal is to look back and reflect on what you learned. Do you have some remaining questions? Today is a great way to have those conversations.
+Today, the major goal ⚽️ is to look back and reflect on what you learned. Do you have any remaining questions? Today is a great day to have those discussions.
 
-Another major goal is to use the time and dive deeper into your analysis!
+Another important step is to use the time and dive deeper into your analysis 🔥!
 
 ## Day 5: Take home messages
 
@@ -15,15 +15,15 @@ Another major goal is to use the time and dive deeper into your analysis!
 
 TODO_TA: What else?
 
-## Day 5: Major goal for today
+## Day 5: Major goals ⚽️ 
 
 ```{important}
--
-- Keep working on what you're most interested! Hopefully, you will keep going in this direction and found friends, colleagues and perhaps even collaborators!
-- Some of you can present your work to the Cajal Course Community, let us know!
+- Keep working ✂️ on what you're most interested! 
+- We hope you enjoyed the course, you found new friends, colleagues and perhaps even collaborators!
+- Would you like to present your work in the Cajal Community 🚀? Let us know!
 ```
 
 TODO_DK: At what time, when?
 
 
-Return to [readme](../README.md).
+[Let’s go back 🔙](../README.md).
