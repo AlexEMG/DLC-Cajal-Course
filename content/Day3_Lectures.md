@@ -1,6 +1,6 @@
 # Lectures
 
-First, let's assume you have a model that is great for analyzing your data. In that case, you can 1️⃣ extend it to a multianimal project if applicable (**maDeepLabCut**), 2️⃣ share it with the community (**Model Zoo**), 3️⃣ use it in closed-loop behavior experiments (**DeepLabCut-live**), or 4️⃣ integrate it with other camera views for 3D pose estimation (**3D DeepLabCut**).
+Today we have lectures on several topics -->  1️⃣ how to track multiple animals witht DeepLabCut (**maDeepLabCut**), 2️⃣ how to share models with the community and how we create SuperModels (**Model Zoo**), 3️⃣ use DeepLabCut in closed-loop behavior experiments (**DeepLabCut-live**), or 4️⃣ integrate it with other camera views for 3D pose estimation (**3D DeepLabCut**).
 
 ## Part 1: maDeepLabCut (⏳30 min)
 
