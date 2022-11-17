@@ -32,9 +32,10 @@ Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 | Teaching Assistant 🖥️  | Nirel Kadzo         | Nairobi (KEN)          | [GitHub](https://github.com/kadzon)       | [@Nirelkadzo](https://twitter.com/Nirelkadzo)    |
 | Teaching Assistant 🐭  | Zane Mitrevica      | 🛰️ online               |[GitHub](https://github.com/zanemit)       | [@Zanemit](https://twitter.com/Zanemit)       |
 | Teaching Assistant 🐀  | Konrad Danielewski  | Warsaw (PL)            | [GitHub](https://github.com/KonradDanielewski)      | [@Nyktofob](https://twitter.com/Nyktofob)      |
-| Teaching Assistant 🖥️  | Virginia Palieri    | Munich (DE)            | [GitHub](https://github.com/vpalieri)       |                 |
+| Teaching Assistant 🐟  | Virginia Palieri    | Munich (DE)            | [GitHub](https://github.com/vpalieri)       |                 |
 | Teaching Assistant 🖥️  | Aleksandar Gavric   | 🛰️ online               |[GitHub](https://github.com/alex-gavric)      | [@AcaGavric](https://twitter.com/AcaGavric)     |
 | Teaching Assistant 🔬  | Aleksandra Gavriova | Okinawa (JP)           | [GitHub](https://github.com/a-gavrilova)       | [@shura_gav](https://twitter.com/shura_gav)     |
+| Teaching Assistant 🐟  | Shuhong Huang | Munich (DE)        | [GitHub](https://github.com/Timbrer)       | [@huang_shuhong](https://twitter.com/huang_shuhong)     |
 
 ## Acknowledgments
 Naturally this material is partially based on [DeepLabCut's Jupyter book](https://deeplabcut.github.io/DeepLabCut/README.html) as well as [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) in general. The same license applies.
