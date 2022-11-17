@@ -10,20 +10,4 @@ Then you can analyze it using this notebook:
 Notice how it important it is to match the relative size of the individuals in the video. Why is that 🤔?
 ```
 
-# DLC-live
-
-- How to do a real-time experiment?
-
-Check out the [DLC-live codebase](https://github.com/DeepLabCut/DeepLabCut-live).
-
-- How to use Bonsai-DLC for a real-time experiment?
-
-Check out the [DLC-live codebase](https://github.com/DeepLabCut/DeepLabCut-live).
-
-```{note}
-How can you reach sub-zero latency when providing feedback in a behavior experiment? For what behaviors is this possible, and for which behaviors is it rather impossible?
-```
-
-TODO_TA: What other material should we put here? What is missing?
-
 [Let’s go back 🔙](../README.md).

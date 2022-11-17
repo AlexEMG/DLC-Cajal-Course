@@ -39,4 +39,4 @@ Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 ## Acknowledgments
 Naturally this material is partially based on [DeepLabCut's Jupyter book](https://deeplabcut.github.io/DeepLabCut/README.html) as well as [DeepLabCut](https://github.com/DeepLabCut/DeepLabCut) in general. The same license applies.
 
-See [contributors](https://github.com/AlexEMG/DLC-Cajal-Course/graphs/contributors) for a list of indivdual contributors! In particular, thanks to the whole teaching team for putting this togethee.
+See [contributors](https://github.com/AlexEMG/DLC-Cajal-Course/graphs/contributors) for a list of indivdual contributors! In particular, thanks to the whole teaching team for putting this together.
