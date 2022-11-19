@@ -10,13 +10,12 @@ Figure showing example behavioral syllables, [Source: Datta Lab, Harvard Medical
 
 A detailed overview over Moseq 2 can be found on <a href="https://dattalab.github.io/moseq2-website/index.html" target="_blank">the project's website.</a>
 
-Colab: https://colab.research.google.com/drive/14UGWm6RolWkhJxB3wx0ozYlzgDwJlDBW?usp=sharing
+Colab: https://colab.research.google.com/github/calebweinreb/keypointMoSeq/blob/user_friendly_pipeline/examples/keypointMoSeq_demo_colab.ipynb
 
 Data: https://drive.google.com/drive/folders/1UNHQ_XCQEKLPPSjGspRopWBj6-YNDV6G?usp=share_link
 
 Repo: https://github.com/calebweinreb/keypointMoSeq/tree/user_friendly_pipeline
 
-TODO_AM: will be refactored
 
 ## Kinematics analysis based on pose tracking data
 
