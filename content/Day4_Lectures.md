@@ -38,7 +38,7 @@ Further reading (goes beyond this course, but recommended):
 
 ## Part 3: Action segmentation (30 min)
 
-TODO_AM: record lecture with Liza
+TODO_AM: link lecture
 
 Further reading 📚 (recommended in the scope of this course):
 - Anderson and Perona [Toward a science of computational ethology](https://www.sciencedirect.com/science/article/pii/S0896627314007934), Neuron, 2014
@@ -49,6 +49,8 @@ Further reading (goes beyond this course, but recommended):
 - Bohnslav, et al. [DeepEthogram, a machine learning pipeline for supervised behavior classification from raw pixels.](https://elifesciences.org/articles/63377), eLife 2021
 - Sturman et al [Deep learning-based behavioral analysis reaches human accuracy and is capable of outperforming commercial solutions](https://www.nature.com/articles/s41386-020-0776-y), Neuropsychopharmacology 2020
 - Segalin et al. [The Mouse Action Recognition System (MARS) software pipeline for automated analysis of social behaviors in mice](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8631946/), eLife 2021
+- Kabra et al. [JAABA: interactive machine learning for automatic annotation of animal behavior](https://www.nature.com/articles/nmeth.2281), Nature methods
+- Branson et al. [High-throughput ethomics in large groups of Drosophila](https://www.nature.com/articles/nmeth.1328) Nature methods 2009
 
 
 [Let’s go back 🔙](../README.md).

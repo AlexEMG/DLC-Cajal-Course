@@ -21,7 +21,7 @@ TODO_TA: What else should we put here?
 
 For detailed information on the different steps in the workflow, please refer to the multi-animal user guide: <a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a>.
 
-## GUI (Graphical User Interface):
+### GUI (Graphical User Interface):
 
 Use `python -m deeplabcut` to launch the GUI.
 
@@ -29,7 +29,7 @@ Follow ➡️ the tabs in the GUI.
 
 Check out our tutorial [Youtube tutorial for maDLC in GUI](https://www.youtube.com/watch?v=Kp-stcTm77g&list=PLjpMSEOb9vRFefBwT4l6kCfAXDJ8uHJjq&index=3)
 
-#### COLAB:
+### COLAB:
 
 <a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_transformer_reID.ipynb" target="_blank">DeepLabCut 2.2 Toolbox Demo on how to use our Pose Transformer for unsupervised identity tracking of animals</a>
 
@@ -161,7 +161,7 @@ deeplabcut.create_labeled_video(
 )
 ```
 
-### Active learning
+## Active learning
 
 Just like for [single animals](Day3_Practicals).
 

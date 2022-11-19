@@ -30,6 +30,9 @@ parts:
   - file: content/Day4_Overview
   - file: content/Day4_Lectures
   - file: content/Day4_Practicals
+  - file: content/Day4_Moseq
+  - file: content/Day4_DLC2Action
+  - file: content/Day4_Kinematics
 - caption: "Day 5 - Let's keep hacking..."
   chapters:
   - file: content/Day5_Overview
