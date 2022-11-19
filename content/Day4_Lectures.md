@@ -5,7 +5,8 @@ Today we will cover three diverse topics: kinematic analysis, behavioral cluster
 ## Part 1: DeepLabCut in Applied Biomechanics (1 h)
 
 [DLC in applied Biomechanics by Johanna Schultz](https://www.youtube.com/watch?v=f9Y4UEozpno)
-[![BioMech](http://img.youtube.com/vi/f9Y4UEozpno/0.jpg)](https://https://youtu.be/f9Y4UEozpno "DLC in applied Biomechanics by Johanna Schultz")
+
+[![BioMech](http://img.youtube.com/vi/f9Y4UEozpno/0.jpg)](https://https://youtu.be/f9Y4UEozpno "DLC in applied Biomechanics by Johanna Schultz (University of the Sunshine Coast)")
 
 
 Key papers mentioned in this talk:
@@ -15,45 +16,39 @@ Key papers mentioned in this talk:
 
 Further reading (goes beyond this course, but recommended):
 - [Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation](https://biomech.stanford.edu/) by Thomas K. Uchida and Scott L. Delp
-- Check out this cool paper on [squirrel parkour](http://polypedal.berkeley.edu/wp-content/uploads/697.full_.pdf), potentially inspired by [this video](https://www.youtube.com/watch?v=hFZFjoX2cGg) from Youtuber Mark Rober 
-
-TODO_TA: What other material shall we recommend?
+- Check out this cool Science paper on [squirrel parkour](http://polypedal.berkeley.edu/wp-content/uploads/697.full_.pdf), potentially inspired by [this video](https://www.youtube.com/watch?v=hFZFjoX2cGg) from Youtuber Mark Rober
 
 ## Part 2: Behavioral analysis with MoSeq (30 min)
 
-Content:
-- Unsupervised analysis of behavior
-- Moseq pipeline (depth cameras, AR-HMM, ...)
-- Keypoint-Moseq
-- Results (qualitative and biological)
+[Talk on unsupervised behavior with keypoint MoSeq](https://youtu.be/mCIjo-qSAic)
 
-TODO_TA: Any other recommendations for content of this or prior class?
-TODO_AM: record lecture.
+[![BioMech](http://img.youtube.com/vi/CIjo-qSAic/0.jpg)](https://youtu.be/mCIjo-qSAic "Keypoint Moseq by Caleb Weinreb (Harvard Medical School)")
+
 
 Further reading 📚 (recommended in the scope of this course):
 - Wiltschko et al. [Mapping Sub-Second Structure in Mouse Behavior](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708087/), Neuron 2015
 - Datta, Anderson, Branson, Perona and Leifer [Computational Neuroethology: A Call to Action](https://pubmed.ncbi.nlm.nih.gov/31600508/), Neuron 2019
 
-## Part 3: Action segmentation (30 min)
+Further reading (goes beyond this course, but recommended):
+- Markowitz et al. [The Striatum Organizes 3D Behavior via Moment-to-Moment Action Selection](https://www.sciencedirect.com/science/article/pii/S0092867418305129?via%3Dihub), Cell 2018
+- Klibaite et al. [Deep phenotyping reveals movement phenotypes in mouse neurodevelopmental models](https://link.springer.com/article/10.1186/s13229-022-00492-8), Molecular Autism 2022
+- Hsu et al. [B-SOiD, an open-source unsupervised algorithm for identification and fast prediction of behaviors](https://www.nature.com/articles/s41467-021-25420-x), Nature Communications 2021
+- Luxem et al. [Identifying behavioral structure from deep variational embeddings of animal motion](https://www.nature.com/articles/s42003-022-04080-7), Communications Biology 2022
 
-Content:
-- Action recogntion vs action segmentation
-- Ethograms
-- Common approaches (skeleton and visual based action segmentation)
-- DLC2Action key results and features
-- Metrics for action segmentation (f1, precision, recall, edit distance)
+
+## Part 3: Action segmentation (30 min)
 
 TODO_AM: record lecture with Liza
 
-TODO_TA: What other content and links?
-
+Further reading 📚 (recommended in the scope of this course):
 - Anderson and Perona [Toward a science of computational ethology](https://www.sciencedirect.com/science/article/pii/S0896627314007934), Neuron, 2014
 - Datta, Anderson, Branson, Perona and Leifer [Computational Neuroethology: A Call to Action](https://pubmed.ncbi.nlm.nih.gov/31600508/), Neuron 2019
 
-## Part 4: Neural-Behavioral Analysis??
+Further reading (goes beyond this course, but recommended):
+- Nilsson et al. [Simple Behavioral Analysis (SimBA)–an open source toolkit for computer classification of complex social behaviors in experimental animals](https://www.biorxiv.org/content/10.1101/2020.04.19.049452v2.abstract), BioRxiv 2020
+- Bohnslav, et al. [DeepEthogram, a machine learning pipeline for supervised behavior classification from raw pixels.](https://elifesciences.org/articles/63377), eLife 2021
+- Sturman et al [Deep learning-based behavioral analysis reaches human accuracy and is capable of outperforming commercial solutions](https://www.nature.com/articles/s41386-020-0776-y), Neuropsychopharmacology 2020
+- Segalin et al. [The Mouse Action Recognition System (MARS) software pipeline for automated analysis of social behaviors in mice](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8631946/), eLife 2021
 
-- put some links to papers?
-
-TODO_TA: Any recommended repos?
 
 [Let’s go back 🔙](../README.md).
