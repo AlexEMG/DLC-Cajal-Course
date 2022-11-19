@@ -34,7 +34,6 @@ Check out our tutorial [Youtube tutorial for maDLC in GUI](https://www.youtube.c
 <a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_transformer_reID.ipynb" target="_blank">DeepLabCut 2.2 Toolbox Demo on how to use our Pose Transformer for unsupervised identity tracking of animals</a>
 
 ### Python commands 🐍:
->>>>>>> 1fefc9404866074b95e6007402b5f26f21f92f5a
 
 **Import deeplabcut**
 ```python
