@@ -6,7 +6,7 @@ First install DLC2Action based on the <a href="https://github.com/AlexEMG/DLC2ac
 
 ## Using DLC2Action on an example labeled dataset
 
-We prepared Jupyter Notebooks for going through an example dataset from the Sturman et al.{cite}`sturman2020deep`.
+We prepared Jupyter Notebooks for going through an example dataset from Sturman et al. {cite}`Sturman2020`.
 
 You can find the Notebook <a href="https://github.com/AlexEMG/DLC2action/blob/master/examples/minimal_notebook.ipynb" target="_blank">here</a>
 
@@ -22,7 +22,7 @@ DLC2Action has many additional features, you can explore those by:
 TODO_LK: Link to GUI.
 
 ```{note}
-For good performance you will need to annotate multiple examples for each behavior that you are intersted in. This will usually take a bit of time!
+For good performance you will need to annotate multiple examples for each behavior that you are interested in. This will usually take a bit of time!
 ```
 
 ## Basic Workflow (Python commands)
@@ -135,5 +135,10 @@ project.list_episodes(  # get the experiment history
 )
 ```
 
+## References
+
+```{bibliography}
+:filter: docname in docnames
+```
 
 [Let’s go back 🔙](Day4_Practicals.md).
