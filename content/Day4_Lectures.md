@@ -21,18 +21,22 @@ TODO_TA: What other material shall we recommend?
 
 ## Part 2: Behavioral analysis with MoSeq (30 min)
 
-Content:
-- Unsupervised analysis of behavior
-- Moseq pipeline (depth cameras, AR-HMM, ...)
-- Keypoint-Moseq
-- Results (qualitative and biological)
+[Talk on unsupervised behavior with keypoint MoSeq](https://youtu.be/mCIjo-qSAic)
 
-TODO_TA: Any other recommendations for content of this or prior class?
-TODO_AM: record lecture.
+Content:
+- Supervised versus unsupervised analysis of behavior
+- Applications of unsupervised analysis (neural, genetic, pharmacological...)
+- Motion Sequencing (MoSeq) for keypoint data
+
 
 Further reading 📚 (recommended in the scope of this course):
 - Wiltschko et al. [Mapping Sub-Second Structure in Mouse Behavior](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708087/), Neuron 2015
+- Markowitz et al. [The Striatum Organizes 3D Behavior via Moment-to-Moment Action Selection](https://www.sciencedirect.com/science/article/pii/S0092867418305129?via%3Dihub), Cell 2018
 - Datta, Anderson, Branson, Perona and Leifer [Computational Neuroethology: A Call to Action](https://pubmed.ncbi.nlm.nih.gov/31600508/), Neuron 2019
+- Klibaite et al. [Deep phenotyping reveals movement phenotypes in mouse neurodevelopmental models](https://link.springer.com/article/10.1186/s13229-022-00492-8), Molecular Autism 2022
+- Hsu et al. [B-SOiD, an open-source unsupervised algorithm for identification and fast prediction of behaviors](https://www.nature.com/articles/s41467-021-25420-x), Nature Communications 2021
+- Luxem et al. [Identifying Behavioral Structure from Deep Variational Embeddings of Animal Motion](https://www.biorxiv.org/content/10.1101/2020.05.14.095430v3), BioRxiv 2022
+
 
 ## Part 3: Action segmentation (30 min)
 
