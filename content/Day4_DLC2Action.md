@@ -17,9 +17,17 @@ DLC2Action has many additional features, you can explore those by:
 - checking out a more <a href="https://github.com/AlexEMG/DLC2action/blob/master/examples/demo_notebook.ipynb" target="_blank">detailed notebook</a> (also based on the Sturman et al. data)
 - or checking out the <a href="https://alexemg.github.io/DLC2action/dlc2action.html" target="_blank">documentation</a>
 
+<!---
+TODO_AM: link with COLAB
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AlexEMG/DLC2action/blob/master/examples/minimal_notebook.ipynb)
+-->
+
 ## Running DLC2Action on your Data
 
-TODO_LK: Link to GUI.
+<!---
+TODO: Link to GUI.
+-->
+
 
 ```{note}
 For good performance you will need to annotate multiple examples for each behavior that you are interested in. This will usually take a bit of time!

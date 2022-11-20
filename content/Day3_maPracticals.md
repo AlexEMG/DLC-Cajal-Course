@@ -17,8 +17,6 @@ The workflow for multi-animal DeepLabCut is a bit more involved. You should thin
 
 <img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/1596370260800-SP2GWKDPJCOIR7LJ31VM/ke17ZwdGBToddI8pDm48kB4fL2ovSQh5dRlH2jCMtpoUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcSV94BuD0XUinmig_1P1RJNYVU597j3jgswapL4c_w92BJE9r6UgUperYhWQ2ubQ_/workflow.png?format=2500w" width="550" title="maDLC" alt="maDLC" align="center" vspace = "50">
 
-TODO_TA: What else should we put here?
-
 For detailed information on the different steps in the workflow, please refer to the multi-animal user guide: <a href="https://deeplabcut.github.io/DeepLabCut/docs/maDLC_UserGuide.html#multi-animal-userguide" target="_blank">maDLC user guide</a>.
 
 ### GUI (Graphical User Interface):
@@ -163,10 +161,5 @@ deeplabcut.create_labeled_video(
 ## Active learning
 
 Just like for [single animals](Day3_Practicals).
-
-
-TODO_TA: What else?
-TODO_AM: expand critical points and link to maDLC user guide!
-
 
 Return to [readme](../README.md).

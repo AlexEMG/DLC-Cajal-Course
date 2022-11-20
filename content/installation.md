@@ -11,7 +11,7 @@ In brief, **if you do not have a GPU on your machine**, all you need to do is:
 
 For the steps that require a GPU, you can use DeepLabCut on <a href="https://colab.research.google.com/" target="_blank">Google Colab</a> 😉!
 
-**If you have an Apple M1/M2 GPU**, have a look at <a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/docs/installation.md#install-anaconda-or-use-miniconda3-ideal-for-macos-users" target="_blank">this MacOS-specific guidance</a>! This new, easy installation works for MacOS versions 12.5.1 and higher so check your version first and update if necesarry.
+**If you have an Apple M1/M2 GPU**, have a look at <a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/docs/installation.md#install-anaconda-or-use-miniconda3-ideal-for-macos-users" target="_blank">this MacOS-specific guidance</a>! This new, easy installation works for MacOS versions 12.5.1 and higher so check your version first and update if necessary.
 
 
 **If you have an NVIDIA GPU** and wish to engage it, your order of business will be slightly more involved. What you do depends on whether your machine has other versions of CUDA/TensorFlow installed - see <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#system-wide-considerations" target="_blank">this note on system-wide installation</a>.

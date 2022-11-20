@@ -39,4 +39,8 @@ Where you pass the path to the config file of interest as `config`.
 
 - [Mont-Blanc bird dataset](https://github.com/DeepLabCut/DeepLabCut_maDLC_DemoData) contains a small dataset of multiple birds.
 
-TODO: put dataset in standard docs
+<!--
+
+TODO_AM: put dataset in standard DLC docs
+
+-->

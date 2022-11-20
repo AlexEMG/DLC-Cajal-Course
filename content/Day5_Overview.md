@@ -21,7 +21,5 @@ Another important step is to use the time and dive deeper into your analysis �
 - Would you like to present your work in the Cajal Community 🚀? Let us know!
 ```
 
-TODO_DK: At what time, when?
-
 
 [Let’s go back 🔙](../README.md).

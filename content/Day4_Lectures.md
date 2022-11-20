@@ -20,9 +20,9 @@ Further reading (goes beyond this course, but recommended):
 
 ## Part 2: Behavioral analysis with MoSeq (30 min)
 
-[Talk on unsupervised behavior with keypoint MoSeq](https://youtu.be/mCIjo-qSAic)
+[Talk on unsupervised behavior with keypoint MoSeq](https://www.youtube.com/watch?v=_aldEcoRgh8)
 
-[![BioMech](http://img.youtube.com/vi/CIjo-qSAic/0.jpg)](https://youtu.be/mCIjo-qSAic "Keypoint Moseq by Caleb Weinreb (Harvard Medical School)")
+[![BioMech](http://img.youtube.com/vi/_aldEcoRgh8/0.jpg)](https://youtu.be/_aldEcoRgh8 "Keypoint Moseq by Caleb Weinreb (Harvard Medical School)")
 
 
 Further reading 📚 (recommended in the scope of this course):
