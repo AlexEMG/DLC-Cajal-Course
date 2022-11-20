@@ -2,9 +2,18 @@
 
 All terms are alphabetically organized. 
 ```{glossary}
+[Anaconda](https://www.anaconda.com/products/distribution)
+    an open-source distribution of Python (and R) that comes with many useful packages for data science, including {term}`conda`
+
+Anaconda Prompt
+    the command line interface for {term}`conda` on Windows machines
+
 annotation 
     placement of the specific label(bodypart) on an image
-   
+
+base environment
+    the default Python installation that comes with {term}`Anaconda` or {term}`Miniconda` and includes core Python packages; a good rule of thumb is to **never** install new packages into the base environment to avoid corrupting it -- use {term}`virtual environment` instead
+
 batch size 
     number of images processed in one iteration of training (max value constrained by GPU memory). More precise term is mini-batch
 
@@ -17,14 +26,29 @@ bodypart
 [Colab](https://colab.research.google.com/) 
     Google Colab is a web based notebook used for writing and executing python code
 
+conda
+    an open-source system for managing {term}`packages` and {term}`environments`; comes with {term}`Anaconda` and {term}`Miniconda`
+
+CPU
+    central processing unit, also known as the processor, - a key component of any computing device
+
 cropping 
     cutting out part of the image, used for reducing computational expense
+
+[CUDA](https://developer.nvidia.com/cuda-zone)
+    a parallel computing platform developed by NVIDIA for utilisation of NVIDIA {term}`GPUs`
+
+environment
+    see {term}`virtual environment` and {term}`base environment`
 
 dataset 
     collection of annotations linked to specific images
 
 detection 
     placement of the label by the model
+
+GPU
+    graphics processing unit, also known as a "graphics card", capable of high-throughput parallel processing; it greatly accelerates deep learning compared to a {term}`CPU`
 
 ground truth 
     coordinates of the label in the immage annotated by the user
@@ -43,9 +67,12 @@ iteration
 
 jitter 
     natural tendency of inferred data to slightly move between frames of analyzed video. Stems from inference happening on image by image basis
-    
+
 Markdown
     a lightweight markup language for creating formatted text using a plain-text editor
+
+[Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+    a lightweight version of {term}`Anaconda` that includes only {term}`conda` and Python, albeit with fewer pre-installed packages; useful if storage space is of concern, but greater familiarity with the command line might be required
 
 [MoSeq](https://dattalab.github.io/moseq2-website/index.html) 
     developed in [Datta's Lab](http://datta.hms.harvard.edu/), an unsupervised machine learning method used to parse mouse behavior
@@ -55,6 +82,12 @@ OOD
 
 outlier 
     a frame in which model made bad detections
+
+package
+    a specifically organised collection of Python modules (simply put: Python code) that achieve a common goal; examples include DeepLabCut and TensorFlow
+
+path
+    a string of characters that uniquely defines a file or folder location on a computer, e.g. `C:\Users\username\Downloads`
 
 project 
     the folder structure and all its contents made during project creation and later work
@@ -74,6 +107,9 @@ snapshot
 supervised 
     a model trained using labeled data with the goal of predicting the labels on unseen data. 
 
+terminal
+    the command line interface for {term}`conda` on MacOS/Linux machines
+
 training 
     process in which the model is learning to find weights that will allow it to solve assigned task (tracking bodyparts)
 
@@ -85,6 +121,11 @@ unsupervised
 
 [VAME](https://github.com/LINCellularNeuroscience/VAME) 
     developed by Kevin Luxem and Pavol Bauer, a framework for unsupervised behavior clustering
+
+virtual environment
+    a self-contained Python installation that lets users have different versions of the same Python {term}`packages` on a single machine; great for project management and reproducibility
+
+    when you open the {term}`terminal` (MacOS/Linux) or {term}`Anaconda Prompt` (Windows), the environment you are currently in is displayed in brackets, e.g. `(env) user@MacBook-Pro ~ % ` or `(env) C:\WINDOWS\system32> ` 
 
 weights 
     parameters of a neural network used to process the input (images for DLC)
