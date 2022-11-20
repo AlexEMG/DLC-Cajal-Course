@@ -36,9 +36,12 @@ Further reading (goes beyond this course, but recommended):
 - Luxem et al. [Identifying behavioral structure from deep variational embeddings of animal motion](https://www.nature.com/articles/s42003-022-04080-7), Communications Biology 2022
 
 
-## Part 3: Action segmentation (30 min)
+## Part 3: Action segmentation (23 min)
 
-TODO_AM: link lecture
+[Tutorial on DLC2Action and Action Segmentation by Elizaveta Kozlova (EPFL)](https://www.youtube.com/watch?v=_bB3WjI8hyE)
+
+[![BioMech](http://img.youtube.com/vi/_bB3WjI8hyE/0.jpg)](https://www.youtube.com/watch?v=_bB3WjI8hyE "Tutorial on DLC2Action and Action Segmentation by Elizaveta Kozlova (EPFL)")
+
 
 Further reading 📚 (recommended in the scope of this course):
 - Anderson and Perona [Toward a science of computational ethology](https://www.sciencedirect.com/science/article/pii/S0896627314007934), Neuron, 2014
