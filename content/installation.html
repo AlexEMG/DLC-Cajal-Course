@@ -1,0 +1,589 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>How-To Install DeepLabCut: &#8212; Cajal-DLC-Course</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Overview Day 1" href="Day1_Overview.html" />
+    <link rel="prev" title="Course Overview" href="CourseOverviewGuide.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Cajal-DLC-Course</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../README.html">
+                    Modern Methods for Quantifying Behavior
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Getting Started
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="CourseOverviewGuide.html">
+   Course Overview
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Software Installation
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   How-To Install DeepLabCut:
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 1 - Looking at Behavior
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day1_Overview.html">
+   Overview Day 1
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day1_Lectures.html">
+   Lectures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day1_Practicals.html">
+   What is behavior and how do we study it 🔍?
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 2 - DeepLabCut part 1
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day2_Overview.html">
+   Overview Day 2
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day2_Lectures.html">
+   Lectures: ML and DLC
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day2_Practicals.html">
+   Training 🏋️‍♀️ your first DeepLabCut model
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 3 - DeepLabCut part 2
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day3_Overview.html">
+   Overview Day 3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day3_Lectures.html">
+   Lectures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day3_Practicals.html">
+   Improving your first DeepLabCut model
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day3_maPracticals.html">
+   Creating your multi-animal pose tracker
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day3_ModelZoo.html">
+   Using the DeepLabCut Model Zoo (30 min)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day3_DLClive.html">
+   Using DLC-live
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 4 - Kinematics, actions and clustering
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day4_Overview.html">
+   Overview Day 4
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day4_Lectures.html">
+   Lectures: Biomechanics, Action segmentation and Behavioral Clustering
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day4_Practicals.html">
+   Day 4 Practicals
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day4_Moseq.html">
+   Behavioral Clustering
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day4_DLC2Action.html">
+   Action segmentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day4_Kinematics.html">
+   Kinematics Analysis
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 5 - Let's keep hacking...
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Day5_Overview.html">
+   What’s next?
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="DemoDatasets.html">
+   Demo Datasets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="FAQ.html">
+   FAQ and Common User Hurdles
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Glossary.html">
+   Glossary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="Recommended_reading.html">
+   Recommended Reading 📚
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/DeepLabCut/DeepLabCut"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/DeepLabCut/DeepLabCut/issues/new?title=Issue%20on%20page%20%2Fcontent/installation.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="../_sources/content/installation.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>How-To Install DeepLabCut:</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="how-to-install-deeplabcut">
+<h1>How-To Install DeepLabCut:<a class="headerlink" href="#how-to-install-deeplabcut" title="Permalink to this headline">#</a></h1>
+<p>DeepLabCut can be run 🏃‍♂️ on Windows, Linux, or macOS.</p>
+<p>Follow <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html" target="_ablank"><strong>the DeepLabCut installation guide</strong></a>.
+You can always ask the teaching assistants 📢 for help if you get stuck✨!</p>
+<p>In brief, <strong>if you do not have a GPU on your machine</strong>, all you need to do is:</p>
+<ul class="simple">
+<li><p>install Python - <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#step-1-you-need-to-have-python-installed" target="_blank">Step 1 in the DLC installation guide</a> describes the easiest way to do this;</p></li>
+<li><p>install DeepLabCut - <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#step-2-please-use-our-supplied-conda-environment" target="_blank">Step 2 in the DLC installation guide</a> explains what to do depending on your operating system.</p></li>
+</ul>
+<p>For the steps that require a GPU, you can use DeepLabCut on <a href="https://colab.research.google.com/" target="_blank">Google Colab</a> 😉!</p>
+<p><strong>If you have an Apple M1/M2 GPU</strong>, have a look at <a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/docs/installation.md#install-anaconda-or-use-miniconda3-ideal-for-macos-users" target="_blank">this MacOS-specific guidance</a>! This new, easy installation works for MacOS versions 12.5.1 and higher so check your version first and update if necessary.</p>
+<p><strong>If you have an NVIDIA GPU</strong> and wish to engage it, your order of business will be slightly more involved. What you do depends on whether your machine has other versions of CUDA/TensorFlow installed - see <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#system-wide-considerations" target="_blank">this note on system-wide installation</a>.</p>
+<p>If you have Ubuntu, it is recommended that you use <a href="https://hub.docker.com/r/deeplabcut/deeplabcut" target="_blank">Docker</a>. You can follow these detailed instructions <a href="https://deeplabcut.github.io/DeepLabCut/docs/recipes/installTips.html#installation-on-ubuntu-18-04-lts" target="_blank">for Ubuntu 18.04</a> or <a href="https://deeplabcut.github.io/DeepLabCut/docs/recipes/installTips.html#installation-on-ubuntu-20-04-lts" target="_blank">Ubuntu 20.04</a> and also have a look at <a href="https://deeplabcut.github.io/DeepLabCut/docs/docker.html" target="_blank">these notes on DLC Docker containers</a>!</p>
+<p>If you use Windows OS and <strong>do not</strong> have other versions of CUDA installed:</p>
+<ul class="simple">
+<li><p>install Python - <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#step-1-you-need-to-have-python-installed" target="_blank">Step 1 in the DLC installation guide</a> describes the easiest way to do this;</p></li>
+<li><p>install an NVIDIA driver:</p>
+<ul>
+<li><p>check what GPU your machine has;</p></li>
+<li><p>install an appropriate driver for your GPU/OS from the <a href="https://www.nvidia.com/download/index.aspx" target="_blank">NVIDIA website</a></p></li>
+<li><p>you can check which driver is installed by typing <code class="docutils literal notranslate"><span class="pre">nvidia-smi</span></code> in the terminal</p></li>
+<li><p>check that your NVIDIA driver <a href="https://docs.nvidia.com/deploy/cuda-compatibility/index.html#minor-version-compatibility" target="_blank">will work with CUDA 11.x</a>!</p></li>
+</ul>
+</li>
+<li><p>set up CUDA - <a href="https://medium.com/analytics-vidhya/installing-cuda-and-cudnn-on-windows-d44b8e9876b5" target="_blank">this medium article</a> details the steps involved</p>
+<ul>
+<li><p>the most recent version of TensforFlow (TF-2.10 which will get installed along with DeepLabCut) <a href="https://www.tensorflow.org/install/source_windows#gpu" target="_blank">works with CUDA-11.2</a></p></li>
+<li><p>get your Visual Studio 2019 (free) Community version <a href="https://my.visualstudio.com/Downloads?q=visual%20studio%202019&wt.mc_id=o~msft~vscom~older-downloads" target="_blank">here</a></p></li>
+<li><p>get CUDA-11.2 (or another version if needed) <a href="https://developer.nvidia.com/cuda-toolkit-archive" target="_blank">here</a></p></li>
+<li><p>get cuDNN-8.1 (or another version if needed) <a href="https://developer.nvidia.com/rdp/cudnn-archive" target="_blank">here</a> - you will need to create an NVIDIA developer profile</p></li>
+<li><p>type <code class="docutils literal notranslate"><span class="pre">nvcc</span> <span class="pre">-V</span></code> in the terminal to check that it prints the correct CUDA runtime version</p></li>
+</ul>
+</li>
+<li><p>install DeepLabCut - <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#step-2-please-use-our-supplied-conda-environment" target="_blank">Step 2 in the DLC installation guide</a> explains what you should do;</p></li>
+<li><p>verify that your GPU is recognised by running <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-c</span> <span class="pre">&quot;import</span> <span class="pre">tensorflow</span> <span class="pre">as</span> <span class="pre">tf;</span> <span class="pre">print(tf.config.list_physical_devices('GPU'))&quot;</span></code> (it is not? double-check that you followed all steps in the medium article linked above!)</p></li>
+</ul>
+<p>If you use Windows OS and <strong>do</strong> have other versions of CUDA installed:</p>
+<ul class="simple">
+<li><p>install Python - <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#step-1-you-need-to-have-python-installed" target="_blank">Step 1 in the DLC installation guide</a> describes the easiest way to do this;</p></li>
+<li><p>install DeepLabCut - <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#step-2-please-use-our-supplied-conda-environment" target="_blank">Step 2 in the DLC installation guide</a> explains what you should do;</p></li>
+<li><p>add the TF2.10-compatible CUDA toolkit to your new DLC conda environment by running <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">conda-forge</span> <span class="pre">cudatoolkit=11.2</span> <span class="pre">cudnn=8.1.0</span></code></p></li>
+<li><p>verify that your GPU is recognised by running <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-c</span> <span class="pre">&quot;import</span> <span class="pre">tensorflow</span> <span class="pre">as</span> <span class="pre">tf;</span> <span class="pre">print(tf.config.list_physical_devices('GPU'))&quot;</span></code></p></li>
+</ul>
+<p>Something gone awry? Check out these <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#troubleshooting" target="_blank">troubleshooting tips</a> and reach out to teaching assistants!</p>
+<p><a class="reference internal" href="../README.html"><span class="doc std std-doc">Let’s go  back 🔙</span></a>.</p>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./content"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="CourseOverviewGuide.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Course Overview</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="Day1_Overview.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Overview Day 1</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By The DeepLabCut Team<br/>
+  
+      &copy; Copyright 2022.<br/>
+    <div class="extra_footer">
+      <div>Powered by <a href="https://jupyterbook.org/">Jupyter Book</a>.</div>
+
+    </div>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>

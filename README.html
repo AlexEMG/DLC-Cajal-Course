@@ -1,0 +1,736 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Modern Methods for Quantifying Behavior &#8212; Cajal-DLC-Course</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Course Overview" href="content/CourseOverviewGuide.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Cajal-DLC-Course</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Modern Methods for Quantifying Behavior
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Getting Started
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/CourseOverviewGuide.html">
+   Course Overview
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Software Installation
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/installation.html">
+   How-To Install DeepLabCut:
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 1 - Looking at Behavior
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day1_Overview.html">
+   Overview Day 1
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day1_Lectures.html">
+   Lectures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day1_Practicals.html">
+   What is behavior and how do we study it 🔍?
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 2 - DeepLabCut part 1
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day2_Overview.html">
+   Overview Day 2
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day2_Lectures.html">
+   Lectures: ML and DLC
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day2_Practicals.html">
+   Training 🏋️‍♀️ your first DeepLabCut model
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 3 - DeepLabCut part 2
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day3_Overview.html">
+   Overview Day 3
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day3_Lectures.html">
+   Lectures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day3_Practicals.html">
+   Improving your first DeepLabCut model
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day3_maPracticals.html">
+   Creating your multi-animal pose tracker
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day3_ModelZoo.html">
+   Using the DeepLabCut Model Zoo (30 min)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day3_DLClive.html">
+   Using DLC-live
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 4 - Kinematics, actions and clustering
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day4_Overview.html">
+   Overview Day 4
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day4_Lectures.html">
+   Lectures: Biomechanics, Action segmentation and Behavioral Clustering
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day4_Practicals.html">
+   Day 4 Practicals
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day4_Moseq.html">
+   Behavioral Clustering
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day4_DLC2Action.html">
+   Action segmentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day4_Kinematics.html">
+   Kinematics Analysis
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Day 5 - Let's keep hacking...
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Day5_Overview.html">
+   What’s next?
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/DemoDatasets.html">
+   Demo Datasets
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/FAQ.html">
+   FAQ and Common User Hurdles
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Glossary.html">
+   Glossary
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="content/Recommended_reading.html">
+   Recommended Reading 📚
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+<div class="menu-dropdown menu-dropdown-repository-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Source repositories">
+      <i class="fab fa-github"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="https://github.com/DeepLabCut/DeepLabCut"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Source repository"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="headerbtn__text-container">repository</span>
+</a>
+
+      </li>
+      
+      <li>
+        <a href="https://github.com/DeepLabCut/DeepLabCut/issues/new?title=Issue%20on%20page%20%2FREADME.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="headerbtn__text-container">open issue</span>
+</a>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/README.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#teaching-team">
+   Teaching Team 🏆
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#acknowledgments">
+   Acknowledgments
+  </a>
+ </li>
+</ul>
+
+    </nav>
+</div>
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Modern Methods for Quantifying Behavior</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#teaching-team">
+   Teaching Team 🏆
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#acknowledgments">
+   Acknowledgments
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
+              <div>
+                
+  <p><a class="reference internal" href="#"><span class="doc std std-doc"><img alt="Generic badge" src="https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg" /></span></a></p>
+<section class="tex2jax_ignore mathjax_ignore" id="modern-methods-for-quantifying-behavior">
+<h1>Modern Methods for Quantifying Behavior<a class="headerlink" href="#modern-methods-for-quantifying-behavior" title="Permalink to this headline">#</a></h1>
+<p>Dear participants, welcome 🙌 to the 2022 edition of the hands-on Neuroscience course <a class="reference external" href="https://cajal-training.org/neurokit/behavioral-analysis/">Modern Methods for Quantifying Behavior</a>!
+<br/><br/>
+Let’s kickstart the week 🚀!</p>
+<p>Here you will find all the course material 📚 you will need to complete your project.</p>
+<p>This course received much support from the CAJAL Advance Neuroscience Training Programme. Have a look <a class="reference external" href="https://cajal-training.org/">HERE</a> and follow them <a class="reference external" href="https://twitter.com/Cajal_Training?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Escreen-name%3ACajal_Training%7Ctwcon%5Es1_c13">&#64;Cajal_Training</a> for updates!</p>
+<section id="teaching-team">
+<h2>Teaching Team 🏆<a class="headerlink" href="#teaching-team" title="Permalink to this headline">#</a></h2>
+<p>Thanks to the whole teaching team for putting this together 🎉🎉🎉!</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Role 🔥</strong></p></th>
+<th class="head"><p><strong>Name 📛</strong></p></th>
+<th class="head"><p><strong>Hub 🗺️📍</strong></p></th>
+<th class="head"><p><strong>GitHub 🛠️</strong></p></th>
+<th class="head"><p><strong>Twitter 🐥</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Co - Director 🎖️</p></td>
+<td><p>Alexander Mathis</p></td>
+<td><p>🛰️ online</p></td>
+<td><p><a class="reference external" href="https://github.com/AlexEMG">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/TrackingPlumes">&#64;TrackingPlumes</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Co - Director 🎖️</p></td>
+<td><p>Danbee Kim</p></td>
+<td><p>🛰️ online</p></td>
+<td><p><a class="reference external" href="https://github.com/Taunsquared">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/taunbot">&#64;taunbot</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Cajal Administrator 📝</p></td>
+<td><p>Elena Drosti</p></td>
+<td><p>🛰️ online</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Teaching Assistant 🦅</p></td>
+<td><p>Sofia Minano</p></td>
+<td><p>London (UK)</p></td>
+<td><p><a class="reference external" href="https://github.com/sfmig">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/SofiMinano">&#64;SofiMinano</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Teaching Assistant 🐭</p></td>
+<td><p>Nicole Vissers</p></td>
+<td><p>London (UK)</p></td>
+<td><p><a class="reference external" href="https://github.com/nicole-vissers">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/NicoleVissers1">&#64;NicoleVissers1</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Teaching Assistant 🦇</p></td>
+<td><p>Jonas Håkansson</p></td>
+<td><p>Colorado Springs (USA)</p></td>
+<td><p><a class="reference external" href="https://github.com/biol-jsh">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/ScientistJonas">&#64;ScientistJonas</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Teaching Assistant 🐦</p></td>
+<td><p>Neslihan Wittek</p></td>
+<td><p>🛰️ online</p></td>
+<td><p><a class="reference external" href="https://github.com/neslihanedes">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/taubenmaedel">&#64;taubenmaedel</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Teaching Assistant 🐭</p></td>
+<td><p>Andrada Marica</p></td>
+<td><p>🛰️ online</p></td>
+<td><p><a class="reference external" href="https://github.com/andrada08">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/andrada_marica">&#64;andrada_marica</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Teaching Assistant 🐭</p></td>
+<td><p>Sabrina Benas</p></td>
+<td><p>Buenos Aires (ARG)</p></td>
+<td><p><a class="reference external" href="https://github.com/sabrinabenas">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/Sabrineiitor">&#64;Sabrineiitor</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Teaching Assistant 🐤</p></td>
+<td><p>Cecilia Herbert</p></td>
+<td><p>Buenos Aires (ARG)</p></td>
+<td><p><a class="reference external" href="https://github.com/ChucklesOnGitHub">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/ChuckleScience">&#64;ChuckleScience</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Teaching Assistant 🖥️</p></td>
+<td><p>Facundo Emina</p></td>
+<td><p>Buenos Aires (ARG)</p></td>
+<td><p><a class="reference external" href="https://github.com/Facuemina">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/facuemina">&#64;facuemina</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Teaching Assistant 🖥️</p></td>
+<td><p>Nirel Kadzo</p></td>
+<td><p>Nairobi (KEN)</p></td>
+<td><p><a class="reference external" href="https://github.com/kadzon">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/Nirelkadzo">&#64;Nirelkadzo</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Teaching Assistant 🐭</p></td>
+<td><p>Zane Mitrevica</p></td>
+<td><p>🛰️ online</p></td>
+<td><p><a class="reference external" href="https://github.com/zanemit">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/Zanemit">&#64;Zanemit</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Teaching Assistant 🐀</p></td>
+<td><p>Konrad Danielewski</p></td>
+<td><p>Warsaw (PL)</p></td>
+<td><p><a class="reference external" href="https://github.com/KonradDanielewski">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/Nyktofob">&#64;Nyktofob</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Teaching Assistant 🐟</p></td>
+<td><p>Virginia Palieri</p></td>
+<td><p>Munich (DE)</p></td>
+<td><p><a class="reference external" href="https://github.com/vpalieri">GitHub</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p>Teaching Assistant 🖥️</p></td>
+<td><p>Aleksandar Gavric</p></td>
+<td><p>🛰️ online</p></td>
+<td><p><a class="reference external" href="https://github.com/alex-gavric">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/AcaGavric">&#64;AcaGavric</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Teaching Assistant 🔬</p></td>
+<td><p>Aleksandra Gavriova</p></td>
+<td><p>Okinawa (JP)</p></td>
+<td><p><a class="reference external" href="https://github.com/a-gavrilova">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/shura_gav">&#64;shura_gav</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Teaching Assistant 🐟</p></td>
+<td><p>Shuhong Huang</p></td>
+<td><p>Munich (DE)</p></td>
+<td><p><a class="reference external" href="https://github.com/Timbrer">GitHub</a></p></td>
+<td><p><a class="reference external" href="https://twitter.com/huang_shuhong">&#64;huang_shuhong</a></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="acknowledgments">
+<h2>Acknowledgments<a class="headerlink" href="#acknowledgments" title="Permalink to this headline">#</a></h2>
+<p>Naturally this material is partially based on <a class="reference external" href="https://deeplabcut.github.io/DeepLabCut/README.html">DeepLabCut’s Jupyter book</a> as well as <a class="reference external" href="https://github.com/DeepLabCut/DeepLabCut">DeepLabCut</a> in general. The same license applies.</p>
+<p>See <a class="reference external" href="https://github.com/AlexEMG/DLC-Cajal-Course/graphs/contributors">contributors</a> for a list of individual contributors! In particular, thanks to the whole teaching team for putting this together.</p>
+<p>We are grateful for funding by the <a class="reference external" href="https://chanzuckerberg.com/eoss/">ChanZuckerberg Initiative: Essential Open Source Software for Science</a>. Thanks!</p>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='right-next' id="next-link" href="content/CourseOverviewGuide.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Course Overview</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            </footer>
+        </div>
+    </div>
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By The DeepLabCut Team<br/>
+  
+      &copy; Copyright 2022.<br/>
+    <div class="extra_footer">
+      <div>Powered by <a href="https://jupyterbook.org/">Jupyter Book</a>.</div>
+
+    </div>
+</p>
+        </footer>
+    </div>
+    
+</div>
+
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+
+  </body>
+</html>
