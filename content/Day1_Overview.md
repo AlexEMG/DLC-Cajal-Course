@@ -7,7 +7,6 @@ We will kick start 🚀 the week with [two exciting lectures](Day1_Lectures.md):
 - Studying natural behavior in corvids to elucidate cognition, taught by
 Prof. Nicky Clayton from the University of Cambridge  
 
-
 Click [HERE](Day1_Lectures.md) to watch the lectures! Please do so at your own pace before the practical session.
 
 Later, in the [practical part](Day1_Practicals.md), we will discuss what is behavior and how can we understand it 🤔!
@@ -15,8 +14,12 @@ Later, in the [practical part](Day1_Practicals.md), we will discuss what is beha
 ## Day 1: Take home messages
 
 ```{Tip}
-TODO_DK: put a few bullet points
+- What theoretical frameworks exist for interpreting behavior?
+- Is "behavior" objective? 
 ```
+
+https://www.nature.com/articles/s41467-022-27980-y
+
 
 ## Day 1: Major Goals ⚽️
 

@@ -47,7 +47,10 @@ And if the predictions are not as accurate as you want them, it is an ideal vide
 
 Once, you extracted outliers you can fix them manually:
 
-<pre lang="python">pythondeeplabcut.refine_labels(conﬁg_path)</pre>
+<pre lang="python">deeplabcut.refine_labels(conﬁg_path)</pre>
+
+Finally, you should merge the original training dataset with the newly refined data. The iteration parameter in the `config.yaml` file is updated automatically.
+<pre lang="python">deeplabcut.merge_datasets(config_path)</pre>
 
 
 This will grow your dataset to better comprise the variablity. Then you can re-train 🚂 your model. You can either train de-novo, or use the prior weights (which is faster and usually preferred).
@@ -56,6 +59,7 @@ This will grow your dataset to better comprise the variablity. Then you can re-t
 ## Let’s talk 📲
 
 - If you are interested in learning further about active learning approaches, check out [this blog post!](https://deeplabcut.medium.com/exploring-active-learning-with-deeplabcut-an-ai-residents-journey-e441bbd5a71c) 
+
 
 ## References
 

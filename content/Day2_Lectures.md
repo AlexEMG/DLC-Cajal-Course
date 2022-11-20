@@ -37,20 +37,10 @@ If you want to expand your knowledge, check out these materials:
 
 ## Part 2: Introduction to Computer Vision and DeepLabCut
 
-Content:
-- Basic computer vision intro
-- Example supervised: ImageNet
-- Pose estimation
-- Main results from {cite}`Mathis2018`
-- [IID, OOD, Mathis et al. 2021](https://www.youtube.com/watch?v=pM6Z-ASiI2Y&t=104s).
-- metrics: RMSE, test images
-- ending with the DLC workflow (and software 2.0)
 
-TODO_AM: link lecture.
+[Introduction to Computer Vision and DeepLabCut by Alexander Mathis](https://www.youtube.com/watch?v=ugdwh6M_4-c)
 
-As a stand-in for now, please check out:
-[talk by AM at the CV4ecology Summer School at CalTech](https://www.youtube.com/watch?v=jfIb2qfAkQU)
-[![DLC intro](http://img.youtube.com/vi/jfIb2qfAkQU/0.jpg)](https://www.youtube.com/watch?v=jfIb2qfAkQU "Introduction to DeepLabCut by Alexander Mathis")
+[![DLC intro](http://img.youtube.com/vi/ugdwh6M_4-c/0.jpg)](https://www.youtube.com/watch?v=ugdwh6M_4-c "Introduction to Computer Vision and DeepLabCut by Alexander Mathis")
 
 
 For further information, check out the key papers from this lecture: {cite}`russakovsky2015imagenet`, {cite}`he2016deep`, {cite}`Mathis2018`, {cite}`Mathis2020`, {cite}`mathis2021pretraining`.
