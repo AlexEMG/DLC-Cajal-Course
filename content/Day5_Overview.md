@@ -13,12 +13,10 @@ Another important step is to use the time and dive deeper into your analysis �
 - What is the best approach for answering my biological question? (supervised/unsupervised/hybrid)
 ```
 
-TODO_TA: What else?
-
-## Day 5: Major goals ⚽️ 
+## Day 5: Major goals ⚽️
 
 ```{important}
-- Keep working ✂️ on what you're most interested! 
+- Keep working ✂️ on what you're most interested!
 - We hope you enjoyed the course, you found new friends, colleagues and perhaps even collaborators!
 - Would you like to present your work in the Cajal Community 🚀? Let us know!
 ```
