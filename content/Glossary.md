@@ -17,6 +17,9 @@ base environment
 batch size 
     number of images processed in one iteration of training (max value constrained by GPU memory). More precise term is mini-batch
 
+benchmarking
+    the practice of objectively comparing machine learning tools to identify the best-performing ones
+
 bodypart 
     also called label, in DeepLabCut is a arbitrarily chosen part of the animal that the user wants to track
 
@@ -68,6 +71,9 @@ iteration
 jitter 
     natural tendency of inferred data to slightly move between frames of analyzed video. Stems from inference happening on image by image basis
 
+MAE
+    mean average Euclidean error -- a metric that quantifies the Euclidean distance (what we intuitively understand by the word 'distance') between two observations, such as the manually added and predicted bodypart labels in DLC; proportional to {term}`RMSE`
+
 Markdown
     a lightweight markup language for creating formatted text using a plain-text editor
 
@@ -100,6 +106,9 @@ RMSE
 
 [SimBA](https://github.com/sgoldenlab/simba) 
     developed in [Golden's Lab](https://goldenneurolab.com/simba), a framework for training a supervised behavior annotation model
+
+shuffle
+    in DeepLabCut: a particular instantiation of train and test sets; multiple shuffles are used for model {term}`benchmarking`
 
 snapshot 
     current state of the model with specific weights learned during training
