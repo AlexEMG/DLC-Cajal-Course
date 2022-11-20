@@ -26,7 +26,6 @@ deeplabcut.load_demo_data(config, createtrainingset=False)
 ```
 Where you pass the path to the config file of interest as `config`.
 
-
 ### Big datasets
 
 - [Horse10](http://www.mackenziemathislab.org/horse10) contains >8,000 expertly labeled frames across 30 individual thoroughbred horses.
@@ -36,15 +35,8 @@ Where you pass the path to the config file of interest as `config`.
 
  - [The Cuttle Shuttle](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/J6XLGK) is a video database of cuttlefish hunting behavior. This dataset contains videos for 6 animals over the course of 16 experimental sessions, each 30 minutes long. *Note: Animal L1-H2013-03 was the most active, and will probably generate the most interesting tracking results. To easily access this animals videos, first change the file view from "Table" to "Tree".*
 
-TODO_TA: any other ideas for datasets?
-
 # Multi Animal Datasets (Day 3)
 
 - [Mont-Blanc bird dataset](https://github.com/DeepLabCut/DeepLabCut_maDLC_DemoData) contains a small dataset of multiple birds.
 
-
-
-
-TODO_AM: link to https://deeplabcut.github.io/DeepLabCut/docs/HelperFunctions.html#model-export-function
-
-TODO_AM: put dataset in standard docs
+TODO: put dataset in standard docs

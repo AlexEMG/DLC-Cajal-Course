@@ -26,7 +26,7 @@ https://www.nature.com/articles/s41467-022-27980-y
 ```{important}
 1) Please ensure your DeepLabCut installation is ready! If you have a GPU, please make sure that it is utilized. You can ask the teaching assistants 📢, if you are not sure.
 2) Please remember to bring your videos if you wish to work on your own data. Ideally select different videos that reflect the variability of the data in your setup and that you would like to analyze.
-3) *Skim* the following Primer {cite}`MATHIS2020`
+3) *Skim* the following Primer {cite}`Mathis2020`
 ```
 
 ## References

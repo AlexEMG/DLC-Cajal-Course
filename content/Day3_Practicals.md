@@ -9,7 +9,7 @@ Alon Halevy, Peter Norvig, and Fernando Pereira from Google wrote the great piec
 ## Evaluation of yesterday's model
 
 It is important to evaluate the performance of the trained 🏋️‍♀️ network. This performance is measured by computing the mean average Euclidean error (MAE; which is proportional to the average root mean square error) between the manual labels and the ones predicted by DeepLabCut. The MAE is saved as a comma separated file and displayed for all pairs and only likely pairs (>p-cutoff). This helps to exclude, for example, occluded body parts. One of the strengths of DeepLabCut is that due to the probabilistic output of the scoremap, it can, if sufficiently trained, also reliably report if a body part is visible in a given frame. (see discussions of finger tips in reaching and the Drosophila
-legs during 3D behavior in {cite}`Mathis2020`). 
+legs during 3D behavior in {cite}`Mathis2020`).
 The evaluation results are computed by typing:
 ```python
 deeplabcut.evaluate_network(config_path,Shuffles=[1], plotting=True)
@@ -60,8 +60,6 @@ This will grow your dataset to better comprise the variablity. Then you can re-t
 
 - If you are interested in learning further about active learning approaches, check out [this blog post!](https://deeplabcut.medium.com/exploring-active-learning-with-deeplabcut-an-ai-residents-journey-e441bbd5a71c) 
 
-
-TODO_TA: What else?
 
 ## References
 

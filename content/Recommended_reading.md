@@ -4,6 +4,8 @@
 
 We suggest you to start the learning week with two reviews, the classic __Toward a science of computational ethology__ by Anderson and Perona {cite}`Anderson2014`, as well as __A primer on motion capture with deep learning: principles, pitfalls, and perspectives__ {cite}`Mathis2020`.
 
+If you're interested in Ecology you may also want to check out {cite}`tuia2022perspectives`.
+
 ## 📙 DAY 2
 
 For Day 2 make sure to check out the first DeepLabCut publication {cite}`Mathis2018`, as well as the DeepLabCut Protocol {cite}`Nath2019`.

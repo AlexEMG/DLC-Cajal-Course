@@ -2,13 +2,9 @@
 
 Welcome to day 4✨!
 
-Today is the last day of [lectures](Day4_Lectures.md) and we chose to cover diverse, exciting topics 🔥 such as:
-- Kinematic and behavioral analysis
-- Biomechanics and action segmentation
+Today is the last day of [lectures](Day4_Lectures.md) and we chose to cover diverse, exciting topics 🔥 as kinematics, comparative biomechanics, behavioral analysis and action segmentation.
 
-TODO: put links to lecture sections
-
-Later, in the [practical part](Day4_Practicals.md), we will keep digging into these subjects based on the data that you have been working on. For the sake of time, try to focus🔍 only on one application and work on it. We will try to optimally match up students and TAs to make this process as smooth as possible. 
+Later, in the [practical part](Day4_Practicals.md), we will keep digging into these subjects based on the data that you have been working on. For the sake of time, try to focus🔍 only on one application and work on it. We will try to optimally match up students and TAs to make this process as smooth as possible.
 
 Please note that tomorrow you will also have time ⏳ to continue your project.
 
