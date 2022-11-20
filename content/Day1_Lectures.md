@@ -16,7 +16,9 @@ The Kiehn lab has actively been using DeepLabCut for many years. Check out our [
 
 [Prof. Nicky Clayton](https://www.neuroscience.cam.ac.uk/directory/profile.php?nsclayton) from the University of Cambridge talks about about studying natural behavior in corvids to elucidate cognition.
 
-Link: TODO_AM
+[Comparative Cognition: Using behavior to investigate new ways of seeing and thinking by Prof. Nicky Clayton](https://youtu.be/pecET62t3QQ)
+
+[![Intro to ML](http://img.youtube.com/vi/pecET62t3QQ/0.jpg)](https://youtu.be/pecET62t3QQ "Comparative Cognition: Using behavior to investigate new ways of seeing and thinking by Prof. Nicky Clayton")
 
 Key publications mentioned in the talk:
 - Garcia-Pelegrin et al. [Exploring the perceptual inabilities of Eurasian jays (Garrulus glandarius) using magic effects
