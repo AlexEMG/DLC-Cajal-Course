@@ -23,7 +23,7 @@ html:
     <div>Powered by <a href="https://jupyterbook.org/">Jupyter Book</a>.</div>
 
 repository:
-  url: https://github.com/DeepLabCut/DeepLabCut
+  url: https://github.com/AlexEMG/DLC-Cajal-Course
   path_to_book: content
   branch: master
 
