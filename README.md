@@ -2,7 +2,7 @@
 
 # Modern Methods for Quantifying Behavior
 
-Dear participants, welcome 🙌 to the 2022 edition of the hands-on Neuroscience course [Modern Methods for Quantifying Behavior](https://cajal-training.org/neurokit/behavioral-analysis/)!
+Dear participants, welcome 🙌 to the 2022 edition of the hands-on Neuroscience course [Modern Methods for Quantifying Behavior](https://cajal-training.org/neurokit/behavioural-analysis/)
 <br/><br/>
 Let’s kickstart the week 🚀!
 
