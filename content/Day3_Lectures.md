@@ -34,9 +34,10 @@ For more information on this work, please check out {cite}`Kane2020`. Regarding 
 
 DLC-live also provides a convenient API for combining animal pose estimation with other tasks. For example, DLC-live was used here in combination with MegaDetector to estimate the pose of animals detected in camera trap data. You can see a demo which also uses the Model Zoo [here](https://huggingface.co/spaces/DeepLabCut/MegaDetector_DeepLabCut) and inspect the code further [here](https://huggingface.co/spaces/DeepLabCut/MegaDetector_DeepLabCut/tree/main).
 
-## Part 4: 3D DeepLabCut (⏳15 min)
+## Part 4: 3D DeepLabCut (⏳13 min)
 
-TODO_AM: link lecture.
+[![DLC intro](http://img.youtube.com/vi/GNCIXT481qk/0.jpg)](https://www.youtube.com/watch?v=GNCIXT481qk"#t=0.3s" "3D pose estimation with DeepLabCut by Alexander Mathis")
+
 
 For further information, check out: {cite}`Nath2019`, {cite}`Joska2021`, {cite}`wang2021deep`.
 
