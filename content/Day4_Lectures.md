@@ -40,7 +40,7 @@ Further reading (goes beyond this course, but recommended):
 
 [Tutorial on DLC2Action and Action Segmentation by Elizaveta Kozlova (EPFL)](https://www.youtube.com/watch?v=_bB3WjI8hyE)
 
-[![BioMech](http://img.youtube.com/vi/_bB3WjI8hyE/0.jpg)](https://www.youtube.com/watch?v=_bB3WjI8hyE "Tutorial on DLC2Action and Action Segmentation by Elizaveta Kozlova (EPFL)")
+[![DLC2Action](http://img.youtube.com/vi/_bB3WjI8hyE/0.jpg)](https://www.youtube.com/watch?v=_bB3WjI8hyE "Tutorial on DLC2Action and Action Segmentation by Elizaveta Kozlova (EPFL)")
 
 
 Further reading 📚 (recommended in the scope of this course):
@@ -54,6 +54,13 @@ Further reading (goes beyond this course, but recommended):
 - Segalin et al. [The Mouse Action Recognition System (MARS) software pipeline for automated analysis of social behaviors in mice](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8631946/), eLife 2021
 - Kabra et al. [JAABA: interactive machine learning for automatic annotation of animal behavior](https://www.nature.com/articles/nmeth.2281), Nature methods
 - Branson et al. [High-throughput ethomics in large groups of Drosophila](https://www.nature.com/articles/nmeth.1328) Nature methods 2009
+
+## Part 4: Behavior, or what the brain does (33 min)
+
+[Talk by Dr. Nacho Sanguinetti (Harvard University)](https://www.youtube.com/watch?v=OZLJg2pYX7k)
+
+[![Nacho](http://img.youtube.com/vi/OZLJg2pYX7k/0.jpg)](https://www.youtube.com/watch?v=OZLJg2pYX7k "Talk by Nacho Sanguinetti")
+
 
 
 [Let’s go back 🔙](../README.md).
