@@ -27,7 +27,7 @@ If you use Windows OS and **do not** have other versions of CUDA installed:
     - check that your NVIDIA driver <a href="https://docs.nvidia.com/deploy/cuda-compatibility/index.html#minor-version-compatibility" target="_blank">will work with CUDA 11.x</a>!
 - set up CUDA - <a href="https://medium.com/analytics-vidhya/installing-cuda-and-cudnn-on-windows-d44b8e9876b5" target="_blank">this medium article</a> details the steps involved
     - the most recent version of TensforFlow (TF-2.10 which will get installed along with DeepLabCut) <a href="https://www.tensorflow.org/install/source_windows#gpu" target="_blank">works with CUDA-11.2</a>
-    - get your Visual Studio 2019 (free) Community version <a href="https://my.visualstudio.com/Downloads?q=visual%20studio%202019&wt.mc_id=o~msft~vscom~older-downloads" target="_blank">here</a>
+    - get your Visual Studio 2017 (free) Community version <a href="https://download.visualstudio.microsoft.com/download/pr/4035d2dd-2d45-48eb-9104-d4dc7d808a7b/f5675416a31cbf8c29e74d75a1790cf7/vs_community.exe" target="_blank">here</a>
     - get CUDA-11.2 (or another version if needed) <a href="https://developer.nvidia.com/cuda-toolkit-archive" target="_blank">here</a>
     - get cuDNN-8.1 (or another version if needed) <a href="https://developer.nvidia.com/rdp/cudnn-archive" target="_blank">here</a> - you will need to create an NVIDIA developer profile 
     - type `nvcc -V` in the terminal to check that it prints the correct CUDA runtime version
