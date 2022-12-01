@@ -35,6 +35,7 @@ Thanks to the whole teaching team for putting this together 🎉🎉🎉!
 | Teaching Assistant 🐟  | Virginia Palieri    | Munich (DE)            | [GitHub](https://github.com/vpalieri)       |                 |
 | Teaching Assistant 🖥️  | Aleksandar Gavric   | 🛰️ online               |[GitHub](https://github.com/alex-gavric)      | [@AcaGavric](https://twitter.com/AcaGavric)     |
 | Teaching Assistant 🔬  | Aleksandra Gavrilova | Okinawa (JP)           | [GitHub](https://github.com/a-gavrilova)       | [@shura_gav](https://twitter.com/shura_gav)     |
+| Teaching Assistant 🖥️  | Anastasiia Filippova | 🛰️ online              | [GitHub](https://github.com/nasty236)          | [@NasFilippova](https://twitter.com/NasFilippova)     |
 | Teaching Assistant 🐟  | Shuhong Huang | Munich (DE)        | [GitHub](https://github.com/Timbrer)       | [@huang_shuhong](https://twitter.com/huang_shuhong)     |
 | Teaching Assistant 🔬  | Saffira Tjon | Okinawa (JP)        | [GitHub](https://github.com/TerriiYaki)       |                 |
 
