@@ -27,7 +27,7 @@ Here you will find all the course material 📚 you will need to complete your p
 | Teaching Assistant 🖥️  | Anastasiia Filippova | 🛰️ online              | [GitHub](https://github.com/nasty236)          | [@NasFilippova](https://twitter.com/NasFilippova)     |
 | Teaching Assistant 🐟  | Shuhong Huang | Munich (DE)        | [GitHub](https://github.com/Timbrer)       | [@huang_shuhong](https://twitter.com/huang_shuhong)     |
 | Teaching Assistant 🔬  | Saffira Tjon | Okinawa (JP)        | [GitHub](https://github.com/TerriiYaki)       |                 |
-| Teaching Assistant 🐀  | Anna Teruel-Sanchis  | València (ESP)            | [GitHub](https://github.com/anna-teruel)      | [@annateruel_](https://twitter.com/Nyktofob)      |
+| Teaching Assistant 🐭  | Anna Teruel-Sanchis  | València (ESP)            | [GitHub](https://github.com/anna-teruel)      | [@annateruel_](https://twitter.com/annateruel_)      |
 
 ## Teaching Team for the first edition, anno 2022 🏆
 
