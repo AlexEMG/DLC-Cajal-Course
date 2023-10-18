@@ -19,6 +19,7 @@ Here you will find all the course material 📚 you will need to complete your p
 | Teaching Assistant 🦇  | Jonas Håkansson     | 🛰️ online              | [GitHub](https://github.com/biol-jsh)      | [@ScientistJonas](https://twitter.com/ScientistJonas) |
 | Teaching Assistant 🐭  | Andrada Marica      | 🛰️ online               | [GitHub](https://github.com/andrada08)      | [@andrada_marica](https://twitter.com/andrada_marica) |
 | Teaching Assistant 🐭  | Sabrina Benas       | Buenos Aires (ARG)     | [GitHub](https://github.com/sabrinabenas)      | [@Sabrineiitor](https://twitter.com/Sabrineiitor)  |
+| Teaching Assistant 🐭  | Candela Medina      | Buenos Aires (ARG)     |              |                 |
 | Teaching Assistant 🖥️  | Facundo Emina       | Buenos Aires (ARG)     | [GitHub](https://github.com/Facuemina)       | [@facuemina](https://twitter.com/facuemina) |
 | Teaching Assistant 🖥️  | Nirel Kadzo         | Rwanda          | [GitHub](https://github.com/kadzon)       | [@Nirelkadzo](https://twitter.com/Nirelkadzo)    |
 | Teaching Assistant 🐀  | Konrad Danielewski  | Geneva (CH)            | [GitHub](https://github.com/KonradDanielewski)      | [@Nyktofob](https://twitter.com/Nyktofob)      |
