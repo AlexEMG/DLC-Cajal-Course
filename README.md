@@ -28,6 +28,7 @@ Here you will find all the course material 📚 you will need to complete your p
 | Teaching Assistant 🐟  | Shuhong Huang | Munich (DE)        | [GitHub](https://github.com/Timbrer)       | [@huang_shuhong](https://twitter.com/huang_shuhong)     |
 | Teaching Assistant 🔬  | Saffira Tjon | Okinawa (JP)        | [GitHub](https://github.com/TerriiYaki)       |                 |
 | Teaching Assistant 🐭  | Anna Teruel-Sanchis  | València (ESP)            | [GitHub](https://github.com/anna-teruel)      | [@annateruel_](https://twitter.com/annateruel_)      |
+| Teaching Assistant 🖥️  | Guillermo Hidalgo | Bochum (DE)       | [GitHub](https://github.com/Guillermo-Hidalgo-Gadea)| [@G_HidalgoGadea](https://twitter.com/G_HidalgoGadea)|
 
 ## Teaching Team for the first edition, anno 2022 🏆
 
