@@ -33,6 +33,7 @@ Here you will find all the course material 📚 you will need to complete your p
 | Teaching Assistant 🐭  | Anna Teruel-Sanchis  | València (ESP)            | [GitHub](https://github.com/anna-teruel)      | [@annateruel_](https://twitter.com/annateruel_)      |
 | Teaching Assistant 🖥️  | Guillermo Hidalgo | Bochum (DE)       | [GitHub](https://github.com/Guillermo-Hidalgo-Gadea)| [@G_HidalgoGadea](https://twitter.com/G_HidalgoGadea)|
 | Teaching Assistant 🖥️  | Melanie Segado | 🛰️ online       | [GitHub](https://github.com/quietscientist)| [@quietscientific](https://twitter.com/quietscientific)|
+| Teaching Assistant 🖥️  | Niels Poulsen       | Geneva (CH)            | [GitHub](https://github.com/n-poulsen)      | |
 
 ## Teaching Team for the first edition, anno 2022 🏆
 
