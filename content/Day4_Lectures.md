@@ -17,6 +17,7 @@ Key papers mentioned in this talk:
 Further reading (goes beyond this course, but recommended):
 - [Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation](https://biomech.stanford.edu/) by Thomas K. Uchida and Scott L. Delp
 - Check out this cool Science paper on [squirrel parkour](http://polypedal.berkeley.edu/wp-content/uploads/697.full_.pdf), potentially inspired by [this video](https://www.youtube.com/watch?v=hFZFjoX2cGg) from Youtuber Mark Rober
+- Linking biomechanics via neural networks to modeling proprioception: [Task-driven neural network models predict neural dynamics of proprioception](https://www.biorxiv.org/content/10.1101/2023.06.15.545147.abstract)
 
 ## Part 2: Behavioral analysis with MoSeq (30 min)
 
@@ -38,7 +39,7 @@ Further reading (goes beyond this course, but recommended):
 
 ## Part 3: Action segmentation (23 min)
 
-[Tutorial on DLC2Action and Action Segmentation by Elizaveta Kozlova (EPFL)](https://www.youtube.com/watch?v=_bB3WjI8hyE)
+[Tutorial on DLC2Action and Action Segmentation by Elizaveta Kozlova (EPFL)https://www.youtube.com/watch?v=_bB3WjI8hyE)
 
 [![DLC2Action](http://img.youtube.com/vi/_bB3WjI8hyE/0.jpg)](https://www.youtube.com/watch?v=_bB3WjI8hyE "Tutorial on DLC2Action and Action Segmentation by Elizaveta Kozlova (EPFL)")
 

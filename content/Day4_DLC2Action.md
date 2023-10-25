@@ -2,32 +2,27 @@
 
 ## Installation:
 
-First install DLC2Action based on the <a href="https://github.com/AlexEMG/DLC2action#installation" target="_blank">installation guide.</a>
+First, install DLC2Action based on the <a href="https://github.com/amathislab/DLC2action#installation" target="_blank">installation guide.</a>
+
+We note, that you can also use it in COLAB (see below), which requires no installation on your system.
 
 ## Using DLC2Action on an example labeled dataset
 
 We prepared Jupyter Notebooks for going through an example dataset from Sturman et al. {cite}`Sturman2020`.
 
-You can find the Notebook <a href="https://github.com/AlexEMG/DLC2action/blob/master/examples/minimal_notebook.ipynb" target="_blank">here</a>
+You can find the Notebook <a href="https://github.com/amathislab/DLC2action/blob/master/examples/minimal_notebook.ipynb" target="_blank">here</a>
+Note you can also open and run this notebook with Colab.
 
 ## Advanced features
 
 DLC2Action has many additional features, you can explore those by:
 
-- checking out a more <a href="https://github.com/AlexEMG/DLC2action/blob/master/examples/demo_notebook.ipynb" target="_blank">detailed notebook</a> (also based on the Sturman et al. data)
-- or checking out the <a href="https://alexemg.github.io/DLC2action/dlc2action.html" target="_blank">documentation</a>
+- checking out a more <a href="https://github.com/amathislab/DLC2action/blob/master/examples/demo_notebook.ipynb" target="_blank">detailed notebook</a> (also based on the Sturman et al. data). Note you can also open and run this notebook with [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/amathislab/DLC2action/blob/master/examples/demo_notebook.ipynb).
+- or checking out the <a href="https://amathislab.github.io/DLC2action/html_docs/dlc2action.html" target="_blank">documentation</a>
 
-<!---
-TODO_AM: link with COLAB
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AlexEMG/DLC2action/blob/master/examples/minimal_notebook.ipynb)
--->
+## Running DLC2Action on your data
 
-## Running DLC2Action on your Data
-
-<!---
-TODO: Link to GUI.
--->
-
+You will need to have some annotation data. DLC2action accepts many different formats. If you have not yet annotated any behaviors, then you can use the following <a href="https://github.com/amathislab/dlc2action_annotation" target="_blank">GUI</a>.
 
 ```{note}
 For good performance you will need to annotate multiple examples for each behavior that you are interested in. This will usually take a bit of time!
