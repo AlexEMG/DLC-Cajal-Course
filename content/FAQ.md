@@ -17,7 +17,7 @@
 <b>5) Can I add new bodyparts to an existing project?</b>
    - Yes! You'll then have to label those new bodyparts onto all your images stored in labeled-data and create a new training dataset - remember to change iteration
      number in your config.yaml file
-     
+
      Additional info on restarting training after adding new bodyparts: https://forum.image.sc/t/adding-new-labels/73675
 
 <b>6) 'Error: Tracklets are empty'</b>
@@ -36,7 +36,8 @@
 
 <b>10) How to report issues and share snippets of code?</b>
    -  To report any issues, especially when sharing code or error tracebacks we use Markdown, a markup language used for formatting text. This allows us to easily           create code blocks, quote others, bold/italicize/underscore etc. You can follow this [short guide for Markdown](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline-) from Discord or this [more elaborate](https://www.markdownguide.org/basic-syntax/) one to become a Markdown expert!
-   
 
-## If you can't find what you are looking 👀 for here, you should checkout the [community forum](https://forum.image.sc/tag/deeplabcut)! 
-## 🚨 Feel free to post your question there!
+
+## If you can't find what you are looking 👀 for here, you should checkout the [community forum](https://forum.image.sc/tag/deeplabcut)!
+
+## 🚨 Feel free to post your question there (on the User forum or Discord)!

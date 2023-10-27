@@ -46,7 +46,6 @@ If you want to expand your knowledge, check out these materials:
 - Excellent textbook on [Multiple View Geometry in Computer Vision
 ](https://www.robots.ox.ac.uk/~vgg/hzbook/hzbook2/HZfigures.html) by Richard Hartley and Andrew Zisserman
 
-
 # References
 
 ```{bibliography}
