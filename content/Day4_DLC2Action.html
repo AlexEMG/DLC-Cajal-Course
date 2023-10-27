@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=c5ced968eda925caa686" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=c5ced968eda925caa686" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=c5ced968eda925caa686" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
@@ -38,9 +38,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
-  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=c5ced968eda925caa686" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=c5ced968eda925caa686"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -146,13 +146,14 @@ const thebe_selector_output = ".output, .cell_output"
   
   
   
+  
     
     
       
     
     
-    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
-    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Cajal-DLC-Course - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Cajal-DLC-Course - Home"/>`);</script>
   
   
 </a></div>
@@ -413,7 +414,7 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installation">Installation:</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-dlc2action-on-an-example-labeled-dataset">Using DLC2Action on an example labeled dataset</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#advanced-features">Advanced features</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-dlc2action-on-your-data">Running DLC2Action on your Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-dlc2action-on-your-data">Running DLC2Action on your data</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-workflow-python-commands">Basic Workflow (Python commands)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
@@ -431,30 +432,26 @@ document.write(`
 <h1>Action segmentation<a class="headerlink" href="#action-segmentation" title="Permalink to this heading">#</a></h1>
 <section id="installation">
 <h2>Installation:<a class="headerlink" href="#installation" title="Permalink to this heading">#</a></h2>
-<p>First install DLC2Action based on the <a href="https://github.com/AlexEMG/DLC2action#installation" target="_blank">installation guide.</a></p>
+<p>First, install DLC2Action based on the <a href="https://github.com/amathislab/DLC2action#installation" target="_blank">installation guide.</a></p>
+<p>We note, that you can also use it in COLAB (see below), which requires no installation on your system.</p>
 </section>
 <section id="using-dlc2action-on-an-example-labeled-dataset">
 <h2>Using DLC2Action on an example labeled dataset<a class="headerlink" href="#using-dlc2action-on-an-example-labeled-dataset" title="Permalink to this heading">#</a></h2>
 <p>We prepared Jupyter Notebooks for going through an example dataset from Sturman et al. <span id="id1">[<a class="reference internal" href="#id4" title="Oliver Sturman, Lukas von Ziegler, Christa Schläppi, Furkan Akyol, Mattia Privitera, Daria Slominski, Christina Grimm, Laetitia Thieren, Valerio Zerbi, Benjamin Grewe, and others. Deep learning-based behavioral analysis reaches human accuracy and is capable of outperforming commercial solutions. Neuropsychopharmacology, 45(11):1942–1952, 2020.">SvZSchlappi+20</a>]</span>.</p>
-<p>You can find the Notebook <a href="https://github.com/AlexEMG/DLC2action/blob/master/examples/minimal_notebook.ipynb" target="_blank">here</a></p>
+<p>You can find the Notebook <a href="https://github.com/amathislab/DLC2action/blob/master/examples/minimal_notebook.ipynb" target="_blank">here</a>
+Note you can also open and run this notebook with Colab.</p>
 </section>
 <section id="advanced-features">
 <h2>Advanced features<a class="headerlink" href="#advanced-features" title="Permalink to this heading">#</a></h2>
 <p>DLC2Action has many additional features, you can explore those by:</p>
 <ul class="simple">
-<li><p>checking out a more <a href="https://github.com/AlexEMG/DLC2action/blob/master/examples/demo_notebook.ipynb" target="_blank">detailed notebook</a> (also based on the Sturman et al. data)</p></li>
-<li><p>or checking out the <a href="https://alexemg.github.io/DLC2action/dlc2action.html" target="_blank">documentation</a></p></li>
+<li><p>checking out a more <a href="https://github.com/amathislab/DLC2action/blob/master/examples/demo_notebook.ipynb" target="_blank">detailed notebook</a> (also based on the Sturman et al. data). Note you can also open and run this notebook with <a class="reference external" href="https://github.com/amathislab/DLC2action/blob/master/examples/demo_notebook.ipynb"><img alt="Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a>.</p></li>
+<li><p>or checking out the <a href="https://amathislab.github.io/DLC2action/html_docs/dlc2action.html" target="_blank">documentation</a></p></li>
 </ul>
-<!---
-TODO_AM: link with COLAB
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/AlexEMG/DLC2action/blob/master/examples/minimal_notebook.ipynb)
--->
 </section>
 <section id="running-dlc2action-on-your-data">
-<h2>Running DLC2Action on your Data<a class="headerlink" href="#running-dlc2action-on-your-data" title="Permalink to this heading">#</a></h2>
-<!---
-TODO: Link to GUI.
--->
+<h2>Running DLC2Action on your data<a class="headerlink" href="#running-dlc2action-on-your-data" title="Permalink to this heading">#</a></h2>
+<p>You will need to have some annotation data. DLC2action accepts many different formats. If you have not yet annotated any behaviors, then you can use the following <a href="https://github.com/amathislab/dlc2action_annotation" target="_blank">GUI</a>.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>For good performance you will need to annotate multiple examples for each behavior that you are interested in. This will usually take a bit of time!</p>
@@ -641,7 +638,7 @@ TODO: Link to GUI.
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#installation">Installation:</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-dlc2action-on-an-example-labeled-dataset">Using DLC2Action on an example labeled dataset</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#advanced-features">Advanced features</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-dlc2action-on-your-data">Running DLC2Action on your Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-dlc2action-on-your-data">Running DLC2Action on your data</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-workflow-python-commands">Basic Workflow (Python commands)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
@@ -695,8 +692,8 @@ By The DeepLabCut Team
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=c5ced968eda925caa686"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=c5ced968eda925caa686"></script>
 
   <footer class="bd-footer">
   </footer>

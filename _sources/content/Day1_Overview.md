@@ -25,10 +25,10 @@ Later, in the [practical part](Day1_Practicals.md), we will discuss what is beha
 ## Day 1: Major Goals ⚽️
 
 ```{important}
-1) Please ensure your DeepLabCut installation is ready! If you have a GPU, please make sure that it is utilized. You can ask the teaching assistants 📢, if you are not sure.
-2) Please remember to bring your videos if you wish to work on your own data. Ideally select different videos that reflect the variability of the data in your setup and that you would like to analyze.
+1) Please ensure your DeepLabCut installation is ready! If you have a GPU, please make sure that it is utilized. You can ask the teaching assistants 📢, if you are not sure. To achieve this, check out our [Installation guide](installation).
+2) Please remember to bring your videos, if you wish to work on your own data. Ideally select different videos that reflect the variability of the data in your setup and that you would like to analyze. If you do not have suitable datasets, check out our suggested [demo datasets](DemoDatasets). 
 3) Please ensure that you have completed the Discord on-boarding process, and have chosen your tags in the "student-tags-2022" channel.
-4) *Read* the paper ["You Say You Had a Revolution: Methodological Foundations of Closed-Loop Psychology"](https://www.researchgate.net/publication/232499797_You_Say_You_Had_a_Revolution_Methodological_Foundations_of_Closed-Loop_Psychology). 
+4) *Read* the paper ["You Say You Had a Revolution: Methodological Foundations of Closed-Loop Psychology"](https://www.researchgate.net/publication/232499797_You_Say_You_Had_a_Revolution_Methodological_Foundations_of_Closed-Loop_Psychology).
 5) *Skim* the "Primer on Motion Capture with Deep Learning:
 Principles, Pitfalls, and Perspectives" --> {cite}`Mathis2020`, linked below.
 ```
