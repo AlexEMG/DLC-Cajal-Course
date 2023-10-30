@@ -26,11 +26,12 @@ Further reading (goes beyond this course, but recommended):
 [![BioMech](http://img.youtube.com/vi/_aldEcoRgh8/0.jpg)](https://youtu.be/_aldEcoRgh8 "Keypoint Moseq by Caleb Weinreb (Harvard Medical School)")
 
 
-Further reading 📚 (recommended in the scope of this course):
+Highly recommended reading 📚 (recommended in the scope of this course):
+- Weinreb et al. [Keypoint-MoSeq: parsing behavior by linking point tracking to pose dynamics](https://www.biorxiv.org/content/10.1101/2023.03.16.532307v2), bioRxiv 2023
 - Wiltschko et al. [Mapping Sub-Second Structure in Mouse Behavior](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708087/), Neuron 2015
-- Datta, Anderson, Branson, Perona and Leifer [Computational Neuroethology: A Call to Action](https://pubmed.ncbi.nlm.nih.gov/31600508/), Neuron 2019
 
 Further reading (goes beyond this course, but recommended):
+- Datta, Anderson, Branson, Perona and Leifer [Computational Neuroethology: A Call to Action](https://pubmed.ncbi.nlm.nih.gov/31600508/), Neuron 2019
 - Markowitz et al. [The Striatum Organizes 3D Behavior via Moment-to-Moment Action Selection](https://www.sciencedirect.com/science/article/pii/S0092867418305129?via%3Dihub), Cell 2018
 - Klibaite et al. [Deep phenotyping reveals movement phenotypes in mouse neurodevelopmental models](https://link.springer.com/article/10.1186/s13229-022-00492-8), Molecular Autism 2022
 - Hsu et al. [B-SOiD, an open-source unsupervised algorithm for identification and fast prediction of behaviors](https://www.nature.com/articles/s41467-021-25420-x), Nature Communications 2021

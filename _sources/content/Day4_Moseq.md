@@ -6,12 +6,12 @@ Motion Sequencing (MoSeq): a method to discover the syllables and grammar that c
 
 Figure showing example behavioral syllables, [Source: Datta Lab, Harvard Medical School](https://dattalab.github.io/moseq2-website/index.html).
 
-A detailed overview over Moseq 2 can be found on <a href="https://dattalab.github.io/moseq2-website/index.html" target="_blank">the project's website.</a>
+A detailed overview of keypoint-MoSeq can be found on <a href="https://keypoint-moseq.readthedocs.io/en/latest/" target="_blank">the project's website.</a>
 
-Colab: https://colab.research.google.com/github/calebweinreb/keypointMoSeq/blob/user_friendly_pipeline/examples/keypointMoSeq_demo_colab.ipynb
+Colab: https://colab.research.google.com/github/dattalab/keypoint-moseq/blob/main/docs/keypoint_moseq_colab.ipynb
 
-Data: https://drive.google.com/drive/folders/1UNHQ_XCQEKLPPSjGspRopWBj6-YNDV6G?usp=share_link
+Data: https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1UNHQ_XCQEKLPPSjGspRopWBj6-YNDV6G%3Fusp%3Dshare_link
 
-Repo: https://github.com/calebweinreb/keypointMoSeq/tree/user_friendly_pipeline
+Repo: https://github.com/dattalab/keypoint-moseq/tree/main
 
 [Let’s go back 🔙](Day4_Practicals.md).
