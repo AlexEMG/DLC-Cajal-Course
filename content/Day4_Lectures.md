@@ -27,6 +27,7 @@ Further reading (goes beyond this course, but recommended):
 
 
 Further reading 📚 (recommended in the scope of this course):
+- Weinreb et al. [Keypoint-MoSeq: parsing behavior by linking point tracking to pose dynamics](https://www.biorxiv.org/content/10.1101/2023.03.16.532307v2), bioRxiv 2023
 - Wiltschko et al. [Mapping Sub-Second Structure in Mouse Behavior](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4708087/), Neuron 2015
 - Datta, Anderson, Branson, Perona and Leifer [Computational Neuroethology: A Call to Action](https://pubmed.ncbi.nlm.nih.gov/31600508/), Neuron 2019
 
