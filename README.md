@@ -22,7 +22,7 @@ Here you will find all the course material 📚 you will need to complete your p
 | Teaching Assistant 🐭  | Candela Medina      | Buenos Aires (ARG)     |              |                 |
 | Teaching Assistant 🖥️  | Facundo Emina       | Buenos Aires (ARG)     | [GitHub](https://github.com/Facuemina)       | [@facuemina](https://twitter.com/facuemina) |
 | Teaching Assistant 🖥️  | Nirel Kadzo         | Rwanda          | [GitHub](https://github.com/kadzon)       | [@Nirelkadzo](https://twitter.com/Nirelkadzo)    |
-| Teaching Assistant 🐀  | Konrad Danielewski  | Geneva (CH)            | [GitHub](https://github.com/KonradDanielewski)      | [@Nyktofob](https://twitter.com/Nyktofob)      |
+| Teaching Assistant 🐀  | Konrad Danielewski  | 🛰️ online             | [GitHub](https://github.com/KonradDanielewski)      | [@Nyktofob](https://twitter.com/Nyktofob)      |
 | Teaching Assistant 🐟  | Virginia Palieri    | 🛰️ online             | [GitHub](https://github.com/vpalieri)       |                 |
 | Teaching Assistant 🔬  | Aleksandra Gavrilova | Okinawa (JP)           | [GitHub](https://github.com/a-gavrilova)       | [@shura_gav](https://twitter.com/shura_gav)     |
 | Teaching Assistant 🖥️  | Anastasiia Filippova | 🛰️ online              | [GitHub](https://github.com/nasty236)          | [@NasFilippova](https://twitter.com/NasFilippova)     |
