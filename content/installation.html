@@ -447,6 +447,8 @@ You can always ask the teaching assistants 📢 for help if you get stuck✨!</p
 <li><p>type <code class="docutils literal notranslate"><span class="pre">nvcc</span> <span class="pre">-V</span></code> in the terminal to check that it prints the correct CUDA runtime version</p></li>
 </ul>
 </li>
+<li><p>if you want to automatically install all the packages used in this course you can use a batch script (Windows only!) provided here: <a href="https://drive.google.com/file/d/1TilfFvGgqRkqFDwli4YnHECGRkEQ3_Mi/view?usp=sharing" target="_blank">.
+Simply run it as administrator. It will create a <code class="docutils literal notranslate"><span class="pre">Repositories</span></code> directory on your <code class="docutils literal notranslate"><span class="pre">C</span></code> drive and download all necessary repositories and install everything for you. If you do it, skip the steps below.</p></li>
 <li><p>install DeepLabCut - <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#step-2-please-use-our-supplied-conda-environment" target="_blank">Step 2 in the DLC installation guide</a> explains what you should do;</p></li>
 <li><p>verify that your GPU is recognised by running <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-c</span> <span class="pre">&quot;import</span> <span class="pre">tensorflow</span> <span class="pre">as</span> <span class="pre">tf;</span> <span class="pre">print(tf.config.list_physical_devices('GPU'))&quot;</span></code> (it is not? double-check that you followed all steps in the medium article linked above!)</p></li>
 </ul>
