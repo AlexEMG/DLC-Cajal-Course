@@ -1,11 +1,11 @@
 # Using the DeepLabCut Model Zoo (30 min)
 
-DeepLabCut's Model Zoo 🦁🦓🐘:
+[Google Colab](https://colab.research.google.com/github/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_DEMO_SuperAnimal.ipynb) 🦁🦓🐘:
 Imagine a digital toolbox, but instead of regular tools, it's filled with ready-to-use AI models designed especially for animal movement analysis. Born in 2020 and supercharged in 2022, this "Model Zoo" has:
 
 - **1️⃣ Ready-Made Models:** Skip the training step and get straight to analyzing.
 - **2️⃣ Contribute & Grow:** A community space where you can share data to make these models even smarter.
-- **3️⃣ Easy Access:** Use directly on Google Colab, your browser (DLC GUI), or even the HuggingFace app.
+- **3️⃣ Easy Access:** Use directly on [Google Colab](https://colab.research.google.com/github/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_DEMO_SuperAnimal.ipynb), your browser (DLC GUI), or even the [HuggingFace](https://huggingface.co/spaces/DeepLabCut/MegaDetector_DeepLabCut).
 - **4️⃣ SuperAnimals!:** These are like the superheroes of AI models, combining various data to work on a range of animals, from dogs to mice, side views to top views.
 
 No need to train anything; just pick a model, plug in your video, and watch it do its thing!
