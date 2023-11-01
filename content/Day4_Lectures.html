@@ -65,7 +65,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'content/Day4_Lectures';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Day 4 Practicals" href="Day4_Practicals.html" />
+    <link rel="next" title="Day 4 (+ 5) Practicals" href="Day4_Practicals.html" />
     <link rel="prev" title="Overview Day 4" href="Day4_Overview.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -201,7 +201,7 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="Day4_Overview.html">Overview Day 4</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Lectures: Biomechanics, Action segmentation and Behavioral Clustering</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Day4_Practicals.html">Day 4 Practicals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Day4_Practicals.html">Day 4 (+ 5) Practicals</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Day4_Moseq.html">Behavioral Clustering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Day4_DLC2Action.html">Action segmentation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Day4_Kinematics.html">Kinematics Analysis</a></li>
@@ -414,7 +414,8 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-1-deeplabcut-in-applied-biomechanics-1-h">Part 1: DeepLabCut in Applied Biomechanics (1 h)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-behavioral-analysis-with-moseq-30-min">Part 2: Behavioral analysis with MoSeq (30 min)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-3-action-segmentation-23-min">Part 3: Action segmentation (23 min)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-4-behavior-or-what-the-brain-does-33-min">Part 4: Behavior, or what the brain does (33 min)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-4-joint-behavioral-and-neural-modeling-45-min-q-a">Part 4: Joint behavioral and neural modeling (45 min + Q &amp; A)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-5-behavior-or-what-the-brain-does-33-min">Part 5: Behavior, or what the brain does (33 min)</a></li>
 </ul>
             </nav>
         </div>
@@ -428,7 +429,7 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="lectures-biomechanics-action-segmentation-and-behavioral-clustering">
 <h1>Lectures: Biomechanics, Action segmentation and Behavioral Clustering<a class="headerlink" href="#lectures-biomechanics-action-segmentation-and-behavioral-clustering" title="Permalink to this heading">#</a></h1>
-<p>Today we will cover three diverse topics: kinematic analysis, behavioral clustering and supervised behavioral analysis.</p>
+<p>Today we will cover five diverse topics from biomechanics to multimodal behavioral analysis! Overall the lecures are 3h long, so please pick, You can come back later and watch the others.</p>
 <section id="part-1-deeplabcut-in-applied-biomechanics-1-h">
 <h2>Part 1: DeepLabCut in Applied Biomechanics (1 h)<a class="headerlink" href="#part-1-deeplabcut-in-applied-biomechanics-1-h" title="Permalink to this heading">#</a></h2>
 <p><a class="reference external" href="https://www.youtube.com/watch?v=f9Y4UEozpno">DLC in applied Biomechanics by Johanna Schultz</a></p>
@@ -442,8 +443,8 @@ document.write(`
 <p>Further reading (goes beyond this course, but recommended):</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://biomech.stanford.edu/">Biomechanics of Movement: The Science of Sports, Robotics, and Rehabilitation</a> by Thomas K. Uchida and Scott L. Delp</p></li>
-<li><p>Check out this cool Science paper on <a class="reference external" href="http://polypedal.berkeley.edu/wp-content/uploads/697.full_.pdf">squirrel parkour</a>, potentially inspired by <a class="reference external" href="https://www.youtube.com/watch?v=hFZFjoX2cGg">this video</a> from Youtuber Mark Rober</p></li>
 <li><p>Linking biomechanics via neural networks to modeling proprioception: <a class="reference external" href="https://www.biorxiv.org/content/10.1101/2023.06.15.545147.abstract">Task-driven neural network models predict neural dynamics of proprioception</a></p></li>
+<li><p>Check out this cool Science paper on <a class="reference external" href="http://polypedal.berkeley.edu/wp-content/uploads/697.full_.pdf">squirrel parkour</a>, potentially inspired by <a class="reference external" href="https://www.youtube.com/watch?v=hFZFjoX2cGg">this video</a> from Youtuber Mark Rober</p></li>
 </ul>
 </section>
 <section id="part-2-behavioral-analysis-with-moseq-30-min">
@@ -472,19 +473,29 @@ document.write(`
 <ul class="simple">
 <li><p>Anderson and Perona <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0896627314007934">Toward a science of computational ethology</a>, Neuron, 2014</p></li>
 <li><p>Datta, Anderson, Branson, Perona and Leifer <a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/31600508/">Computational Neuroethology: A Call to Action</a>, Neuron 2019</p></li>
+<li><p>Sturman et al <a class="reference external" href="https://www.nature.com/articles/s41386-020-0776-y">Deep learning-based behavioral analysis reaches human accuracy and is capable of outperforming commercial solutions</a>, Neuropsychopharmacology 2020</p></li>
 </ul>
 <p>Further reading (goes beyond this course, but recommended):</p>
 <ul class="simple">
-<li><p>Nilsson et al. <a class="reference external" href="https://www.biorxiv.org/content/10.1101/2020.04.19.049452v2.abstract">Simple Behavioral Analysis (SimBA)–an open source toolkit for computer classification of complex social behaviors in experimental animals</a>, BioRxiv 2020</p></li>
 <li><p>Bohnslav, et al. <a class="reference external" href="https://elifesciences.org/articles/63377">DeepEthogram, a machine learning pipeline for supervised behavior classification from raw pixels.</a>, eLife 2021</p></li>
-<li><p>Sturman et al <a class="reference external" href="https://www.nature.com/articles/s41386-020-0776-y">Deep learning-based behavioral analysis reaches human accuracy and is capable of outperforming commercial solutions</a>, Neuropsychopharmacology 2020</p></li>
+<li><p>Nilsson et al. <a class="reference external" href="https://www.biorxiv.org/content/10.1101/2020.04.19.049452v2.abstract">Simple Behavioral Analysis (SimBA)–an open source toolkit for computer classification of complex social behaviors in experimental animals</a>, BioRxiv 2020</p></li>
 <li><p>Segalin et al. <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8631946/">The Mouse Action Recognition System (MARS) software pipeline for automated analysis of social behaviors in mice</a>, eLife 2021</p></li>
-<li><p>Kabra et al. <a class="reference external" href="https://www.nature.com/articles/nmeth.2281">JAABA: interactive machine learning for automatic annotation of animal behavior</a>, Nature methods</p></li>
+<li><p>Kabra et al. <a class="reference external" href="https://www.nature.com/articles/nmeth.2281">JAABA: interactive machine learning for automatic annotation of animal behavior</a>, Nature methods 2013</p></li>
 <li><p>Branson et al. <a class="reference external" href="https://www.nature.com/articles/nmeth.1328">High-throughput ethomics in large groups of Drosophila</a> Nature methods 2009</p></li>
 </ul>
 </section>
-<section id="part-4-behavior-or-what-the-brain-does-33-min">
-<h2>Part 4: Behavior, or what the brain does (33 min)<a class="headerlink" href="#part-4-behavior-or-what-the-brain-does-33-min" title="Permalink to this heading">#</a></h2>
+<section id="part-4-joint-behavioral-and-neural-modeling-45-min-q-a">
+<h2>Part 4: Joint behavioral and neural modeling (45 min + Q &amp; A)<a class="headerlink" href="#part-4-joint-behavioral-and-neural-modeling-45-min-q-a" title="Permalink to this heading">#</a></h2>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=XVc_AH42FD4&amp;t=1200s">Cosyne keynote talk by Dr. Mackenzie Mathis (EPFL)</a></p>
+<p><a class="reference external" href="https://www.youtube.com/watch?v=_XVc_AH42FD4"><img alt="Cebra.ai" src="http://img.youtube.com/vi/_XVc_AH42FD4/361000.jpg" /></a></p>
+<p>Further reading 📚 (recommended in the scope of this course):</p>
+<ul class="simple">
+<li><p>Schneider*, Lee*, Mathis <a class="reference external" href="https://www.nature.com/articles/s41586-023-06031-6">Learnable latent embeddings for joint behavioural and neural analysis</a>, Nature, 20223</p></li>
+<li><p>Website: <a class="reference external" href="https://cebra.ai">https://cebra.ai</a></p></li>
+</ul>
+</section>
+<section id="part-5-behavior-or-what-the-brain-does-33-min">
+<h2>Part 5: Behavior, or what the brain does (33 min)<a class="headerlink" href="#part-5-behavior-or-what-the-brain-does-33-min" title="Permalink to this heading">#</a></h2>
 <p><a class="reference external" href="https://www.youtube.com/watch?v=OZLJg2pYX7k">Talk by Dr. Nacho Sanguinetti (Harvard University)</a></p>
 <p><a class="reference external" href="https://www.youtube.com/watch?v=OZLJg2pYX7k"><img alt="Nacho" src="http://img.youtube.com/vi/OZLJg2pYX7k/0.jpg" /></a></p>
 <p><a class="reference internal" href="../README.html"><span class="doc std std-doc">Let’s go back 🔙</span></a>.</p>
@@ -535,7 +546,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Day 4 Practicals</p>
+        <p class="prev-next-title">Day 4 (+ 5) Practicals</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -557,7 +568,8 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-1-deeplabcut-in-applied-biomechanics-1-h">Part 1: DeepLabCut in Applied Biomechanics (1 h)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-2-behavioral-analysis-with-moseq-30-min">Part 2: Behavioral analysis with MoSeq (30 min)</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-3-action-segmentation-23-min">Part 3: Action segmentation (23 min)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-4-behavior-or-what-the-brain-does-33-min">Part 4: Behavior, or what the brain does (33 min)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-4-joint-behavioral-and-neural-modeling-45-min-q-a">Part 4: Joint behavioral and neural modeling (45 min + Q &amp; A)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#part-5-behavior-or-what-the-brain-does-33-min">Part 5: Behavior, or what the brain does (33 min)</a></li>
 </ul>
   </nav></div>
 
