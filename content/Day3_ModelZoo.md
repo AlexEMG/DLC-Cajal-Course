@@ -27,5 +27,13 @@ Once done, don't forget to peek into the folder where your video is saved to che
 ```{note}
 Notice how important it is to match the relative size of the individuals in the video. Why is that 🤔?
 ```
+
 Read the cool science staff here: {cite}`ye2023superanimal`
+
+## References
+
+```{bibliography}
+:filter: docname in docnames
+```
+
 [Let’s go back 🔙](../README.md).
