@@ -10,6 +10,14 @@ Today we have lectures on several topics -->  1️⃣ how to track multiple anim
 
 For further information, check out: {cite}`Lauer2022`.
 
+We also note, that recently we developed a novel approach for dealing with crowded scenes:
+[Rethinking pose estimation in crowds: overcoming the detection information-bottleneck and ambiguity](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhou_Rethinking_Pose_Estimation_in_Crowds_Overcoming_the_Detection_Information_Bottleneck_ICCV_2023_paper.pdf).
+
+Check out this 5min video summarizing the approach:
+[[YouTube Video]](https://www.youtube.com/watch?v=BHZnA-CZeZY)
+
+We are currently integrating this in DeepLabCut 3, which will be released in the fall! Stay tuned. 
+
 ## Part 2: Model Zoo (⏳12 min)
 
 [DeepLabCut Model Zoo by Prof. Mackenzie Mathis](https://youtu.be/miI64k6EnMM)
