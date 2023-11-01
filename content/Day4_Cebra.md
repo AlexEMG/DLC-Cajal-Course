@@ -6,31 +6,12 @@ One way to perform joint behavioral-neural analysis based on behavioral measurem
 
 **CEBRA** is a Python library designed for the estimation of consistent embeddings for high-dimensional recordings using behaviour as an auxiliary variable. Implemented in PyTorch, CEBRA is tailored to cater to datasets commonly found in biology and neuroscience. 
 
-Today we will focus on using CEBRA on rat hippocampus data derived from [ref](https://www.science.org/doi/10.1126/science.aad1935).
+To dig into Cebra we recommend working on one particular notebook. For the demo, we will focus on using CEBRA on rat hippocampus data derived from [Grosman and Buzsaki](https://www.science.org/doi/10.1126/science.aad1935). Here is the link to the [notebook](https://cebra.ai/docs/demo_notebooks/Demo_hippocampus.html), where you can find all required steps! Happy hacking!
 
-Here is the link to the [notebook](https://cebra.ai/docs/demo_notebooks/Demo_hippocampus.html), where you can find all required steps! Happy hacking!
-
-## Resources
-
-- [paper](https://www.nature.com/articles/s41586-023-06031-6)
-- [documentation](https://cebra.ai/docs/index.html)
+To learn more, check out the 
+- [article by Schneide*, Lee* and M.W. Mathis](https://www.nature.com/articles/s41586-023-06031-6)
+- [documentation](https://cebra.ai/docs/index.html) <-- if you want to use your own data, this is the best place to start!
 - [code](https://github.com/AdaptiveMotorControlLab/cebra)
-
-## License
-
-© All rights reserved. ECOLE POLYTECHNIQUE FÉDÉRALE DE LAUSANNE, Switzerland, Laboratory of Prof. Mackenzie W. Mathis (UPMWMATHIS) and original authors: Steffen Schneider, Jin H Lee, Mackenzie W Mathis. 2023. It is made available for non-commercial research use only. It comes without any warranty or guarantee. Please see the full license file on Github, and if it is not suitable to your project, please email Mackenzie Mathis for a commercial license.
-
-## References
-
-```
-@article{schneider2023cebra,
-  author = {Schneider, Steffen and Lee, Jin H and Mathis, Mackenzie W},
-  title = {Learnable latent embeddings for joint behavioural and neural analysis},
-  journal = {Nature},
-  doi = {https://doi.org/10.1038/s41586-023-06031-6},
-  year = {2023},
-}
-```
 
 ## Further reading:
 
