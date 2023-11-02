@@ -388,7 +388,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -404,6 +406,16 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#get-started-with-your-video">Get Started with Your Video! 🎥</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#superanimal-method-highlights">SuperAnimal Method Highlights 🛠:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -415,15 +427,61 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="using-the-deeplabcut-model-zoo-30-min">
 <h1>Using the DeepLabCut Model Zoo (30 min)<a class="headerlink" href="#using-the-deeplabcut-model-zoo-30-min" title="Permalink to this heading">#</a></h1>
-<p>First, you can record a video of other students, or your cat/dog 🐈🐩!
-(NOTE: The top-view mouse model is also available if you have mouse data)</p>
-<p>Then you can analyze it using this notebook:
-<a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_DLC_ModelZoo.ipynb" target="_blank">DeepLabCut Model Zoo Colab Notebook</a></p>
+<p><a class="reference external" href="https://colab.research.google.com/github/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_DEMO_SuperAnimal.ipynb">Google Colab</a> 🦁🦓🐘:
+Imagine a digital toolbox, but instead of regular tools, it’s filled with ready-to-use AI models designed especially for animal movement analysis. Born in 2020 and supercharged in 2022, this “Model Zoo” has:</p>
+<ul class="simple">
+<li><p><strong>1️⃣ Ready-Made Models:</strong> Skip the training step and get straight to analyzing.</p></li>
+<li><p><strong>2️⃣ Contribute &amp; Grow:</strong> A community space where you can share data to make these models even smarter.</p></li>
+<li><p><strong>3️⃣ Easy Access:</strong> Use directly on <a class="reference external" href="https://colab.research.google.com/github/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_DEMO_SuperAnimal.ipynb">Google Colab</a>, your browser (DLC GUI), or even the <a class="reference external" href="https://huggingface.co/spaces/DeepLabCut/MegaDetector_DeepLabCut">HuggingFace</a>.</p></li>
+<li><p><strong>4️⃣ SuperAnimals!:</strong> These are like the superheroes of AI models, combining various data to work on a range of animals, from dogs to mice, side views to top views.</p></li>
+</ul>
+<p>No need to train anything; just pick a model, plug in your video, and watch it do its thing!</p>
+<section id="get-started-with-your-video">
+<h2>Get Started with Your Video! 🎥<a class="headerlink" href="#get-started-with-your-video" title="Permalink to this heading">#</a></h2>
+<p>Have a video of your cat’s curious moments or your dog playing? Load it up! 🐈🐩
+Need a video? Check out <a href="https://www.pexels.com" target="_blank">Pexels</a> for some free options.</p>
+<p>And if you’re diving into research, remember we’ve got a top-view mouse model ready for you.</p>
+<ol class="arabic simple">
+<li><p>Open the DeepLabCut GUI, look for the Model Zoo button and follow the on-screen steps: Pick your video, choose a model, and watch the magic happen🪄!
+Once done, don’t forget to peek into the folder where your video is saved to check your results.</p></li>
+<li><p>You can also use this notebook to analyse your video:
+<a href="https://github.com/DeepLabCut/DeepLabCut/blob/master/examples/COLAB/COLAB_DLC_ModelZoo.ipynb" target="_blank">DeepLabCut Model Zoo Colab Notebook</a></p></li>
+</ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Notice how it important it is to match the relative size of the individuals in the video. Why is that 🤔?</p>
+<p>Notice how important it is to match the relative size of the individuals in the video. Why is that 🤔?</p>
+</div>
+</section>
+<section id="superanimal-method-highlights">
+<h2>SuperAnimal Method Highlights 🛠:<a class="headerlink" href="#superanimal-method-highlights" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Panoptic Pose Estimation</strong>: A novel technique introduced to merge and train diverse datasets with unique labels.</p></li>
+<li><p>The SuperAnimal Models cover 45+ mammal species with 27-39 keypoints.</p></li>
+<li><p><strong>Zero-Shot Performance</strong>: Demonstrated excellent results without the need for additional training on new datasets.</p></li>
+<li><p><strong>Superior to ImageNet-pretraining</strong>: Surpasses ImageNet-pretraining on three benchmarks.</p></li>
+<li><p><strong>Efficiency in Fine-Tuning</strong>: These models are 10x more data-efficient, giving a 2x performance boost.</p></li>
+<li><p><strong>Keypoint Matching Algorithm</strong>: Features an algorithm to auto-align unfamiliar datasets.</p></li>
+<li><p><strong>Unsupervised Video-Adaptation</strong>: Introduced a rapid, unsupervised video-adaptation method enabling model fine-tuning without the necessity of data labeling.</p></li>
+<li><p><strong>Consistency Tools</strong>:</p>
+<ul>
+<li><p>A <strong>spatial-pyramid search method</strong> to cater to different video input sizes.</p></li>
+<li><p><strong>Pseudo-labeling</strong> to curb temporal jitter in video streams.</p></li>
+</ul>
+</li>
+</ul>
+<p>Read the cool science staff here: <span id="id1">[<a class="reference internal" href="#id21" title="Shaokai Ye, Anastasiia Filippova, Jessy Lauer, Maxime Vidal, Steffen Schneider, Tian Qiu, Alexander Mathis, and Mackenzie Weygandt Mathis. Superanimal pretrained pose estimation models for behavioral analysis. 2023. arXiv:2203.07436.">YFL+23</a>]</span></p>
+</section>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this heading">#</a></h2>
+<div class="docutils container" id="id2">
+<div class="citation" id="id21" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">YFL+23</a><span class="fn-bracket">]</span></span>
+<p>Shaokai Ye, Anastasiia Filippova, Jessy Lauer, Maxime Vidal, Steffen Schneider, Tian Qiu, Alexander Mathis, and Mackenzie Weygandt Mathis. Superanimal pretrained pose estimation models for behavioral analysis. 2023. <a class="reference external" href="https://arxiv.org/abs/2203.07436">arXiv:2203.07436</a>.</p>
+</div>
+</div>
 </div>
 <p><a class="reference internal" href="../README.html"><span class="doc std std-doc">Let’s go back 🔙</span></a>.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -480,6 +538,22 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#get-started-with-your-video">Get Started with Your Video! 🎥</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#superanimal-method-highlights">SuperAnimal Method Highlights 🛠:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
