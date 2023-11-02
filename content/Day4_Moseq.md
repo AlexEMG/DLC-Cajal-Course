@@ -16,5 +16,7 @@ If you ran Keypoint-Moseq, you can also analyze the [syllable segmentations](htt
 
 Code Repository: https://github.com/dattalab/keypoint-moseq/tree/main
 Data: https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1UNHQ_XCQEKLPPSjGspRopWBj6-YNDV6G%3Fusp%3Dshare_link
+FAQ: https://keypoint-moseq.readthedocs.io/en/latest/FAQs.html
+
 
 [Let’s go back 🔙](Day4_Practicals.md).
