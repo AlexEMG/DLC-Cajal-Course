@@ -10,7 +10,7 @@ Imagine a digital toolbox, but instead of regular tools, it's filled with ready-
 
 No need to train anything; just pick a model, plug in your video, and watch it do its thing!
 
-Get Started with Your Video! 🎥
+## Get Started with Your Video! 🎥
 
 Have a video of your cat's curious moments or your dog playing? Load it up! 🐈🐩 
 Need a video? Check out <a href="https://www.pexels.com" target="_blank">Pexels</a> for some free options.
@@ -27,6 +27,27 @@ Once done, don't forget to peek into the folder where your video is saved to che
 ```{note}
 Notice how important it is to match the relative size of the individuals in the video. Why is that 🤔?
 ```
+
+## SuperAnimal Method Highlights 🛠:
+
+- **Panoptic Pose Estimation**: A novel technique introduced to merge and train diverse datasets with unique labels.
+  
+- The SuperAnimal Models cover 45+ mammal species with 27-39 keypoints.
+
+- **Zero-Shot Performance**: Demonstrated excellent results without the need for additional training on new datasets.
+
+- **Superior to ImageNet-pretraining**: Surpasses ImageNet-pretraining on three benchmarks.
+
+- **Efficiency in Fine-Tuning**: These models are 10x more data-efficient, giving a 2x performance boost.
+
+- **Keypoint Matching Algorithm**: Features an algorithm to auto-align unfamiliar datasets.
+
+- **Unsupervised Video-Adaptation**: Introduced a rapid, unsupervised video-adaptation method enabling model fine-tuning without the necessity of data labeling.
+
+- **Consistency Tools**:
+  - A **spatial-pyramid search method** to cater to different video input sizes.
+  - **Pseudo-labeling** to curb temporal jitter in video streams.
+
 
 Read the cool science staff here: {cite}`ye2023superanimal`
 
