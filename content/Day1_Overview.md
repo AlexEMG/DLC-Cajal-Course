@@ -38,13 +38,11 @@ Later, in the [practical part](Day1_Practicals.md), we will discuss what is beha
 ```
 
 
-
-
-
-## References
-
+````{admonition} References
+:class: seealso
 ```{bibliography}
 :filter: docname in docnames
 ```
+````
 
 [Let’s go back 🔙](../README.md).

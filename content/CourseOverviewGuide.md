@@ -65,11 +65,11 @@ Please do not hesitate to reach out to us if you have any questions (⁇)
 - Keep analyzing your data and share your work (student presentations 📽)
 
 
-## References
-
+````{admonition} References
+:class: seealso
 ```{bibliography}
 :filter: docname in docnames
 ```
-
+````
 
 [Let’s go back 🔙](../README.md).

@@ -105,10 +105,11 @@ The function `train_network` helps the user in training the network, using the p
 -- Check out this [recipe](https://deeplabcut.github.io/DeepLabCut/docs/recipes/nn.html).
 
 
-#References
-
+````{admonition} References
+:class: seealso
 ```{bibliography}
 :filter: docname in docnames
 ```
+````
 
 [Let’s go back 🔙](../README.md).

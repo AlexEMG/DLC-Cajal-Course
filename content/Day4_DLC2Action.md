@@ -138,10 +138,11 @@ project.list_episodes(  # get the experiment history
 )
 ```
 
-## References
-
+````{admonition} References
+:class: seealso
 ```{bibliography}
 :filter: docname in docnames
 ```
+````
 
 [Let’s go back 🔙](Day4_Practicals.md).
