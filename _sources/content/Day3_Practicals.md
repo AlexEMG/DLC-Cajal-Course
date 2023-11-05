@@ -61,10 +61,11 @@ This will grow your dataset to better comprise the variablity. Then you can re-t
 - If you are interested in learning further about active learning approaches, check out [this blog post!](https://deeplabcut.medium.com/exploring-active-learning-with-deeplabcut-an-ai-residents-journey-e441bbd5a71c) 
 
 
-## References
-
+````{admonition} References
+:class: seealso
 ```{bibliography}
 :filter: docname in docnames
 ```
+````
 
 [Let’s go back 🔙](../README.md).

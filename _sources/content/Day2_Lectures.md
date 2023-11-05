@@ -51,10 +51,12 @@ If you want to expand your knowledge, check out these materials:
 - [Part II of Deep Learning](https://www.deeplearningbook.org/) by Ian Goodfellow, Yoshua Bengio and Aaron Courville
 - [Lecture collection to deep dive into details of the deep learning architectures from Stanford University](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)
 
-## References
 
+````{admonition} References
+:class: seealso
 ```{bibliography}
 :filter: docname in docnames
 ```
+````
 
 [Let’s go back 🔙](../README.md).

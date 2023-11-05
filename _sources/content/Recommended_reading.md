@@ -18,10 +18,11 @@ Today you should read the DLC-live paper {cite}`Kane2020` and the multi-animal D
 
 For unsupervised behavioral analysis read the first MoSeq paper {cite}`Wiltschko2015`.
 
-## References
-
+````{admonition} References
+:class: seealso
 ```{bibliography}
 :filter: docname in docnames
 ```
+````
 
 [Let’s go back 🔙](../README.md).
