@@ -19,15 +19,21 @@ Here you will find all the course material 📚 you will need to complete your p
 | Teaching Assistant 🦇  | Jonas Håkansson     | 🛰️ online              | [GitHub](https://github.com/biol-jsh)      | [@ScientistJonas](https://twitter.com/ScientistJonas) |
 | Teaching Assistant 🐭  | Andrada Marica      | 🛰️ online               | [GitHub](https://github.com/andrada08)      | [@andrada_marica](https://twitter.com/andrada_marica) |
 | Teaching Assistant 🐭  | Sabrina Benas       | Buenos Aires (ARG)     | [GitHub](https://github.com/sabrinabenas)      | [@Sabrineiitor](https://twitter.com/Sabrineiitor)  |
+| Teaching Assistant 🐭  | Candela Medina      | Buenos Aires (ARG)     |              |                 |
 | Teaching Assistant 🖥️  | Facundo Emina       | Buenos Aires (ARG)     | [GitHub](https://github.com/Facuemina)       | [@facuemina](https://twitter.com/facuemina) |
 | Teaching Assistant 🖥️  | Nirel Kadzo         | Rwanda          | [GitHub](https://github.com/kadzon)       | [@Nirelkadzo](https://twitter.com/Nirelkadzo)    |
-| Teaching Assistant 🐀  | Konrad Danielewski  | Geneva (CH)            | [GitHub](https://github.com/KonradDanielewski)      | [@Nyktofob](https://twitter.com/Nyktofob)      |
+| Teaching Assistant 🐀  | Konrad Danielewski  | 🛰️ online             | [GitHub](https://github.com/KonradDanielewski)      | [@Nyktofob](https://twitter.com/Nyktofob)      |
 | Teaching Assistant 🐟  | Virginia Palieri    | 🛰️ online             | [GitHub](https://github.com/vpalieri)       |                 |
 | Teaching Assistant 🔬  | Aleksandra Gavrilova | Okinawa (JP)           | [GitHub](https://github.com/a-gavrilova)       | [@shura_gav](https://twitter.com/shura_gav)     |
 | Teaching Assistant 🖥️  | Anastasiia Filippova | 🛰️ online              | [GitHub](https://github.com/nasty236)          | [@NasFilippova](https://twitter.com/NasFilippova)     |
 | Teaching Assistant 🐟  | Shuhong Huang | Munich (DE)        | [GitHub](https://github.com/Timbrer)       | [@huang_shuhong](https://twitter.com/huang_shuhong)     |
 | Teaching Assistant 🔬  | Saffira Tjon | Okinawa (JP)        | [GitHub](https://github.com/TerriiYaki)       |                 |
-
+| Teaching Assistant 📸  | Vic Shao-Chih Chiang | Toronoto (CA)       | [GitHub](https://github.com/vchiang001)       |    [@vsccvscc](https://twitter.com/vsccvscc)            |
+| Teaching Assistant 🐒  | Rae Pineda | 🛰️ online        | [GitHub](https://github.com/rizarae-p)       |      [@rizaraep](https://twitter.com/rizaraep)    |
+| Teaching Assistant 🐭  | Anna Teruel-Sanchis  | València (ESP)            | [GitHub](https://github.com/anna-teruel)      | [@annateruel_](https://twitter.com/annateruel_)      |
+| Teaching Assistant 🖥️  | Guillermo Hidalgo | Bochum (DE)       | [GitHub](https://github.com/Guillermo-Hidalgo-Gadea)| [@G_HidalgoGadea](https://twitter.com/G_HidalgoGadea)|
+| Teaching Assistant 🖥️  | Melanie Segado | 🛰️ online       | [GitHub](https://github.com/quietscientist)| [@quietscientific](https://twitter.com/quietscientific)|
+| Teaching Assistant 🖥️  | Niels Poulsen       | Geneva (CH)            | [GitHub](https://github.com/n-poulsen)      | |
 
 ## Teaching Team for the first edition, anno 2022 🏆
 

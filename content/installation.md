@@ -31,6 +31,8 @@ If you use Windows OS and **do not** have other versions of CUDA installed:
     - get CUDA-11.2 (or another version if needed) <a href="https://developer.nvidia.com/cuda-toolkit-archive" target="_blank">here</a>
     - get cuDNN-8.1 (or another version if needed) <a href="https://developer.nvidia.com/rdp/cudnn-archive" target="_blank">here</a> - you will need to create an NVIDIA developer profile 
     - type `nvcc -V` in the terminal to check that it prints the correct CUDA runtime version
+- if you want to automatically install all the packages used in this course you can use a batch script (Windows only!) provided here: <a href="https://drive.google.com/file/d/1TilfFvGgqRkqFDwli4YnHECGRkEQ3_Mi/view?usp=sharing" target="_blank">.
+  Simply run it as administrator. It will create a `Repositories` directory on your `C` drive and download all necessary repositories and install everything for you. If you do it, skip the steps below.
 - install DeepLabCut - <a href="https://deeplabcut.github.io/DeepLabCut/docs/installation.html#step-2-please-use-our-supplied-conda-environment" target="_blank">Step 2 in the DLC installation guide</a> explains what you should do;
 - verify that your GPU is recognised by running `python3 -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"` (it is not? double-check that you followed all steps in the medium article linked above!)
 

@@ -18,7 +18,7 @@ Another important step is to use the time and dive deeper into your analysis �
 ```{important}
 - Keep working ✂️ on what you're most interested!
 - We hope you enjoyed the course, you found new friends, colleagues and perhaps even collaborators!
-- Would you like to present your work in the Cajal Community 🚀? Let us know!
+- Would you like to present your work in the Cajal Community 🚀? Let us know! If you want to earn ECTS credits, you should present.
 ```
 
 
