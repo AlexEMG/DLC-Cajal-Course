@@ -34,7 +34,7 @@ PLEASE NOTE: The live synchronous session for Day 1 is 2 hours long!
 3) Please ensure that you have completed the Discord on-boarding process, and have chosen your tags in the "student-tags-2023" channel.
 4) *Read* the following papers:
   - ["You Say You Had a Revolution: Methodological Foundations of Closed-Loop Psychology"](https://www.researchgate.net/publication/232499797_You_Say_You_Had_a_Revolution_Methodological_Foundations_of_Closed-Loop_Psychology)
-  - ["On the aims and methods of Ethology"](/papers/tinbergen2010.pdf)
+  - "On the aims and methods of Ethology": you can find a pdf of this paper on the course discord.
   - ["Neuroscience Needs Behavior: Correcting a Reductionist Bias"](https://reader.elsevier.com/reader/sd/pii/S0896627316310406?token=791519A0D0278AE502EDA1AD8A7AAF397BB222AA1AADB8A685C5E0A40DD5D2BB7723F5BC16F95A38E900D724EEB8526E&originRegion=eu-west-1&originCreation=20221120222912)
 5) *Skim* the following papers:
   - "Primer on Motion Capture with Deep Learning: Principles, Pitfalls, and Perspectives" --> {cite}`Mathis2020`, linked below.
