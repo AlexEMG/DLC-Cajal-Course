@@ -9,7 +9,11 @@ Prof. Nicky Clayton from the University of Cambridge
 
 Click [HERE](Day1_Lectures.md) to watch the lectures! Please do so at your own pace before the practical session.
 
-Later, in the [practical part](Day1_Practicals.md), we will discuss what is behavior and how can we understand it 🤔!
+Later, in the [practical part](Day1_Practicals.md), we will discuss what is behavior and how can we understand it 🤔! 
+
+```{important}
+PLEASE NOTE: The live synchronous session for Day 1 will be 2 hours long.
+```
 
 ## Day 1: Take home messages
 
