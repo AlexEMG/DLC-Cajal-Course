@@ -26,10 +26,12 @@ Key publications mentioned in the talk:
 - Garcia-Pelegrin et al. [An unexpected audience
 ](https://www.science.org/doi/10.1126/science.abc6805), Science 2020
 
-## References
 
+````{admonition} References
+:class: seealso
 ```{bibliography}
 :filter: docname in docnames
 ```
+````
 
 [Let’s go back 🔙](../README.md).

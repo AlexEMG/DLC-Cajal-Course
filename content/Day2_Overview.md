@@ -24,5 +24,4 @@ In the [hands on 🛠 part](Day2_Practicals.md), we will build our first DeepLab
 ```
 
 
-
 [Let’s go back 🔙](../README.md).

@@ -34,13 +34,11 @@ Principles, Pitfalls, and Perspectives" --> {cite}`Mathis2020`, linked below.
 ```
 
 
-
-
-
-## References
-
+````{admonition} References
+:class: seealso
 ```{bibliography}
 :filter: docname in docnames
 ```
+````
 
 [Let’s go back 🔙](../README.md).
