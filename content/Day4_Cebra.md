@@ -6,7 +6,9 @@ One way to perform joint behavioral-neural analysis based on behavioral measurem
 
 **CEBRA** is a Python library designed for the estimation of consistent embeddings for high-dimensional recordings using behaviour as an auxiliary variable. Implemented in PyTorch, CEBRA is tailored to cater to datasets commonly found in biology and neuroscience. 
 
-To dig into Cebra we recommend working on one particular notebook. For the demo, we will focus on using CEBRA on rat hippocampus data derived from [Grosman and Buzsaki](https://www.science.org/doi/10.1126/science.aad1935). Here is the link to the [notebook](https://cebra.ai/docs/demo_notebooks/Demo_hippocampus.html), where you can find all required steps! Happy hacking!
+To dig into Cebra we recommend working on one particular notebook. For the demo, we will focus on using CEBRA on rat hippocampus data derived from [Grosman and Buzsaki](https://www.science.org/doi/10.1126/science.aad1935). Here is the link to the [notebook](https://cebra.ai/docs/demo_notebooks/Demo_hippocampus.html), where you can find all required steps. Be sure to download the data following those steps: https://stes.io/NeuroDataReHack2023/
+
+Happy hacking! 
 
 To learn more, check out the 
 - [article by Schneide*, Lee* and M.W. Mathis](https://www.nature.com/articles/s41586-023-06031-6)
