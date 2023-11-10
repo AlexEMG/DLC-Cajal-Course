@@ -8,8 +8,6 @@ Here you will find all the course material 📚 you will need to complete your p
 
 ## Teaching Team for the second edition, anno 2023 🏆
 
-(list is WIP!)
-
 | **Role 🔥**            | **Name 📛**          | **Hub 🗺️📍**                 | **GitHub 🛠️** | **Twitter 🐥**   |
 |-----------------------|---------------------|------------------------|--------------|-----------------|
 | Co - Director 🎖️       | Alexander Mathis    | Geneva (CH)               | [GitHub](https://github.com/AlexEMG)| [@TrackingPlumes](https://twitter.com/TrackingPlumes)|
